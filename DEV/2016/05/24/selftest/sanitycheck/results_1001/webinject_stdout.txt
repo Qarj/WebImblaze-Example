@@ -1,0 +1,25 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\sanitycheck.xml - 10 
+sanitycheck 
+Verify Positive: "Test Cases Failed: 1" 
+Verify Positive: "Test Cases Run: 2" 
+Verify Positive: "SANITY CHECK FAILED ... Aborting" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.824 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:20
+Total Run Time: 1.836 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 7
+Verifications Failed: 0
+

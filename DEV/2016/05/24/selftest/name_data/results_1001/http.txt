@@ -1,0 +1,65 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - name_data
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\name_datasub selftest\substeps\name_data.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\name_data.xml - 10 
+Get the Search form 
+Verify Positive: "Search Recipes" 
+Verify Positive: "Recipe Name" 
+Verify Positive: "Max Preparation Time" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 4.486 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\name_data.xml - 20 
+Submit a search 
+Verify Positive: "Believe it or not, you just submitted a search" 
+ POSTURL /Search/SearchRecipes 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.025 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\name_data.xml - 110 
+Get Advanced Search Page 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.696 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\name_data.xml - 120 
+5 Miles Holborn, Central London, keyword teset 
+Order by distance 
+Verify Positive: "Object moved to" 
+Verify Positive: "/JobSearch/Results.aspx\?Keywords=test" 
+ POSTURL /JobSearch/AdvancedJobSearch.aspx 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.293 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:16
+Total Run Time: 5.578 seconds
+
+Test Cases Run: 4
+Test Cases Passed: 4
+Test Cases Failed: 0
+Verifications Passed: 16
+Verifications Failed: 0
+
+
+
+

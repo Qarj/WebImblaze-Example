@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\assertionskipsmessage.xml">
+
+        <testcase id="10">
+            <description1>Get Home page</description1>
+            <smartassertion1>
+                <assert>Set\-Cookie: </assert>
+                <success>true</success>
+            </smartassertion1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <assertionskips>true</assertionskips>
+            <assertionskips-message>[Windows 10 related bug][Windows 10 related bug]</assertionskips-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.519</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:40:32</start-time>
+        <start-seconds>70832</start-seconds>
+        <start-date-time>2016-05-24T19:40:32</start-date-time>
+        <total-run-time>0.57</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>6</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>2</assertion-skips>
+        <average-response-time>0.519</average-response-time>
+        <max-response-time>0.519</max-response-time>
+        <min-response-time>0.519</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>assertionskipsmessage</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Examples_59124</batch>
+    </wif>
+
+
+</results>

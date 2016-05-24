@@ -1,0 +1,29 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\formatjson.xml - 10 
+Echo some json 
+Verify Positive: "example book" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\formatjson.xml - 20 
+Echo some json 
+Verify Positive: "example book" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.032 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:40:37
+Total Run Time: 0.07 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 10
+Verifications Failed: 0
+

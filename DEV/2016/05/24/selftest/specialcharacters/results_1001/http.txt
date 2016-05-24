@@ -1,0 +1,192 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - specialcharacters
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\specialcharacterssub selftest\substeps\specialcharacters.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\specialcharacters.xml - 10 
+Use special characters in assertions 
+Verify Positive: "one > two" 
+Verify Positive: "one < two" 
+Verify Positive: "one & two" 
+Failed Positive Verification 
+Failed Positive Verification 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\specialcharacters.xml - 20 
+less than < greater than > & ampersand 
+ <&> in description too 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\specialcharacters.xml - 30 
+Assertions should pass 
+Verify Negative: "\<option selected="selected" value="Relevancy#0">Relevance\</option>" 
+Verify Negative: "\<option selected='selected' value='Relevancy#0'>Relevance\</option>" 
+Verify Negative: "'<<<" 
+Verify Negative: ""<<<" 
+Verify Negative: "<<'<" 
+Verify Negative: "<<"<" 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\specialcharacters.xml - 40 
+More special characters'&<> 
+Verify Negative: "<start>option "id="52" other="3"\<\end>" 
+Verify Negative: "<start>option 'id='51' & other='3'/\\<\\end>" 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:29
+Total Run Time: 0.031 seconds
+
+Test Cases Run: 4
+Test Cases Passed: 3
+Test Cases Failed: 1
+Verifications Passed: 16
+Verifications Failed: 3
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - view xml results.xml file
+GET CMD
+
+
+100 OK
+
+
+<command1>type selftest\output\specialcharacterssubresults.xml</command1>
+<results>
+
+    <testcases file="selftest\substeps\specialcharacters.xml">
+
+        <testcase id="10">
+            <description1>Use special characters in assertions</description1>
+            <verifypositive>
+                <assert>one {GREATERTHAN} two</assert>
+                <success>false</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>one {LESSTHAN} two</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifypositive2>
+                <assert>one {AMPERSAND} two</assert>
+                <success>false</success>
+            </verifypositive2>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>TEST CASE FAILED</result-message>
+            <responsetime>0.004</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>less than {LESSTHAN} greater than {GREATERTHAN} {AMPERSAND} ampersand</description1>
+            <description2> {LESSTHAN}{AMPERSAND}{GREATERTHAN} in description too</description2>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.004</responsetime>
+        </testcase>
+
+        <testcase id="30">
+            <description1>Assertions should pass</description1>
+            <verifynegative1>
+                <assert>\{LESSTHAN}option selected="selected" value="Relevancy#0"{GREATERTHAN}Relevance\{LESSTHAN}/option{GREATERTHAN}</assert>
+            <success>true</success>
+            </verifynegative1>
+            <verifynegative2>
+                <assert>\{LESSTHAN}option selected='selected' value='Relevancy#0'{GREATERTHAN}Relevance\{LESSTHAN}/option{GREATERTHAN}</assert>
+            <success>true</success>
+            </verifynegative2>
+            <verifynegative3>
+                <assert>'{LESSTHAN}{LESSTHAN}{LESSTHAN}</assert>
+            <success>true</success>
+            </verifynegative3>
+            <verifynegative4>
+                <assert>"{LESSTHAN}{LESSTHAN}{LESSTHAN}</assert>
+            <success>true</success>
+            </verifynegative4>
+            <verifynegative5>
+                <assert>{LESSTHAN}{LESSTHAN}'{LESSTHAN}</assert>
+            <success>true</success>
+            </verifynegative5>
+            <verifynegative6>
+                <assert>{LESSTHAN}{LESSTHAN}"{LESSTHAN}</assert>
+            <success>true</success>
+            </verifynegative6>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.004</responsetime>
+        </testcase>
+
+        <testcase id="40">
+            <description1>More special characters'{AMPERSAND}{LESSTHAN}{GREATERTHAN}</description1>
+            <verifynegative1>
+                <assert>{LESSTHAN}start{GREATERTHAN}option "id="52" other="3"\{LESSTHAN}\end{GREATERTHAN}</assert>
+            <success>true</success>
+            </verifynegative1>
+            <verifynegative2>
+                <assert>{LESSTHAN}start{GREATERTHAN}option 'id='51' {AMPERSAND} other='3'/\\{LESSTHAN}\\end{GREATERTHAN}</assert>
+            <success>true</success>
+            </verifynegative2>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.004</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:41:29</start-time>
+        <start-seconds>70889</start-seconds>
+        <start-date-time>2016-05-24T19:41:29</start-date-time>
+        <total-run-time>0.031</total-run-time>
+        <test-cases-run>4</test-cases-run>
+        <test-cases-passed>3</test-cases-passed>
+        <test-cases-failed>1</test-cases-failed>
+        <verifications-passed>16</verifications-passed>
+        <verifications-failed>3</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>0.004</average-response-time>
+        <max-response-time>0.004</max-response-time>
+        <min-response-time>0.004</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>specialcharacters</test-file-name>
+    </test-summary>
+
+</results>
+
+
+

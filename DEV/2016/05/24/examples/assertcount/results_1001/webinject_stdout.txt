@@ -1,0 +1,35 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\assertcount.xml - 10 
+Get Home page 
+Passed Count Assertion of 3 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.702 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\assertcount.xml - 20 
+Get Home page 
+Failed Count Assertion of 2, got 3 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.031 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\assertcount.xml - 30 
+Get Home page 
+Failed Count Assertion of 2, got 3 
+The word example should appear 3 times in the html source 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.083 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:40:32
+Total Run Time: 0.906 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 1
+Test Cases Failed: 2
+Verifications Passed: 14
+Verifications Failed: 2
+

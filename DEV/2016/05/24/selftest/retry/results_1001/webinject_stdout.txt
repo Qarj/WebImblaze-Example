@@ -1,0 +1,44 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\retry.xml - 10 
+retry 
+Verify Negative: "retry.xml - 40.3" 
+Verify Positive: "Test Cases Failed: 3" 
+Verify Positive: "Won't retry - a verifynegative failed" 
+Verify Positive: "RETRYING... 5 to go" 
+Verify Positive: "Retry 3 times" 
+Verify Positive: "retry variable will update between retries:0" 
+Verify Positive: "retry variable will update between retries:5" 
+Verify Positive: "mynum variable is  seven" 
+Verify Positive: "mynum variable now updated to  four" 
+Verify Positive: "Retry 6 times" 
+Verify Positive: "retry.xml - 40.2" 
+Verify Response Time: at most "19" seconds
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Negative Verification 
+Passed Count Assertion of 6 
+Passed Response Time Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 2.782 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:18
+Total Run Time: 2.799 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 17
+Verifications Failed: 0
+

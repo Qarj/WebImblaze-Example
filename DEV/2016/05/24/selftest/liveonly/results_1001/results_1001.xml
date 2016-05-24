@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\liveonly.xml">
+
+        <testcase id="10">
+            <description1>liveonly - with liveonly config</description1>
+            <verifypositive>
+                <assert>Test Cases Run: 2</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>2.485</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>liveonly - with testonly config</description1>
+            <verifypositive>
+                <assert>Test Cases Run: 1</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>Skipping Test Case 20... \(LIVEONLY\)</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>2.729</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:41:12</start-time>
+        <start-seconds>70872</start-seconds>
+        <start-date-time>2016-05-24T19:41:12</start-date-time>
+        <total-run-time>5.231</total-run-time>
+        <test-cases-run>2</test-cases-run>
+        <test-cases-passed>2</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>11</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>2.607</average-response-time>
+        <max-response-time>2.729</max-response-time>
+        <min-response-time>2.485</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>liveonly</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_41344</batch>
+    </wif>
+
+
+</results>

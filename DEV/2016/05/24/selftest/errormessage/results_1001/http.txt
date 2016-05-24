@@ -1,0 +1,42 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - errormessage
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\errormessagesub selftest\substeps\errormessage.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\errormessage.xml - 10 
+Custom errormessage written when test case fails 
+Verify Positive: "This text will not be found" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED : Test failed for some reason
+Response Time = 0.033 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\errormessage.xml - 20 
+Custom errormessage not written when test case passes 
+Verify Positive: "Text present" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:06
+Total Run Time: 0.053 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 1
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+
+
+
+

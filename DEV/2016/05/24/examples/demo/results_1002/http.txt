@@ -1,0 +1,823 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - verifypositive - pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - verifypositive
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 30 - verifypositive50
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 40 - verifypositiveNOP
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 50 - verifypositiveNOP with fail message
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 60 - verifypositiveNOP with fail message - disabled
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 110 - verifynegative - pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 120 - verifynegative
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 130 - verifynegative50
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 140 - verifynegativeNOP
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 150 - verifynegativeNOP with fail message
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 160 - verifynegativeNOP with fail message - disabled
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 210 - autoassertion fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo HTTP Error 404.0 - Not Found</command>
+HTTP Error 404.0 - Not Found 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 310 - smartassertion fail
+GET CMD
+
+
+100 OK
+
+
+<command1>echo Set-Cookie: sessionid=12345</command1>
+Set-Cookie: sessionid=12345 
+
+
+<command2>echo Cache-Control: public</command2>
+Cache-Control: public 
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 400 - test both types of retry in this section
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 410 - retry fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 410.1 - retry fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 410.2 - retry fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 410.3 - retry fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo No Operation</command>
+No Operation 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 420 - retry then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 0</command>
+Operation 0 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 420.1 - retry then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 1</command>
+Operation 1 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 420.2 - retry then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 2</command>
+Operation 2 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 420.3 - retry then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 3</command>
+Operation 3 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 0</command>
+Operation 0 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430.1 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 1</command>
+Operation 1 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430.2 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 2</command>
+Operation 2 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430.3 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 3</command>
+Operation 3 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 440 - do the thing - retryfromstep then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 0</command>
+Operation 0 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-1 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 0</command>
+Operation 0 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-1.1 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 1</command>
+Operation 1 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-1.2 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 2</command>
+Operation 2 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-1.3 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 3</command>
+Operation 3 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 440-1 - do the thing - retryfromstep then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 1</command>
+Operation 1 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-2 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 0</command>
+Operation 0 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-2.1 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 1</command>
+Operation 1 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-2.2 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 2</command>
+Operation 2 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-2.3 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 3</command>
+Operation 3 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 440-2 - do the thing - retryfromstep then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 2</command>
+Operation 2 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-3 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 0</command>
+Operation 0 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-3.1 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 1</command>
+Operation 1 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 430-3.2 - get the system in a certain state
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 2</command>
+Operation 2 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 440-3 - do the thing - retryfromstep then pass
+GET CMD
+
+
+100 OK
+
+
+<command>echo Operation 3</command>
+Operation 3 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 510-3 - this is description 1 [this is description 2]
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 520-3 - Info - this test step just shows some info [this is description 2]
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 530-3 - The info in [square brackets] is important [this is description 2]
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 610-3 - verifyresponsetime fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 710-3 - verifyresponsecode fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 810-3 - checks setup
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 820-3 - checkpositive fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 830-3 - checkpositive fail again
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 840-3 - checknegative fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 850-3 - checknegative fail again
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 860-3 - checkresponsecode fail
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 910-3 - many things gone wrong :-(
+GET CMD
+
+
+100 OK
+
+
+<command1>echo NOP Austria, France and Spain, but not Switzerland</command1>
+NOP Austria, France and Spain, but not Switzerland 
+
+
+<command2>echo HTTP Error 404.0 - Not Found</command2>
+HTTP Error 404.0 - Not Found 
+
+
+
+<command3>echo Set-Cookie: sessionid=12345</command3>
+Set-Cookie: sessionid=12345 
+
+
+
+<command4>echo Cache-Control: private</command4>
+Cache-Control: private 
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 1010-3 - commandonerror invoke
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+<commandonerror>echo restarting IIS</commandonerror>
+restarting IIS 
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 5010-3 - a sanity check will abort execution if there has been any error up until this point
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 5020-3 - sanitycheck fail [here endeth the test execution]
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+

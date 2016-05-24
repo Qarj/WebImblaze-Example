@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\section.xml">
+
+        <testcase id="10">
+            <description1>section - filename prefix included as part of output path</description1>
+            <verifypositive>
+                <assert>Register a new self service account</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>1.944</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>view xml results.xml file</description1>
+            <verifypositive>
+                <assert>section.Register a new self service account</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.018</responsetime>
+        </testcase>
+
+        <testcase id="30">
+            <description1>view html results.html file</description1>
+            <verifypositive>
+                <assert>Register a new self service account</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.01</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:41:25</start-time>
+        <start-seconds>70885</start-seconds>
+        <start-date-time>2016-05-24T19:41:25</start-date-time>
+        <total-run-time>1.994</total-run-time>
+        <test-cases-run>3</test-cases-run>
+        <test-cases-passed>3</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>15</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>0.657</average-response-time>
+        <max-response-time>1.944</max-response-time>
+        <min-response-time>0.01</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>section</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_41344</batch>
+    </wif>
+
+
+</results>

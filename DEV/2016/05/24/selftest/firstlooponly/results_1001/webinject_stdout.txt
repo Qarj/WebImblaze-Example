@@ -1,0 +1,25 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\firstlooponly.xml - 10 
+firstlooponly 
+Verify Positive: "Test Cases Failed: 0" 
+Verify Positive: "Test Cases Run: 6" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Count Assertion of 4 
+Passed Count Assertion of 5 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 2.497 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:04
+Total Run Time: 2.538 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 8
+Verifications Failed: 0
+

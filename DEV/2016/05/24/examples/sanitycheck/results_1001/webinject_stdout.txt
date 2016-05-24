@@ -1,0 +1,22 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\sanitycheck.xml - 10 
+Get Home page 
+Verify Positive: "text that will not be found" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.285 sec 
+------------------------------------------------------- 
+SANITY CHECK FAILED ... Aborting 
+Start Time: Tue 24 May 2016, 19:40:39
+Total Run Time: 0.387 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 0
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+

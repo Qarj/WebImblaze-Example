@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\selenium.xml">
+
+        <testcase id="10">
+            <section>Selenium Smoke Test</section>
+            <description1>Get Totaljobs Home Page</description1>
+            <verifypositive>
+                <assert>Location</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>3.863</responsetime>
+            <verificationtime>0.083</verificationtime>
+            <screenshottime>0.468</screenshottime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>Get SSL Loging Page</description1>
+            <verifypositive>
+                <assert>password</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>2.084</responsetime>
+            <verificationtime>0.175</verificationtime>
+            <screenshottime>0.125</screenshottime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:40:40</start-time>
+        <start-seconds>70840</start-seconds>
+        <start-date-time>2016-05-24T19:40:40</start-date-time>
+        <total-run-time>9.213</total-run-time>
+        <test-cases-run>2</test-cases-run>
+        <test-cases-passed>2</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>10</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>2.973</average-response-time>
+        <max-response-time>3.863</max-response-time>
+        <min-response-time>2.084</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>selenium</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Examples_59124</batch>
+    </wif>
+
+
+</results>

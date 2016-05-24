@@ -1,0 +1,489 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\demo.xml - 10 
+verifypositve 
+verifypositive - pass 
+Verify Positive: "No Operation" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.031 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 20 
+verifypositive 
+Verify Positive: "No Operation" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 30 
+verifypositive50 
+Verify Positive: "No Operation" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.02 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 40 
+verifypositiveNOP 
+Verify Positive: "No Operation" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.009 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 50 
+verifypositiveNOP with fail message 
+Verify Positive: "No Operation" 
+Failed Positive Verification 
+Expected to see no operation 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.038 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 60 
+verifypositiveNOP with fail message - disabled 
+Verify Positive: "No Operation" 
+Skipped Positive Verification NOP - Disabled due to production issue 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 110 
+verifynegative 
+verifynegative - pass 
+Verify Negative: "No Operation" 
+Passed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.011 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 120 
+verifynegative 
+Verify Negative: "No Operation" 
+Failed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 130 
+verifynegative50 
+Verify Negative: "No Operation" 
+Failed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 140 
+verifynegativeNOP 
+Verify Negative: "No Operation" 
+Failed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 150 
+verifynegativeNOP with fail message 
+Verify Negative: "No Operation" 
+Failed Negative Verification 
+No Operation should never be shown 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 160 
+verifynegativeNOP with fail message - disabled 
+Verify Negative: "No Operation" 
+Skipped Negative Verification NOP - Disabled due to production issue 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 210 
+autoassertion 
+autoassertion fail 
+Failed Auto Assertion 
+Page not found error 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.066 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 310 
+smartassertion 
+smartassertion fail 
+Failed Smart Assertion: Must have a Cache-Control of private or no-cache when a cookie is set
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.17 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 400 
+retry 
+test both types of retry in this section 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.02 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  C:\git\WebInject\examples\demo.xml - 410 
+retry fail 
+Verify Positive: "NOP" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.036 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 410.1 
+retry fail 
+Verify Positive: "NOP" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.019 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 410.2 
+retry fail 
+Verify Positive: "NOP" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.083 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 410.3 
+retry fail 
+Verify Positive: "NOP" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.037 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  C:\git\WebInject\examples\demo.xml - 420 
+retry then pass 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.048 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 420.1 
+retry then pass 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.097 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 420.2 
+retry then pass 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.152 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 420.3 
+retry then pass 
+Verify Positive: "Operation 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.023 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  C:\git\WebInject\examples\demo.xml - 430 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.073 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430.1 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.027 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430.2 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430.3 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.065 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 440 
+do the thing - retryfromstep then pass 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 430 ...  5 tries left
+Response Time = 0.043 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  C:\git\WebInject\examples\demo.xml - 430-1 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.085 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-1.1 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.02 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-1.2 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.011 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-1.3 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 440-1 
+do the thing - retryfromstep then pass 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 430 ...  4 tries left
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  C:\git\WebInject\examples\demo.xml - 430-2 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.068 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-2.1 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.014 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-2.2 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.11 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-2.3 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 440-2 
+do the thing - retryfromstep then pass 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 430 ...  3 tries left
+Response Time = 0.073 sec 
+------------------------------------------------------- 
+Retry 2 times
+Test:  C:\git\WebInject\examples\demo.xml - 430-3 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.019 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-3.1 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.025 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 430-3.2 
+get the system in a certain state 
+Verify Positive: "Operation 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 440-3 
+do the thing - retryfromstep then pass 
+Verify Positive: "Operation 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 510-3 
+description 
+this is description 1 
+this is description 2 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.021 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 520-3 
+Info - this test step just shows some info 
+this is description 2 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.059 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 530-3 
+The info in [square brackets] is important 
+this is description 2 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 610-3 
+verifyresponsetime 
+verifyresponsetime fail 
+Verify Response Time: at most "0.0000001" seconds
+Failed Response Time Verification - should be at most 0.0000001, got 0.063 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.063 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 710-3 
+verifyresponsecode 
+verifyresponsecode fail 
+Verify Response Code: "600" 
+Failed HTTP Response Code Verification (received 100, expecting 600) 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 810-3 
+checks 
+checks setup 
+Verify Negative: "NOP" 
+Verify Positive: "Yallambee" 
+Failed Positive Verification 
+Failed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 820-3 
+checkpositive fail 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.012 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 830-3 
+checkpositive fail again 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.113 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 840-3 
+checknegative fail 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 850-3 
+checknegative fail again 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 860-3 
+checkresponsecode fail 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.05 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 910-3 
+many failures in the one step 
+many things gone wrong :-( 
+Verify Negative: "Austria" 
+Verify Negative: "France" 
+Verify Negative: "Spain" 
+Verify Negative: "Swizterland" 
+Verify Negative: "France and Spain" 
+Verify Positive: "Yallambee" 
+Verify Positive: "Winberongen" 
+Verify Positive: "Santorini" 
+Verify Response Code: "600" 
+Failed Auto Assertion 
+Page not found error 
+Failed Positive Verification 
+Failed Positive Verification 
+Failed Positive Verification 
+Failed Negative Verification 
+Failed Negative Verification 
+Failed Negative Verification 
+Passed Negative Verification 
+Failed Negative Verification 
+Failed HTTP Response Code Verification (received 100, expecting 600) 
+TEST CASE FAILED
+Response Time = 0.041 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 1010-3 
+commandonerror 
+commandonerror invoke 
+Verify Positive: "I expect many things" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 5010-3 
+sanitycheck 
+a sanity check will abort execution if there has been any error up until this point 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\demo.xml - 5020-3 
+sanitycheck fail 
+here endeth the test execution 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.078 sec 
+------------------------------------------------------- 
+SANITY CHECK FAILED ... Aborting 
+Start Time: Tue 24 May 2016, 19:40:34
+Total Run Time: 2.357 seconds
+
+Test Cases Run: 37
+Test Cases Passed: 20
+Test Cases Failed: 17
+Verifications Passed: 153
+Verifications Failed: 26
+

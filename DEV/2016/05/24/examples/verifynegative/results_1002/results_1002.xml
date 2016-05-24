@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\verifynegative.xml">
+
+        <testcase id="10">
+            <description1>Get Home page</description1>
+            <smartassertion1>
+                <assert>Set\-Cookie: </assert>
+                <success>true</success>
+            </smartassertion1>
+            <verifynegative>
+                <assert>Server too busy</assert>
+            <success>true</success>
+            </verifynegative>
+            <verifynegative1>
+                <assert>Search Recipes</assert>
+            <success>true</success>
+            </verifynegative1>
+            <verifynegativeBUG3521>
+                <assert>Exammple</assert>
+            <success>true</success>
+            </verifynegativeBUG3521>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.168</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:44:49</start-time>
+        <start-seconds>71089</start-seconds>
+        <start-date-time>2016-05-24T19:44:49</start-date-time>
+        <total-run-time>0.204</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>8</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>0.168</average-response-time>
+        <max-response-time>0.168</max-response-time>
+        <min-response-time>0.168</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>verifynegative</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>red_team</batch>
+    </wif>
+
+
+</results>

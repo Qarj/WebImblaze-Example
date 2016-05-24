@@ -1,0 +1,25 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\verifypositive.xml - 10 
+Get Home page 
+Verify Positive: "automated testing examples" 
+Verify Positive: "WebInject" 
+Verify Positive: "h2.Getting started..h2" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.125 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:40:43
+Total Run Time: 0.153 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 8
+Verifications Failed: 0
+

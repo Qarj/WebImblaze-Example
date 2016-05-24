@@ -1,0 +1,42 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - verifyresponsetime
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\verifyresponsetimesub selftest\substeps\verifyresponsetime.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\verifyresponsetime.xml - 10 
+Should pass verifyresponsetime 
+Verify Response Time: at most "10" seconds
+Passed Response Time Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifyresponsetime.xml - 20 
+Should fail verifyresponsetime 
+Verify Response Time: at most "1" seconds
+Failed Response Time Verification - should be at most 1, got 2.081 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 2.081 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:27
+Total Run Time: 2.099 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 1
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+
+
+
+

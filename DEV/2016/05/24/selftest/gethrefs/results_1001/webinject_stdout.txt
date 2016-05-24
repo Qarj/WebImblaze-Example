@@ -1,0 +1,37 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\gethrefs.xml - 10 
+gethrefs 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.071 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\gethrefs.xml - 20 
+gethrefs 
+Verify Positive: "Test Cases Failed: 0" 
+Verify Positive: "GET Asset .special.css" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 3.842 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\gethrefs.xml - 30 
+gethrefs 
+Verify Positive: "special.css" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.027 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:04
+Total Run Time: 3.97 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 3
+Test Cases Failed: 0
+Verifications Passed: 15
+Verifications Failed: 0
+

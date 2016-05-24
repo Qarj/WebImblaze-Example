@@ -1,0 +1,45 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - ignoresmartassertions
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\ignoresmartassertionssub -c selftest\substeps\ignoresmartassertionsconfig.xml selftest\substeps\ignoresmartassertions.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\ignoresmartassertions.xml - 10 
+Should fail due to smart assertion defined in ignoresmartassertionsconfig.xml 
+Failed Smart Assertion: Must have a Cache-Control of private or no-cache when a cookie is set
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.038 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\ignoresmartassertions.xml - 20 
+Should pass - smartassertions are ignored 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.053 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\ignoresmartassertions.xml - 30 
+Should pass - smart assertions are satisfied 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.078 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:13
+Total Run Time: 0.213 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 2
+Test Cases Failed: 1
+Verifications Passed: 7
+Verifications Failed: 1
+
+
+
+

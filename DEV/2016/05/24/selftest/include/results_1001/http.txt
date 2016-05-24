@@ -1,0 +1,96 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - include
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\includesub selftest\substeps\include.xml</command>
+
+Starting WebInject Engine...
+
+include: [id 10] selftest\helpers\setup\login.xml
+include: [id 20] selftest\helpers\setup\create_job_ad.xml
+not included: [id 1010] selftest\helpers\teardown\expire_job_ad.xml (liveonly)
+-------------------------------------------------------
+Test:  selftest\substeps\include.xml - 1 
+SETUP 
+Setup variables 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.028 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 10.01 
+selftest\helpers\setup\login.xml [important_user] 
+Get the login page 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.039 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 10.02 
+Submit important_user and password 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.016 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 10.03 
+Info - logged in as important_user 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 20.01 
+selftest\helpers\setup\create_job_ad.xml 
+Get new job ad page 
+Verify Positive: "description and salary" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 20.02 
+Submit new job ad details 
+Verify Positive: "created ok" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.014 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 20.03 
+Info - created job 12345 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.072 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 100 
+View job 12345 
+Verify Positive: "salary for (\d)+" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.082 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\include.xml - 110 
+Apply for job 
+Verify Positive: "applied for the job ok" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Skipping Test Case 1000... (LIVEONLY)
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:26
+Total Run Time: 0.307 seconds
+
+Test Cases Run: 9
+Test Cases Passed: 9
+Test Cases Failed: 0
+Verifications Passed: 22
+Verifications Failed: 0
+
+
+
+

@@ -1,0 +1,418 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - retryfromstep
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\retryfromstepsub -c selftest\substeps\retryfromstepconfig.xml selftest\substeps\retryfromstep.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\retryfromstep.xml - 10 
+Step 10 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 20 
+Should not jump back since the assertions pass 
+Verify Negative: "two" 
+Verify Positive: "one" 
+Passed Positive Verification 
+Passed Negative Verification 
+Passed Count Assertion of 3 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 30 
+Should not jump back since a verifynegative fails - fast fail 
+Verify Negative: "critical error" 
+Verify Positive: "one" 
+Passed Positive Verification 
+Failed Negative Verification 
+Passed Count Assertion of 3 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 40 
+Step 40 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 50 
+Should not sleep since retryfromstep is not triggered 
+Verify Positive: "one" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.011 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 60 
+Step 60 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 70 
+Will pass on attempt two 
+Verify Positive: "attempt 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 60 ...  10 tries left
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 60-1 
+Step 60 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 70-1 
+Will pass on attempt two 
+Verify Positive: "attempt 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 60 ...  9 tries left
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 60-2 
+Step 60 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 70-2 
+Will pass on attempt two 
+Verify Positive: "attempt 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-2 
+Info - mynum variable is  seven  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-2 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:2, and also mynum variable  seven  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  8 tries left
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-3 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-3 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:3, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  7 tries left
+Response Time = 0.014 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-4 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-4 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:4, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  6 tries left
+Response Time = 0.017 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-5 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-5 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:5, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  5 tries left
+Response Time = 0.017 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-6 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-6 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:6, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  4 tries left
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-7 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-7 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:7, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  3 tries left
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-8 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-8 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:8, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  2 tries left
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-9 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-9 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:9, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 80 ...  1 tries left
+Response Time = 0.014 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 80-10 
+Info - mynum variable is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 90-10 
+Should jump back 8 times due to verifypostive failure 
+jumpbacks variable will update between jumpbacks:10, and also mynum variable  four  will be 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 100-10 
+Info - mynum variable at this point is  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep.xml - 110-10 
+Should not jump back - globaljumpbacks limit defined in retryfromstepconfig.xml file reached 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:21
+Total Run Time: 0.355 seconds
+
+Test Cases Run: 22
+Test Cases Passed: 18
+Test Cases Failed: 3
+Verifications Passed: 49
+Verifications Failed: 3
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - retryfromstep1
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\retryfromstep1sub -c selftest\substeps\retryfromstepconfig.xml selftest\substeps\retryfromstep1.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\retryfromstep1.xml - 10 
+Step 10 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Retry 5 times
+Test:  selftest\substeps\retryfromstep1.xml - 20 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 5 to go 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20.1 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 4 to go 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20.2 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20.3 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 30 
+Jumpback up to globaljumpbacks limit, pass on attempt two 
+Verify Positive: "attempt 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  10 tries left
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 10-1 
+Step 10 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Retry 5 times
+Test:  selftest\substeps\retryfromstep1.xml - 20-1 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 5 to go 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20-1.1 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 4 to go 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20-1.2 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20-1.3 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 30-1 
+Jumpback up to globaljumpbacks limit, pass on attempt two 
+Verify Positive: "attempt 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  9 tries left
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 10-2 
+Step 10 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Retry 2 times
+Test:  selftest\substeps\retryfromstep1.xml - 20-2 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20-2.1 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 20-2.2 
+Retry 5 times, pass on attempt three 
+Verify Positive: "attempt 3" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryfromstep1.xml - 30-2 
+Jumpback up to globaljumpbacks limit, pass on attempt two 
+Verify Positive: "attempt 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:23
+Total Run Time: 0.125 seconds
+
+Test Cases Run: 7
+Test Cases Passed: 6
+Test Cases Failed: 1
+Verifications Passed: 17
+Verifications Failed: 1
+
+
+
+

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <wi_body style="padding:25px 0 0 35px; background: #ecf0f1; display:block; margin:0; border:0; font-size: 100%; vertical-align: baseline; font:80% Verdana, sans-serif;">
+        <head>
+            <style>
+                wi_h1, wi_h2, wi_h3, wi_div { display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline; }
+                wi_h2 a:link, .wi_headers:link { color:SlateGray; }
+                wi_h2 a, .wi_headers { text-decoration:none; font-weight:bolder; }
+                wi_h2 a:hover, .wi_headers:hover { color:SlateGray; text-decoration: underline; }
+                wi_h2 a:visited, .wi_headers:visited { color:SlateGray; }
+                .wi_heading { padding:1em 1em 0 1em; border:1px solid #ddd; background:DarkSlateGray; margin:0 2em 2em 0; font-weight:normal;  color:#D1E6E7; line-height:1.6em;}
+                .wi_heading wi_h1 {  font-size:2.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h2 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h3 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em; line-height:1.5em;}
+                .wi_alignleft {float: left;}
+                .wi_alignright {float: right;}
+            </style>
+            <script language="javascript">
+                function wi_toggle(wi_toggle_ele) {
+                   var ele = document.getElementById(wi_toggle_ele);
+                   if(ele.style.display == "block") {
+                           ele.style.display = "none";
+                   }
+                   else {
+                       ele.style.display = "block";
+                   }
+                } 
+            </script>
+        </head>
+        <wi_div class="wi_heading">
+            <wi_h1 class="wi_alignleft">Step 10</wi_h1>
+            <wi_h3 class="wi_alignright">
+              substitutions
+            </wi_h3>
+            <wi_div style="clear: both;"></wi_div>
+            <br />
+            <wi_h2>
+                <a href="../../../All_Batches/Summary.xml"> Summary </a> -&gt; <a href="../../../All_Batches/Selftest_41344.xml"> Batch Summary </a> -&gt; <a href="results_1001.xml"> Run Results </a> -&gt; Step
+            </wi_h2>
+        </wi_div>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_request');">Request Headers</a>
+
+<xmp id="wi_toggle_request" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+GET CMD
+
+
+</xmp>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_response');">Response Headers</a>
+
+<xmp id="wi_toggle_response" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+
+100 OK
+
+
+</xmp>
+<br /><br />
+    </wi_body>
+    <body style="display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline;">
+
+<xmp>
+<command>webinject.pl -o selftest\output\substitutionssub selftest\substeps\substitutions.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\substitutions.xml - 10 
+hostname is P_IRIDIUM2_P 
+Verify Negative: "__" 
+Passed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 20 
+testnum is P_20_P 
+Verify Positive: "_20_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.029 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 30 
+testfilename is P_substitutions_P 
+Verify Positive: "_substitutions_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.014 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 40 
+length is P_68_P 
+Verify Positive: "_\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.041 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 50 
+ampersand 
+Verify Positive: "_\&_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.011 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 60 
+SINGLEQUOTE is _'_ 
+Verify Positive: "_'_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.024 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 70 
+TIMESTAMP is _1464115287.63374_ 
+Verify Positive: "_\d*\.\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 80 
+STARTTIME is _1464115287.47993_ 
+Verify Positive: "_\d*\.\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 90 
+LENGTH is _69_ 
+Verify Positive: "_\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 100 
+TESTSTEPTIME:90 is _0.01_ 
+Verify Positive: "_\d*\.\d{1,3}_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 110 
+DAY MONTH YEAR is _2405201616_ 
+Verify Positive: "_\d{10,10}_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 120 
+HH MM SS is _194127_ 
+Verify Positive: "_\d{6,6}_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.03 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 130 
+WEEKOFMONTH is _4_ 
+Verify Positive: "_\d_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 140 
+DATETIME is _20160524194127_ 
+Verify Positive: "_\d{14,14}_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.038 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 150 
+FORMATDATETIME is _24/05/2016_19:41:27_ 
+Verify Positive: "_\d\d\/\d\d\/\d{4,4}_\d\d:\d\d:\d\d_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 160 
+COUNTER is _1_ 
+Verify Positive: "_1_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.011 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 170 
+CONCURRENCY is _null_ 
+Verify Positive: "_null_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 180 
+OUTPUT is _selftest\output\substitutionssub_ 
+Verify Positive: "output" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 190 
+OUTSUM is _3533_ 
+Verify Positive: "_\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.071 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 200 
+CWD is _C:\git\WebInject_ 
+Verify Negative: "__" 
+Passed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 210 
+RETRY is _0_ 
+Verify Positive: "_0_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.018 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 220 
+ELAPSED_SECONDS is _1_ 
+Verify Positive: "_\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 230 
+ELAPSED_MINUTES is _1_ 
+Verify Positive: "_\d*_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.019 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 240 
+NOW is _24/05/2016_19:41:27_ 
+Verify Positive: "_\d\d\/\d\d\/\d{4,4}_\d\d:\d\d:\d\d_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\substitutions.xml - 250 
+JUMPBACKS is _0_ 
+Verify Positive: "_0_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.032 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:27
+Total Run Time: 0.503 seconds
+
+Test Cases Run: 25
+Test Cases Passed: 25
+Test Cases Failed: 0
+Verifications Passed: 75
+Verifications Failed: 0
+
+
+
+
+
+</xmp>
+
+    </body>
+</html>

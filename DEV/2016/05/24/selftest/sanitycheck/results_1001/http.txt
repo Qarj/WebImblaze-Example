@@ -1,0 +1,43 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - sanitycheck
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\sanitychecksub selftest\substeps\sanitycheck.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\sanitycheck.xml - 10 
+Step passes 
+Verify Positive: "NOP" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\sanitycheck.xml - 20 
+Step fails - execution will be aborted 
+Verify Positive: "No Operation" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+SANITY CHECK FAILED ... Aborting 
+Start Time: Tue 24 May 2016, 19:41:22
+Total Run Time: 0.024 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 1
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+
+
+
+

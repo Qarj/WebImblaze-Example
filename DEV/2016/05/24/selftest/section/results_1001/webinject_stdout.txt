@@ -1,0 +1,37 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\section.xml - 10 
+section - filename prefix included as part of output path 
+Verify Positive: "Register a new self service account" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.944 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\section.xml - 20 
+view xml results.xml file 
+Verify Positive: "section.Register a new self service account" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.018 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\section.xml - 30 
+view html results.html file 
+Verify Positive: "Register a new self service account" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:25
+Total Run Time: 1.994 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 3
+Test Cases Failed: 0
+Verifications Passed: 15
+Verifications Failed: 0
+

@@ -1,0 +1,160 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - var
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\varsub selftest\substeps\var.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Retry 3 times
+Test:  selftest\substeps\var.xml - 10 
+Info - testemail: testemail_1_0_0_20160524_194128@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10.1 
+Info - testemail: testemail_1_0_1_20160524_194128@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.027 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10.2 
+Info - testemail: testemail_1_0_2_20160524_194128@example.com 
+Verify Positive: "_2_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.02 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 20 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.025 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 30 
+Info - testemail: testemail_1_0_0_20160524_194128@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  5 tries left
+Response Time = 0.016 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 20-1 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.022 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 30-1 
+Info - testemail: testemail_1_1_0_20160524_194128@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  4 tries left
+Response Time = 0.028 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 20-2 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.01 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 30-2 
+Info - testemail: testemail_1_2_0_20160524_194128@example.com 
+Verify Positive: "_2_0_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\var.xml - 10010 
+Info - testemail: testemail_2_0_0_20160524_194128@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10010.1 
+Info - testemail: testemail_2_0_1_20160524_194128@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10010.2 
+Info - testemail: testemail_2_0_2_20160524_194128@example.com 
+Verify Positive: "_2_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10020 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.012 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10030 
+Info - testemail: testemail_2_0_0_20160524_194128@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  5 tries left
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10020-1 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.023 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10030-1 
+Info - testemail: testemail_2_1_0_20160524_194128@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  4 tries left
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10020-2 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10030-2 
+Info - testemail: testemail_2_2_0_20160524_194128@example.com 
+Verify Positive: "_2_0_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:28
+Total Run Time: 0.317 seconds
+
+Test Cases Run: 10
+Test Cases Passed: 10
+Test Cases Failed: 0
+Verifications Passed: 24
+Verifications Failed: 0
+
+
+
+

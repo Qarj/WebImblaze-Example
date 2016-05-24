@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Batch.xsl"?>
+<batch>
+   <run id="blue_team">
+      <batch_name>blue_team</batch_name>
+      <environment>DEV</environment>
+      <test_parent_folder>examples</test_parent_folder>
+      <test_name>post</test_name>
+      <total_run_time>0.339</total_run_time>
+      <test_steps_failed>0</test_steps_failed>
+      <test_steps_run>2</test_steps_run>
+      <assertion_skips>0</assertion_skips>
+      <sanity_check_passed>true</sanity_check_passed>
+      <max_response_time>0.3</max_response_time>
+      <target>webinject_examples</target>
+      <yyyy>2016</yyyy>
+      <mm>05</mm>
+      <dd>24</dd>
+      <run_number>1002</run_number>
+      <start_time>Tue 24 May 2016, 19:46:16</start_time>
+      <start_date_time>2016-05-24T19:46:16</start_date_time>
+      <end_time>2016-05-24T19:46:16</end_time>
+      <start_seconds>71176</start_seconds>
+      <end_seconds>71176</end_seconds>
+      <status>NORMAL</status>
+   </run>
+   <run id="blue_team">
+      <batch_name>blue_team</batch_name>
+      <environment>DEV</environment>
+      <test_parent_folder>examples</test_parent_folder>
+      <test_name>demo</test_name>
+      <total_run_time>0.525</total_run_time>
+      <test_steps_failed>17</test_steps_failed>
+      <test_steps_run>37</test_steps_run>
+      <assertion_skips>2</assertion_skips>
+      <sanity_check_passed>false</sanity_check_passed>
+      <max_response_time>0.0</max_response_time>
+      <target>webinject_examples</target>
+      <yyyy>2016</yyyy>
+      <mm>05</mm>
+      <dd>24</dd>
+      <run_number>1002</run_number>
+      <start_time>Tue 24 May 2016, 19:46:22</start_time>
+      <start_date_time>2016-05-24T19:46:22</start_date_time>
+      <end_time>2016-05-24T19:46:23</end_time>
+      <start_seconds>71182</start_seconds>
+      <end_seconds>71183</end_seconds>
+      <status>NORMAL</status>
+   </run>
+</batch>

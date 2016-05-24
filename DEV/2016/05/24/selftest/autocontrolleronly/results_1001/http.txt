@@ -1,0 +1,73 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - autocontrolleronly - specifying that this is the automation controller
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl --autocontroller -o selftest\output\autocontrolleronlysub selftest\substeps\autocontrolleronly.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\autocontrolleronly.xml - 10 
+Can be executed from any desktop or server 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\autocontrolleronly.xml - 20 
+Can only be executed from the test automation controller 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.011 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:06
+Total Run Time: 0.036 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 4
+Verifications Failed: 0
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - autocontrolleronly - without specifying that this is the automation controller
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\autocontrolleronlysub selftest\substeps\autocontrolleronly.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\autocontrolleronly.xml - 10 
+Can be executed from any desktop or server 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Skipping Test Case 20...
+ (This is not the automation controller)
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:09
+Total Run Time: 0.025 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 2
+Verifications Failed: 0
+
+
+
+

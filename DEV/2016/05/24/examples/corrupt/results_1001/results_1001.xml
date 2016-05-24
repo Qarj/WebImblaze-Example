@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\corrupt.xml">
+
+        <testcase id="10">
+            <description1>Creates a corrupt results.xml by forcing WebInject.pl to crash during execution</description1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.012</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>Get undef</description1>
+            <verifyresponsecode-success>false</verifyresponsecode-success>
+            <verifyresponsecode-message>Failed - No Response</verifyresponsecode-message>

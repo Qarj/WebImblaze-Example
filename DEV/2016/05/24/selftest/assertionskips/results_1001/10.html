@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <wi_body style="padding:25px 0 0 35px; background: #ecf0f1; display:block; margin:0; border:0; font-size: 100%; vertical-align: baseline; font:80% Verdana, sans-serif;">
+        <head>
+            <style>
+                wi_h1, wi_h2, wi_h3, wi_div { display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline; }
+                wi_h2 a:link, .wi_headers:link { color:SlateGray; }
+                wi_h2 a, .wi_headers { text-decoration:none; font-weight:bolder; }
+                wi_h2 a:hover, .wi_headers:hover { color:SlateGray; text-decoration: underline; }
+                wi_h2 a:visited, .wi_headers:visited { color:SlateGray; }
+                .wi_heading { padding:1em 1em 0 1em; border:1px solid #ddd; background:DarkSlateGray; margin:0 2em 2em 0; font-weight:normal;  color:#D1E6E7; line-height:1.6em;}
+                .wi_heading wi_h1 {  font-size:2.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h2 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h3 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em; line-height:1.5em;}
+                .wi_alignleft {float: left;}
+                .wi_alignright {float: right;}
+            </style>
+            <script language="javascript">
+                function wi_toggle(wi_toggle_ele) {
+                   var ele = document.getElementById(wi_toggle_ele);
+                   if(ele.style.display == "block") {
+                           ele.style.display = "none";
+                   }
+                   else {
+                       ele.style.display = "block";
+                   }
+                } 
+            </script>
+        </head>
+        <wi_div class="wi_heading">
+            <wi_h1 class="wi_alignleft">Step 10</wi_h1>
+            <wi_h3 class="wi_alignright">
+              assertionskips
+            </wi_h3>
+            <wi_div style="clear: both;"></wi_div>
+            <br />
+            <wi_h2>
+                <a href="../../../All_Batches/Summary.xml"> Summary </a> -&gt; <a href="../../../All_Batches/Selftest_41344.xml"> Batch Summary </a> -&gt; <a href="results_1001.xml"> Run Results </a> -&gt; Step
+            </wi_h2>
+        </wi_div>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_request');">Request Headers</a>
+
+<xmp id="wi_toggle_request" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+GET CMD
+
+
+</xmp>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_response');">Response Headers</a>
+
+<xmp id="wi_toggle_response" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+
+100 OK
+
+
+</xmp>
+<br /><br />
+    </wi_body>
+    <body style="display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline;">
+
+<xmp>
+<command>webinject.pl -o selftest\output\assertionskipssub selftest\substeps\assertionskips.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\assertionskips.xml - 10 
+Should not skip assertcount 
+Failed Count Assertion of 4, got 3 
+Expected count of 4 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.083 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 20 
+Should not skip verifypositive 
+Verify Positive: "two" 
+Failed Positive Verification 
+Expected to find two 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.014 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 30 
+Should not skip verifynegative 
+Verify Negative: "one" 
+Failed Negative Verification 
+Did not expect to find one 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.03 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 40 
+Should not skip autoassertion 
+Failed Auto Assertion 
+Page not found error 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.018 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 50 
+Should not skip smartassertion 
+Failed Smart Assertion: Must have a Cache-Control of private or no-cache when a cookie is set
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.074 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 110 
+Should skip assertcount 
+Skipped Assertion Count 0 - Expected count of 4 
+Skipped Assertion Count 1ONE1 - Expected count of 4 
+Skipped Assertion Count 5 - Expected count of 4 
+Skipped Assertion Count ASSERTCOUNT - Expected count of 4 
+Skipped Assertion Count ONE - Expected count of 4 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.048 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 120 
+Should skip verifypositive 
+Verify Positive: "two" 
+Verify Positive: "two" 
+Verify Positive: "two" 
+Verify Positive: "two" 
+Skipped Positive Verification 0 - Some type of issue 
+Skipped Positive Verification 1ONE1 - Some type of issue 
+Skipped Positive Verification 5 - Some type of issue 
+Skipped Positive Verification ONE - Some type of issue 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.038 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\assertionskips.xml - 130 
+Should skip verifynegative 
+Verify Negative: "one" 
+Verify Negative: "one" 
+Verify Negative: "one" 
+Verify Negative: "one" 
+Skipped Negative Verification 0 - Relaxed the assertion 
+Skipped Negative Verification 1ONE1 - Relaxed the assertion 
+Skipped Negative Verification 5 - Relaxed the assertion 
+Skipped Negative Verification ONE - Relaxed the assertion 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.053 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:06
+Total Run Time: 0.419 seconds
+
+Test Cases Run: 8
+Test Cases Passed: 3
+Test Cases Failed: 5
+Verifications Passed: 15
+Verifications Failed: 5
+
+
+
+
+
+</xmp>
+
+    </body>
+</html>

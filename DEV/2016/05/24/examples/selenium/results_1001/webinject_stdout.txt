@@ -1,0 +1,111 @@
+
+Starting WebInject Engine...
+
+
+Connecting to Selenium Remote Control server on port 11174 
+CHROME HANDLE THIS SESSION
+2034864
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\selenium.xml - 10 
+Selenium Smoke Test 
+Get Totaljobs Home Page 
+Verify Positive: "Location" 
+SELRESP:1
+SELRESP: DUMPED:
+$VAR1 = [
+          {
+            'hCode' => 563085958,
+            'path' => '/',
+            'name' => 'CookieComplianceAccepted',
+            'class' => 'org.openqa.selenium.Cookie',
+            'expiry' => 4588095600,
+            'httpOnly' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+            'domain' => 'www.totaljobs.com',
+            'value' => '1',
+            'secure' => $VAR1->[0]{'httpOnly'}
+          },
+          {
+            'httpOnly' => $VAR1->[0]{'httpOnly'},
+            'class' => 'org.openqa.selenium.Cookie',
+            'value' => 'true',
+            'domain' => '.totaljobs.com',
+            'secure' => $VAR1->[0]{'httpOnly'},
+            'hCode' => 3520428,
+            'name' => 's_cc',
+            'path' => '/'
+          },
+          {
+            'expiry' => 2410729119,
+            'class' => 'org.openqa.selenium.Cookie',
+            'httpOnly' => $VAR1->[0]{'httpOnly'},
+            'secure' => $VAR1->[0]{'httpOnly'},
+            'value' => 'MemberId=81ce8d94-8280-4e81-be8c-45c8e94f5114&IsAnonymous=True',
+            'domain' => 'www.totaljobs.com',
+            'name' => 'AnonymousUser',
+            'path' => '/',
+            'hCode' => 1904346552
+          },
+          {
+            'class' => 'org.openqa.selenium.Cookie',
+            'httpOnly' => $VAR1->[0]{'httpOnly'},
+            'secure' => $VAR1->[0]{'httpOnly'},
+            'value' => 'e7a68f1a-353c-42bb-9343-609d3038a99c',
+            'domain' => 'www.totaljobs.com',
+            'path' => '/',
+            'name' => 'SessionCookie',
+            'hCode' => 194109562
+          },
+          {
+            'httpOnly' => $VAR1->[0]{'httpOnly'},
+            'expiry' => 1621795245,
+            'class' => 'org.openqa.selenium.Cookie',
+            'secure' => $VAR1->[0]{'httpOnly'},
+            'value' => '67216c58f24c46df8b2fd06946cc3fc2',
+            'domain' => '.totaljobs.com',
+            'path' => '/',
+            'name' => 'sc_vid',
+            'hCode' => -908239454
+          },
+          {
+            'domain' => '.totaljobs.com',
+            'value' => '%5B%5BB%5D%5D',
+            'secure' => $VAR1->[0]{'httpOnly'},
+            'class' => 'org.openqa.selenium.Cookie',
+            'httpOnly' => $VAR1->[0]{'httpOnly'},
+            'hCode' => 3520938,
+            'path' => '/',
+            'name' => 's_sq'
+          }
+        ];
+get_page_source
+get_current_url
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 3.863 sec 
+Verification Time = 0.083 sec 
+Screenshot Time = 0.468 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\selenium.xml - 20 
+Get SSL Loging Page 
+Verify Positive: "password" 
+SELRESP:1
+get_page_source
+get_body_text
+GET_BODY_TEXT:get_body_text
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 2.084 sec 
+Verification Time = 0.175 sec 
+Screenshot Time = 0.125 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:40:40
+Total Run Time: 9.213 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 10
+Verifications Failed: 0
+

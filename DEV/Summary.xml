@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Summary.xsl"?>
+<summary version="2.0">
+    <channel>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>PASS 24/05 19:48:44  - 19:48:52 [3 items] alpha_team: ALL 3 steps OK, 0.1 mins (Concurrency 0.1) *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/alpha_team.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:48</pubDate>
+      </item>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>FAIL 24/05 19:46:54  - 19:47:08 [2 items] yellow_team: 2/10 FAILED, 0.2 mins (Concurrency 0.5) *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/yellow_team.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:47</pubDate>
+      </item>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>SANITY CHECK FAILED 24/05 19:46:16  - 19:46:23 [2 items] blue_team: 1 SANITY FAILURE(s), 17/39 FAILED, 0.1 mins  *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/blue_team.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:46</pubDate>
+      </item>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>PASS 24/05 19:44:36  - 19:44:50 [2 items] red_team: ALL 2 steps OK, 0.2 mins (Concurrency 0.1) *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/red_team.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:44</pubDate>
+      </item>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>PASS 24/05 19:42:55  - 19:43:32 [2 items] manual_run: ALL 4 steps OK, 0.6 mins (Concurrency 0.2) *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/manual_run.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:43</pubDate>
+      </item>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>PASS 24/05 19:41:04  - 19:41:38 [44 items] Selftest_41344: ALL 63 steps OK, 0.6 mins (Concurrency 5.5) *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/Selftest_41344.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:41</pubDate>
+      </item>
+      <title>DEV Summary</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebInject Framework Batch Summary</description>
+      <item>
+         <title>CORRUPT 24/05 19:40:32  - 19:40:51 [33 items] Examples_59124: [examples/corrupt results.xml] WebInject abnormal end - run manually to diagnose</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/Examples_59124.xml</link>
+         <description></description>
+         <pubDate>24/05/2016 19:40</pubDate>
+      </item>
+    </channel>
+</summary>

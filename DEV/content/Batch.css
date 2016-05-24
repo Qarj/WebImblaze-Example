@@ -1,0 +1,96 @@
+/*                */
+/* BEGIN BASE CSS */
+/*                */
+
+* { margin:0; padding:0; }
+
+body { background: #ecf0f1; font:80% Verdana, sans-serif; color:#000; padding:25px 0 0 35px; }
+
+/* heading area */
+/* unvisited link */
+h1 a:link { color:SlateGray; }
+h2 a:link { color:SlateGray; }
+
+/* visited link */
+h1 a:visited { color:SlateGray; }
+h2 a:visited { color:SlateGray; }
+
+div#heading { padding:1em 1em 0 1em; border:1px solid #ddd; background:DarkSlateGray; margin:0 2em 2em 0; }
+div#heading h1 { font-weight:normal; font-size:2.5em; margin-bottom:0.3em; font-family: Verdana, sans-serif; color:#D1E6E7;}
+div#heading h2 { font-weight:normal; margin-bottom:0.3em; color:#D1E6E7; }
+div#heading h3 { font-weight:normal; font-size:1.5em; margin-bottom:0.3em; font-family: Verdana, sans-serif; color:#D1E6E7;}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+/* hyperlink styles */
+a { text-decoration:none; font-weight:bolder;  }
+a:hover { color:#5BAB03; text-decoration: underline;}
+
+div { line-height:1.6em; }
+
+/* different colours for the results based on status */
+.pass { color:#5BAB03; font-weight:bold;}
+.fail { color:#FF5940; font-weight:bold;}
+.sanity { color:Fuchsia; font-weight:bold;}
+.corrupt { color:Black; font-weight:bold;}
+.pend { color:SteelBlue; font-weight:bold;}
+
+/*              */
+/* END BASE CSS */
+/*              */
+
+
+/*                      */
+/* BEGIN BASE TABLE CSS */
+/*                      */
+
+table {
+    border-collapse: collapse;
+}
+
+/*
+table, th, td {
+    border: 1px solid black;
+}
+*/
+
+table {
+    width: 90%;
+}
+
+th {
+    height: 1.5em;
+} 
+
+th, td {
+    padding: 0.3em;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+	 color:DarkSlateGray;
+}
+
+.link_number { color:SlateGray; font-weight:bolder; }
+
+.header_row, .footer_row {
+  background: linear-gradient(to bottom, DarkSlateGray, #5B7778);
+  font-family: Verdana;
+  color: #D1E6E7;
+  text-decoration: none;
+}
+
+/*                      */
+/* END BASE TABLE CSS */
+/*                      */
+
+a:link { color:SlateGray; }
+
+/* visited link */
+a:visited { color:SlateGray; }

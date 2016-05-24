@@ -1,0 +1,46 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - parseresponse
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\parseresponsesub selftest\substeps\parseresponse.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\parseresponse.xml - 10 
+Parse some text 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.353 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\parseresponse.xml - 20 
+Have a look at the parsed text 
+Verify Positive: "parseresponse:text to parse" 
+Verify Positive: "parseresponse1:three" 
+Verify Positive: "parseresponse5000:%22%26%26%26%22" 
+Verify Positive: "parseresponseDECODE:\&\&\&" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.187 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:17
+Total Run Time: 0.562 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 8
+Verifications Failed: 0
+
+
+
+

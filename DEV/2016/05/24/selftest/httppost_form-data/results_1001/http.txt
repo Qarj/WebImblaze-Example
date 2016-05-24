@@ -1,0 +1,187 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - httppost_form-data - parameter
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\httppost_form-datasub selftest\substeps\httppost_form-data.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\httppost_form-data.xml - 10 
+Get the multipart upload page 
+Verify Positive: "Select File" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 8.956 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\httppost_form-data.xml - 20 
+Post the csv file 
+Verify Positive: "/BulkUpload/Confirmation" 
+ POSTURL /BulkUpload/Upload 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 18.098 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:11
+Total Run Time: 27.145 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 7
+Verifications Failed: 0
+
+
+
+<command1>type selftest\output\httppost_form-datasubhttp.log</command1>
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - Get the multipart upload page
+GET http://rimattest.azurewebsites.net/BulkUpload/Index
+User-Agent: WebInject
+
+
+200 OK
+Base for relative URLs: http://rimattest.azurewebsites.net/BulkUpload/Index
+Expires: Tue May 24 20:41:20 2016
+
+Cache-Control: private
+Date: Tue, 24 May 2016 18:42:41 GMT
+Server: Microsoft-IIS/8.0
+Content-Length: 2435
+Content-Type: text/html; charset=utf-8
+Client-Date: Tue, 24 May 2016 18:41:20 GMT
+Client-Peer: 191.233.82.44:80
+Client-Response-Num: 1
+Client-Warning: Redirect loop detected (max_redirect = 0)
+Link: </Content/css?v=MDbdFKJHBa_ctS5x4He1bMV0_RjRq8jpcIAvPpKiN6U1>; rel="stylesheet"
+Set-Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba;Path=/;Domain=rimattest.azurewebsites.net
+Title: index - My ASP.NET Application
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Meta-Charset: utf-8
+X-Meta-Robots: noindex,nofollow
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Powered-By: ASP.NET
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow" />
+    <title>index - My ASP.NET Application</title>
+    <link href="/Content/css?v=MDbdFKJHBa_ctS5x4He1bMV0_RjRq8jpcIAvPpKiN6U1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">RimAttest</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                    <li><a href="/Home/Pictures">Pictures</a></li>
+                    <li><a href="/Home/JavaScript">JavaScript</a></li>
+                    <li><a href="/Home/Special">Special</a></li>
+                </ul>
+                    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/Account/Register" id="registerLink">Register</a></li>
+        <li><a href="/Account/Login" id="loginLink">Log in</a></li>
+    </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        
+
+
+        <div>
+            <form action="/BulkUpload/Upload" method="post" enctype="multipart/form-data">
+                Select File : <input type="file" name="fileUpload" value="" />
+                <input type="submit" name="name" value="Upload" />
+            </form>
+        </div>
+
+
+        <hr />
+        <footer>
+            <p>&copy; 2016 - RimAttest</p>
+        </footer>
+    </div>
+
+    <script src="/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"></script>
+
+    <script src="/bundles/bootstrap?v=2Fz3B0iizV2NnnamQFrx-NbYJNTFeBJ2GM05SilbtQU1"></script>
+
+    
+</body>
+</html>
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - Post the csv file
+POST http://rimattest.azurewebsites.net/BulkUpload/Upload
+User-Agent: WebInject
+Content-Length: 209
+Content-Type: multipart/form-data; boundary=xYzZY
+Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba
+Cookie2: $Version="1"
+
+--xYzZY
+Content-Disposition: form-data; name="fileUpload"; filename="selftest\\testdata\\searches.csv"
+Content-Type: text/csv
+
+Search,Cuisine,MaxPrep
+Carbonara,Italian,25
+Fried Rice,Asian,15
+--xYzZY--
+Request Content Length: 209 bytes
+
+302 Found
+Base for relative URLs: http://rimattest.azurewebsites.net/BulkUpload/Upload
+Expires: Tue May 24 20:41:38 2016
+
+Cache-Control: private
+Date: Tue, 24 May 2016 18:42:59 GMT
+Location: /BulkUpload/Confirmation
+Server: Microsoft-IIS/8.0
+Content-Length: 141
+Content-Type: text/html; charset=utf-8
+Client-Date: Tue, 24 May 2016 18:41:38 GMT
+Client-Peer: 191.233.82.44:80
+Client-Response-Num: 2
+Client-Warning: Redirect loop detected (max_redirect = 0)
+Title: Object moved
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/BulkUpload/Confirmation">here</a>.</h2>
+</body></html>
+
+
+
+

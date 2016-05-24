@@ -1,0 +1,60 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Retry 3 times
+Test:  C:\git\WebInject\examples\retry.xml - 10 
+Get Home page 
+Will fail and sleep 2 seconds after each fail except the final fail 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.391 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retry.xml - 10.1 
+Get Home page 
+Will fail and sleep 2 seconds after each fail except the final fail 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.037 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retry.xml - 10.2 
+Get Home page 
+Will fail and sleep 2 seconds after each fail except the final fail 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.033 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retry.xml - 10.3 
+Get Home page 
+Will fail and sleep 2 seconds after each fail except the final fail 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.05 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  C:\git\WebInject\examples\retry.xml - 20 
+Get Home page 
+Test will pass on first attempt, sleep of 2 seconds will be ignored 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.044 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:40:37
+Total Run Time: 6.625 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 1
+Test Cases Failed: 1
+Verifications Passed: 9
+Verifications Failed: 1
+

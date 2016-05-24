@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\ignoresmartassertions.xml">
+
+        <testcase id="10">
+            <description1>ignoresmartassertions</description1>
+            <verifypositive>
+                <assert>Test Cases Failed: 1</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>Must have a Cache-Control of private or no-cache when a cookie is set</assert>
+                <success>true</success>
+            </verifypositive1>
+            <assertcount-success>true</assertcount-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>2.469</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 19:41:11</start-time>
+        <start-seconds>70871</start-seconds>
+        <start-date-time>2016-05-24T19:41:11</start-date-time>
+        <total-run-time>2.484</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>7</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>2.469</average-response-time>
+        <max-response-time>2.469</max-response-time>
+        <min-response-time>2.469</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>ignoresmartassertions</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_41344</batch>
+    </wif>
+
+
+</results>

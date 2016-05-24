@@ -1,0 +1,31 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\testonly.xml - 10 
+testonly - with testonly config 
+Verify Positive: "Test Cases Run: 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.817 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\testonly.xml - 20 
+testonly - with liveonly config 
+Verify Positive: "Test Cases Run: 1" 
+Verify Positive: "Skipping Test Case 20... \(TESTONLY\)" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.47 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:27
+Total Run Time: 3.301 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 11
+Verifications Failed: 0
+

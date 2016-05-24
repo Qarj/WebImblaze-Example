@@ -1,0 +1,126 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - random
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\randomsub selftest\substeps\random.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\random.xml - 10 
+numeric [2109104636], alpha [GEBZDALRQH] 
+alphanumeric [952Z40GOMA] 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.242 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\random.xml - 20 
+952Z40GOMANZIZYDVZ6MOZIMO2XZ2BKQH15HZYK4H4ZKX6PJYFOPYG2VQVHU alphanumeric 
+210910463695938916956090357401495141959175946794087848639713 numeric 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.045 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\random.xml - 30 
+952Z40GOMA default to alphanumeric 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.015 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 19:41:18
+Total Run Time: 0.339 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 3
+Test Cases Failed: 0
+Verifications Passed: 6
+Verifications Failed: 0
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - view http.log
+GET CMD
+
+
+100 OK
+
+
+<command1>type selftest\output\randomsubhttp.log</command1>
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - numeric [2109104636], alpha [GEBZDALRQH] [alphanumeric [952Z40GOMA]]
+GET CMD
+
+
+100 OK
+
+
+<command1>echo 2109104636</command1>
+2109104636 
+
+
+<command2>echo GEBZDALRQH</command2>
+GEBZDALRQH 
+
+
+
+<command3>echo 952Z40GOMA</command3>
+952Z40GOMA 
+
+
+
+<command4>echo 21091</command4>
+21091 
+
+
+
+<command5>echo GEBZD</command5>
+GEBZD 
+
+
+
+<command6>echo 952Z4</command6>
+952Z4 
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - 952Z40GOMANZIZYDVZ6MOZIMO2XZ2BKQH15HZYK4H4ZKX6PJYFOPYG2VQVHU alphanumeric [210910463695938916956090357401495141959175946794087848639713 numeric]
+GET CMD
+
+
+100 OK
+
+
+<command>echo 952Z40GOMANZIZYDVZ6M</command>
+952Z40GOMANZIZYDVZ6M 
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 30 - 952Z40GOMA default to alphanumeric
+GET CMD
+
+
+100 OK
+
+
+<command>echo NOP</command>
+NOP 
+
+
+
+
+
+
