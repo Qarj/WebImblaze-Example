@@ -16,7 +16,7 @@
             </h1>
             <br />
             <h2>
-                <xsl:variable name="href">/<xsl:value-of select="batch/run/environment"/>/<xsl:value-of select="batch/run/yyyy"/>/<xsl:value-of select="batch/run/mm"/>/<xsl:value-of select="batch/run/dd"/>/All_Batches/Summary.xml</xsl:variable>
+                <xsl:variable name="href">./Summary.xml</xsl:variable>
                 <a href="{$href}"> <xsl:value-of select="batch/run/environment"/> Summary</a> -> Batch Summary
             </h2>
         </div>
@@ -45,8 +45,8 @@
 
             <xsl:for-each select="batch/run">
                 <tr>
-                <xsl:variable name="href">/<xsl:value-of select="environment"/>/<xsl:value-of select="yyyy"/>/<xsl:value-of select="mm"/>/<xsl:value-of select="dd"/>/<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/results_<xsl:value-of select="run_number"/></xsl:variable>
-                <xsl:variable name="pending_href">/<xsl:value-of select="environment"/>/<xsl:value-of select="yyyy"/>/<xsl:value-of select="mm"/>/<xsl:value-of select="dd"/>/<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/webinject_stdout</xsl:variable>
+                <xsl:variable name="href">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/results_<xsl:value-of select="run_number"/></xsl:variable>
+                <xsl:variable name="pending_href">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/webinject_stdout</xsl:variable>
                     <xsl:choose>
                         <xsl:when test="end_time='PENDING'">
                             <td> <a class="pend" href="{$pending_href}.txt"> <xsl:value-of select="run_number"/></a> </td>
