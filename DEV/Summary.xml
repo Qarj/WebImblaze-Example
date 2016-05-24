@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="/content/Summary.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../content/Summary.xsl"?>
 <summary version="2.0">
     <channel>
       <title>DEV Summary</title>
-      <link>http://localhost/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebInject Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 20:18:59  - 20:19:04 [1 item] yellow_team: ALL 2 steps OK, 0.1 mins (Concurrency 1.0) *webinject_examples*</title>
