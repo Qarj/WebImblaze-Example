@@ -5,9 +5,9 @@
   <head>
     <title>Overall Summary</title>
     <style type="text/css">
-    @import url(../content/Summary.css);
+    @import url(/WebInject-Example/content/Summary.css);
     </style>
-	<script type="text/javascript" src="../scripts/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="/WebInject-Example/scripts/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript">
 <![CDATA[
     $(document).ready(function() {
