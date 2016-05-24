@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="/content/Summary.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://qarj.github.io/WebInject-Example/content/Summary.xsl"?>
 <summary version="2.0">
     <channel>
       <title>DEV Summary</title>
-      <link>http://localhost/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebInject Framework Batch Summary</description>
       <item>
-         <title>PASS 24/05 20:18:59  - 20:19:04 [1 item] yellow_team: ALL 2 steps OK, 0.1 mins (Concurrency 1.0) *webinject_examples*</title>
-      <link>http://localhost/DEV/2016/05/24/All_Batches/yellow_team.xml</link>
+         <title>PASS 24/05 20:31:52  - 20:31:54 [1 item] yellow_team: ALL 2 steps OK, 0.0 mins (Concurrency 1.5) *webinject_examples*</title>
+      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/yellow_team.xml</link>
          <description></description>
-         <pubDate>24/05/2016 20:18</pubDate>
+         <pubDate>24/05/2016 20:31</pubDate>
       </item>
     </channel>
 </summary>

@@ -5,7 +5,7 @@
   <head>
     <title>Overall Summary</title>
     <style type="text/css">
-    @import url(../content/Summary.css);
+    @import url(Summary.css);
     </style>
 	<script type="text/javascript" src="../scripts/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript">

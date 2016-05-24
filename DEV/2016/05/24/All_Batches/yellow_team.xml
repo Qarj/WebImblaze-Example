@@ -6,22 +6,22 @@
       <environment>DEV</environment>
       <test_parent_folder>examples</test_parent_folder>
       <test_name>simple</test_name>
-      <total_run_time>4.797</total_run_time>
+      <total_run_time>2.802</total_run_time>
       <test_steps_failed>0</test_steps_failed>
       <test_steps_run>2</test_steps_run>
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
-      <max_response_time>2.6</max_response_time>
+      <max_response_time>2.1</max_response_time>
       <target>webinject_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
       <run_number>1001</run_number>
-      <start_time>Tue 24 May 2016, 20:18:59</start_time>
-      <start_date_time>2016-05-24T20:18:59</start_date_time>
-      <end_time>2016-05-24T20:19:04</end_time>
-      <start_seconds>73139</start_seconds>
-      <end_seconds>73144</end_seconds>
+      <start_time>Tue 24 May 2016, 20:31:52</start_time>
+      <start_date_time>2016-05-24T20:31:52</start_date_time>
+      <end_time>2016-05-24T20:31:54</end_time>
+      <start_seconds>73912</start_seconds>
+      <end_seconds>73914</end_seconds>
       <status>NORMAL</status>
    </run>
 </batch>
