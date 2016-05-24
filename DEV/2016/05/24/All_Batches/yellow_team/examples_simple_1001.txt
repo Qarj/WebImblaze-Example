@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="../../../../../content/Batch.xsl"?>
-<batch>
    <run id="yellow_team">
       <batch_name>yellow_team</batch_name>
       <environment>DEV</environment>
@@ -24,4 +21,3 @@
       <end_seconds>73144</end_seconds>
       <status>NORMAL</status>
    </run>
-</batch>

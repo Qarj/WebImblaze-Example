@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="/content/Results.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
     <testcases file="C:\git\WebInject\examples\simple.xml">
@@ -14,7 +14,7 @@
             <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
             <success>true</success>
             <result-message>TEST CASE PASSED</result-message>
-            <responsetime>0.936</responsetime>
+            <responsetime>2.048</responsetime>
         </testcase>
 
         <testcase id="20">
@@ -31,25 +31,25 @@
             <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
             <success>true</success>
             <result-message>TEST CASE PASSED</result-message>
-            <responsetime>2.543</responsetime>
+            <responsetime>2.636</responsetime>
         </testcase>
 
     </testcases>
 
     <test-summary>
-        <start-time>Tue 24 May 2016, 19:40:40</start-time>
-        <start-seconds>70840</start-seconds>
-        <start-date-time>2016-05-24T19:40:40</start-date-time>
-        <total-run-time>3.598</total-run-time>
+        <start-time>Tue 24 May 2016, 20:18:59</start-time>
+        <start-seconds>73139</start-seconds>
+        <start-date-time>2016-05-24T20:18:59</start-date-time>
+        <total-run-time>4.797</total-run-time>
         <test-cases-run>2</test-cases-run>
         <test-cases-passed>2</test-cases-passed>
         <test-cases-failed>0</test-cases-failed>
         <verifications-passed>11</verifications-passed>
         <verifications-failed>0</verifications-failed>
         <assertion-skips>0</assertion-skips>
-        <average-response-time>1.739</average-response-time>
-        <max-response-time>2.543</max-response-time>
-        <min-response-time>0.936</min-response-time>
+        <average-response-time>2.342</average-response-time>
+        <max-response-time>2.636</max-response-time>
+        <min-response-time>2.048</min-response-time>
         <sanity-check-passed>true</sanity-check-passed>
         <test-file-name>simple</test-file-name>
     </test-summary>
@@ -59,7 +59,7 @@
         <yyyy>2016</yyyy>
         <mm>05</mm>
         <dd>24</dd>
-        <batch>Examples_59124</batch>
+        <batch>yellow_team</batch>
     </wif>
 
 
