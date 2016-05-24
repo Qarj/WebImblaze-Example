@@ -59,11 +59,11 @@
       <h1>
         WebInject Results
         (
-        <A href="http://localhost/DEV/Summary.xml"> DEV </A>
+        <A href="http://qarj.github.io/WebInject-Example/DEV/Summary.xml"> DEV </A>
         /
-        <A href="http://localhost/PAT/Summary.xml"> PAT </A>
+        <A href="http://qarj.github.io/WebInject-Example/PAT/Summary.txt"> PAT </A>
         /
-        <A href="http://localhost/PROD/Summary.xml"> PROD </A>
+        <A href="http://qarj.github.io/WebInject-Example/PROD/Summary.txt"> PROD </A>
         )
       </h1>
       <br />
