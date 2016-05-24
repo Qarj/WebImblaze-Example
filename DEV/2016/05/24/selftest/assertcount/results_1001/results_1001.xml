@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\assertcount.xml">
+
+        <testcase id="10">
+            <description1>assertcount</description1>
+            <verifypositive>
+                <assert>Test Cases Failed: 1</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>Skipped Assertion Count 0 - Should have one 3 times</assert>
+                <success>true</success>
+            </verifypositive1>
+            <assertcount-success>true</assertcount-success>
+            <assertcount1-success>true</assertcount1-success>
+            <assertcount2-success>true</assertcount2-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>3.298</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 21:00:29</start-time>
+        <start-seconds>75629</start-seconds>
+        <start-date-time>2016-05-24T21:00:29</start-date-time>
+        <total-run-time>3.326</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>9</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>3.298</average-response-time>
+        <max-response-time>3.298</max-response-time>
+        <min-response-time>3.298</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>assertcount</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_34862</batch>
+    </wif>
+
+
+</results>

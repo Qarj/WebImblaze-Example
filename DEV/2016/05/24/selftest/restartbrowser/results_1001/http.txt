@@ -1,0 +1,58 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - restartbrowser
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\restartbrowsersub selftest\substeps\restartbrowser.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\restartbrowser.xml - 10 
+Get login page sets __RequestVerificationToken cookie 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.876 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\restartbrowser.xml - 20 
+Get login page again does not set the same cookie again - it is already set 
+Step will fail 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 2.16 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\restartbrowser.xml - 30 
+Browser is restarted 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.082 sec 
+------------------------------------------------------- 
+RESTARTING BROWSER ... 
+Test:  selftest\substeps\restartbrowser.xml - 40 
+Get login page sets __RequestVerificationToken cookie since all cookies are gone 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.125 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:46
+Total Run Time: 3.308 seconds
+
+Test Cases Run: 4
+Test Cases Passed: 3
+Test Cases Failed: 1
+Verifications Passed: 12
+Verifications Failed: 1
+
+
+
+

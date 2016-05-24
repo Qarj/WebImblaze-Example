@@ -1,0 +1,238 @@
+[0.521][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "window-size=1260,968" ]
+      },
+      "javascriptEnabled": true,
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.523][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.523][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.528][INFO]: Launching chrome: "C:\Users\Tim\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension="C:\Users\Tim\AppData\Local\Temp\scoped_dir11336_23360\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12111 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Tim\AppData\Local\Temp\scoped_dir11336_3317" --window-size=1260,968 data:,
+[1.358][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "userDataDir": "C:\\Users\\Tim\\AppData\\Local\\Temp\\scoped_dir11336_3317"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "50.0.2661.102",
+   "webStorageEnabled": true
+}
+[1.394][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:87/?windowidentify_1464119965.13247-time"
+}
+[1.395][INFO]: Waiting for pending navigations...
+[1.395][INFO]: Done waiting for pending navigations
+[1.607][INFO]: Waiting for pending navigations...
+[1.721][INFO]: Done waiting for pending navigations
+[1.721][INFO]: RESPONSE Navigate
+[1.778][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "page load"
+}
+[1.778][INFO]: RESPONSE SetTimeout
+[1.787][INFO]: COMMAND Navigate {
+   "url": "http://www.totaljobs.com"
+}
+[1.787][INFO]: Waiting for pending navigations...
+[1.787][INFO]: Done waiting for pending navigations
+[2.070][INFO]: Waiting for pending navigations...
+[3.293][INFO]: Done waiting for pending navigations
+[3.293][INFO]: RESPONSE Navigate
+[3.310][INFO]: COMMAND GetCookies {
+
+}
+[3.310][INFO]: Waiting for pending navigations...
+[3.310][INFO]: Done waiting for pending navigations
+[3.311][INFO]: Waiting for pending navigations...
+[3.311][INFO]: Done waiting for pending navigations
+[3.311][INFO]: RESPONSE GetCookies [ {
+   "domain": ".totaljobs.com",
+   "expiry": 1621799966.0,
+   "name": "sc_vid",
+   "path": "/",
+   "secure": false,
+   "value": "b4e3ff4db89fd51921324c653b8e0e6a"
+}, {
+   "domain": "www.totaljobs.com",
+   "expiry": 4588095600.0,
+   "name": "CookieComplianceAccepted",
+   "path": "/",
+   "secure": false,
+   "value": "1"
+}, {
+   "domain": "www.totaljobs.com",
+   "name": "SessionCookie",
+   "path": "/",
+   "secure": false,
+   "value": "f0fe1cdc-4bb2-4138-9cdb-10eb836f120d"
+}, {
+   "domain": "www.totaljobs.com",
+   "expiry": 2410729118.395221,
+   "name": "AnonymousUser",
+   "path": "/",
+   "secure": false,
+   "value": "MemberId=1aae84a3-239e-4f00-8a84-06913996f331&IsAnonymous=True"
+}, {
+   "domain": ".totaljobs.com",
+   "name": "s_cc",
+   "path": "/",
+   "secure": false,
+   "value": "true"
+}, {
+   "domain": ".totaljobs.com",
+   "name": "s_sq",
+   "path": "/",
+   "secure": false,
+   "value": "%5B%5BB%5D%5D"
+} ]
+[3.344][INFO]: COMMAND GetSource {
+
+}
+[3.344][INFO]: Waiting for pending navigations...
+[3.344][INFO]: Done waiting for pending navigations
+[3.353][INFO]: Waiting for pending navigations...
+[3.353][INFO]: Done waiting for pending navigations
+[3.353][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" class=\"mti-inactive\">\u003Chead prefix=\"og: http://ogp.me/ns#\">\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    \u003Cmeta ..."
+[3.382][INFO]: COMMAND GetUrl {
+
+}
+[3.382][INFO]: Waiting for pending navigations...
+[3.382][INFO]: Done waiting for pending navigations
+[3.384][INFO]: Waiting for pending navigations...
+[3.384][INFO]: Done waiting for pending navigations
+[3.384][INFO]: RESPONSE GetUrl "http://www.totaljobs.com/"
+[3.392][INFO]: COMMAND Screenshot {
+
+}
+[3.392][INFO]: Waiting for pending navigations...
+[3.393][INFO]: Done waiting for pending navigations
+[3.398][INFO]: Waiting for pending navigations...
+[3.407][INFO]: Done waiting for pending navigations
+[3.750][INFO]: Waiting for pending navigations...
+[3.750][INFO]: Done waiting for pending navigations
+[3.750][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABNwAAANvCAIAAACJV1ASAAAgAElEQVR4nOzde1RTZ74//g8VEDDI1RosEdAhiFqJgh3BbyXiHHSOMAXtqNjVEg89RXqs4u2MYvs1/DqiM97Aeg4yU8egq97GEVqxo8xXjO0SnBY0eCkSqqSGkVgIBIkQLq2/PwIxtx0SBIPyfq2uL..."
+[3.875][INFO]: COMMAND Navigate {
+   "url": "https://www.totaljobs.com/Authenticated/Login.aspx"
+}
+[3.875][INFO]: Waiting for pending navigations...
+[3.875][INFO]: Done waiting for pending navigations
+[4.236][INFO]: Waiting for pending navigations...
+[5.782][INFO]: Done waiting for pending navigations
+[5.782][INFO]: RESPONSE Navigate
+[5.811][INFO]: COMMAND GetSource {
+
+}
+[5.811][INFO]: Waiting for pending navigations...
+[5.811][INFO]: Done waiting for pending navigations
+[5.816][INFO]: Waiting for pending navigations...
+[5.816][INFO]: Done waiting for pending navigations
+[5.816][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml xmlns=\"http://www.w3.org/1999/xhtml\" class=\"mti-inactive\">\u003Chead>\n\t\u003Cmeta charset=\"UTF-8\" />\n\t\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n\t\u003Ctitle>totaljobs.com - Take..."
+[5.828][INFO]: COMMAND FindElement {
+   "using": "tag name",
+   "value": "body"
+}
+[5.828][INFO]: Waiting for pending navigations...
+[5.828][INFO]: Done waiting for pending navigations
+[5.842][INFO]: Waiting for pending navigations...
+[5.842][INFO]: Done waiting for pending navigations
+[5.842][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.42549464983947893-1"
+}
+[5.870][INFO]: COMMAND GetElementText {
+   "id": "0.42549464983947893-1"
+}
+[5.870][INFO]: Waiting for pending navigations...
+[5.870][INFO]: Done waiting for pending navigations
+[5.960][INFO]: Waiting for pending navigations...
+[5.960][INFO]: Done waiting for pending navigations
+[5.960][INFO]: RESPONSE GetElementText "  Are you recruiting?\nHow we can help\nAdvertise now\nRegister CV\nSign in\nSaved Jobs\nToggle navigation\n                0 miles\n                5 miles\n                10 miles\n                20 mile..."
+[5.972][INFO]: COMMAND Screenshot {
+
+}
+[5.972][INFO]: Waiting for pending navigations...
+[5.972][INFO]: Done waiting for pending navigations
+[6.082][INFO]: Waiting for pending navigations...
+[6.082][INFO]: Done waiting for pending navigations
+[6.082][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABNwAAANvCAIAAACJV1ASAAAgAElEQVR4nOzde1hTV74w/i9CMECQcBGCTSBICeKFRNFWsJUIfVFHPILTEWxfBYeeVvp2BKu+Y7Ed8XSkdryB7RywIzXo71fB6Qg9YlXmgKGeghfUYNUIiERDIQiBIAFiAsP7x4aYOwmCAf1+Hh8fs..."
+[6.104][INFO]: COMMAND Quit {
+
+}
+[6.116][INFO]: RESPONSE Quit

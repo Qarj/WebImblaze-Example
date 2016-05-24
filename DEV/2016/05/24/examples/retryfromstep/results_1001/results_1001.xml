@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\retryfromstep.xml">
+
+        <testcase id="10">
+            <description1>Get Home page - jumpbacks so far: 0</description1>
+            <smartassertion1>
+                <assert>Set\-Cookie: </assert>
+                <success>true</success>
+            </smartassertion1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.457</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>Get Home page</description1>
+            <verifypositive1>
+                <assert>WebInject Test Tool</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>RETRYING FROM STEP 10 ...  5 tries left</result-message>
+            <responsetime>0.052</responsetime>
+        </testcase>
+
+        <testcase id="10-1">
+            <description1>Get Home page - jumpbacks so far: 1</description1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.039</responsetime>
+        </testcase>
+
+        <testcase id="20-1">
+            <description1>Get Home page</description1>
+            <verifypositive1>
+                <assert>WebInject Test Tool</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>RETRYING FROM STEP 10 ...  4 tries left</result-message>
+            <responsetime>0.029</responsetime>
+        </testcase>
+
+        <testcase id="10-2">
+            <description1>Get Home page - jumpbacks so far: 2</description1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.045</responsetime>
+        </testcase>
+
+        <testcase id="20-2">
+            <description1>Get Home page</description1>
+            <verifypositive1>
+                <assert>WebInject Test Tool</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>RETRYING FROM STEP 10 ...  3 tries left</result-message>
+            <responsetime>0.045</responsetime>
+        </testcase>
+
+        <testcase id="10-3">
+            <description1>Get Home page - jumpbacks so far: 3</description1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.062</responsetime>
+        </testcase>
+
+        <testcase id="20-3">
+            <description1>Get Home page</description1>
+            <verifypositive1>
+                <assert>WebInject Test Tool</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>RETRYING FROM STEP 10 ...  2 tries left</result-message>
+            <responsetime>0.051</responsetime>
+        </testcase>
+
+        <testcase id="10-4">
+            <description1>Get Home page - jumpbacks so far: 4</description1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.053</responsetime>
+        </testcase>
+
+        <testcase id="20-4">
+            <description1>Get Home page</description1>
+            <verifypositive1>
+                <assert>WebInject Test Tool</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>RETRYING FROM STEP 10 ...  1 tries left</result-message>
+            <responsetime>0.054</responsetime>
+        </testcase>
+
+        <testcase id="10-5">
+            <description1>Get Home page - jumpbacks so far: 5</description1>
+            <verifypositive1>
+                <assert>WebInject</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.04</responsetime>
+        </testcase>
+
+        <testcase id="20-5">
+            <description1>Get Home page</description1>
+            <verifypositive1>
+                <assert>WebInject Test Tool</assert>
+                <success>false</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>TEST CASE FAILED</result-message>
+            <responsetime>0.042</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 20:59:20</start-time>
+        <start-seconds>75560</start-seconds>
+        <start-date-time>2016-05-24T20:59:20</start-date-time>
+        <total-run-time>1.108</total-run-time>
+        <test-cases-run>8</test-cases-run>
+        <test-cases-passed>6</test-cases-passed>
+        <test-cases-failed>1</test-cases-failed>
+        <verifications-passed>35</verifications-passed>
+        <verifications-failed>1</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>0.121</average-response-time>
+        <max-response-time>0.457</max-response-time>
+        <min-response-time>0.029</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>retryfromstep</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Examples_91999</batch>
+    </wif>
+
+
+</results>

@@ -1,0 +1,24 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\retryresponsecode.xml - 10 
+retryresponsecode 
+Verify Positive: "Test Cases Failed: 3" 
+Verify Positive: "RETRYING... 2 to go" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Count Assertion of 2 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 4.634 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:45
+Total Run Time: 4.647 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 7
+Verifications Failed: 0
+

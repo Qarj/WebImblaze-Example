@@ -1,0 +1,77 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - commandonerror
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\commandonerrorsub selftest\substeps\commandonerror.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\commandonerror.xml - 10 
+commandonerror should be run 
+Verify Positive: "two two two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.017 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\commandonerror.xml - 20 
+commandonerror should not be run 
+Verify Positive: "two two two" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:34
+Total Run Time: 0.06 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 1
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+
+
+
+<command1>type selftest\output\commandonerrorsubhttp.log</command1>
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - commandonerror should be run
+GET CMD
+
+
+100 OK
+
+
+<command>echo one one one > NUL</command>
+
+
+<commandonerror>echo commandonerror in step 10 was run</commandonerror>
+commandonerror in step 10 was run 
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - commandonerror should not be run
+GET CMD
+
+
+100 OK
+
+
+<command>echo two two two > NUL</command>
+
+
+
+
+
+
+

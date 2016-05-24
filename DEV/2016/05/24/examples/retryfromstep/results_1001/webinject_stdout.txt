@@ -1,0 +1,109 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 10 
+Get Home page - jumpbacks so far: 0 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.457 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 20 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  5 tries left
+Response Time = 0.052 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 10-1 
+Get Home page - jumpbacks so far: 1 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.039 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 20-1 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  4 tries left
+Response Time = 0.029 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 10-2 
+Get Home page - jumpbacks so far: 2 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.045 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 20-2 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  3 tries left
+Response Time = 0.045 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 10-3 
+Get Home page - jumpbacks so far: 3 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.062 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 20-3 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  2 tries left
+Response Time = 0.051 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 10-4 
+Get Home page - jumpbacks so far: 4 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.053 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 20-4 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 10 ...  1 tries left
+Response Time = 0.054 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 10-5 
+Get Home page - jumpbacks so far: 5 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.04 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\retryfromstep.xml - 20-5 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.042 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:20
+Total Run Time: 1.108 seconds
+
+Test Cases Run: 8
+Test Cases Passed: 6
+Test Cases Failed: 1
+Verifications Passed: 35
+Verifications Failed: 1
+

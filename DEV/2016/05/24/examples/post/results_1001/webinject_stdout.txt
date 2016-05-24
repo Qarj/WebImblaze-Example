@@ -1,0 +1,30 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\post.xml - 10 
+Get Search Form 
+Verify Positive: "Search Recipes" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.765 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\post.xml - 20 
+Submit Search 
+Verify Positive: "Search Confirmation" 
+ POSTURL /Search/SearchRecipes 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.254 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:19
+Total Run Time: 1.075 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 11
+Verifications Failed: 0
+

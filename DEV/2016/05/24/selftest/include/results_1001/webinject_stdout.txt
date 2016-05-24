@@ -1,0 +1,35 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\include.xml - 10 
+include 
+Verify Positive: "Test Cases Failed: 0" 
+Verify Positive: "Test Cases Run: 9" 
+Verify Positive: "Info - created job 12345" 
+Verify Positive: "Skipping Test Case 1000" 
+Verify Positive: "10.03" 
+Verify Positive: "20.03" 
+Verify Positive: "[important_user]" 
+Verify Positive: "not included[^\n]*expire_job_ad" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.712 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:54
+Total Run Time: 1.725 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 12
+Verifications Failed: 0
+

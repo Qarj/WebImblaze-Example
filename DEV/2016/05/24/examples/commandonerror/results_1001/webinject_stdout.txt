@@ -1,0 +1,21 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\commandonerror.xml - 10 
+Get Home page 
+Verify Positive: "text that will not be found" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 2.488 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:15
+Total Run Time: 2.632 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 0
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+

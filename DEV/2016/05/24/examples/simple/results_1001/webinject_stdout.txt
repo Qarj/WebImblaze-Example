@@ -1,0 +1,29 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\simple.xml - 10 
+Get Totaljobs Home Page 
+Verify Positive: "Job Ads" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.407 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\simple.xml - 20 
+Get Totaljobs Search Results 
+Verify Positive: "Automation" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 2.817 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:21
+Total Run Time: 3.339 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 11
+Verifications Failed: 0
+

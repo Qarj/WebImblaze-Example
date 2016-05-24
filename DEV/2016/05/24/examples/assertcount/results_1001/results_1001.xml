@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\assertcount.xml">
+
+        <testcase id="10">
+            <description1>Get Home page</description1>
+            <smartassertion1>
+                <assert>Set\-Cookie: </assert>
+                <success>true</success>
+            </smartassertion1>
+            <assertcount-success>true</assertcount-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>4.217</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>Get Home page</description1>
+            <assertcount-success>false</assertcount-success>
+            <assertcount-message>Failed Count Assertion of 2, got 3</assertcount-message>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>TEST CASE FAILED</result-message>
+            <responsetime>0.25</responsetime>
+        </testcase>
+
+        <testcase id="30">
+            <description1>Get Home page</description1>
+            <assertcount-success>false</assertcount-success>
+            <assertcount-message>The word example should appear 3 times in the html source [got 3]</assertcount-message>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>TEST CASE FAILED</result-message>
+            <responsetime>0.746</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 20:59:13</start-time>
+        <start-seconds>75553</start-seconds>
+        <start-date-time>2016-05-24T20:59:13</start-date-time>
+        <total-run-time>5.336</total-run-time>
+        <test-cases-run>3</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>2</test-cases-failed>
+        <verifications-passed>14</verifications-passed>
+        <verifications-failed>2</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>1.737</average-response-time>
+        <max-response-time>4.217</max-response-time>
+        <min-response-time>0.25</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>assertcount</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Examples_91999</batch>
+    </wif>
+
+
+</results>

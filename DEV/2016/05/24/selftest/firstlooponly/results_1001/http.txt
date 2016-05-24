@@ -1,0 +1,72 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - firstlooponly
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\firstlooponlysub selftest\substeps\firstlooponly.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\firstlooponly.xml - 10 
+Step 10 loop counter is _1_  
+Verify Positive: "Step 10 loop counter is _1_" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.039 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\firstlooponly.xml - 20 
+Step 20 loop counter is _1_ 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.108 sec 
+------------------------------------------------------- 
+Skipping Test Case 10... (firstlooponly)
+------------------------------------------------------- 
+Test:  selftest\substeps\firstlooponly.xml - 10020 
+Step 20 loop counter is _2_ 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.401 sec 
+------------------------------------------------------- 
+Skipping Test Case 10... (firstlooponly)
+------------------------------------------------------- 
+Test:  selftest\substeps\firstlooponly.xml - 20020 
+Step 20 loop counter is _3_ 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.157 sec 
+------------------------------------------------------- 
+Skipping Test Case 10... (firstlooponly)
+------------------------------------------------------- 
+Test:  selftest\substeps\firstlooponly.xml - 30020 
+Step 20 loop counter is _4_ 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.018 sec 
+------------------------------------------------------- 
+Skipping Test Case 10... (firstlooponly)
+------------------------------------------------------- 
+Test:  selftest\substeps\firstlooponly.xml - 40020 
+Step 20 loop counter is _5_ 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.146 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:32
+Total Run Time: 0.897 seconds
+
+Test Cases Run: 6
+Test Cases Passed: 6
+Test Cases Failed: 0
+Verifications Passed: 13
+Verifications Failed: 0
+
+
+
+

@@ -1,0 +1,41 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\getsrcs.xml - 10 
+getsrcs 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.277 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\getsrcs.xml - 20 
+getsrcs 
+Verify Positive: "Test Cases Failed: 0" 
+Verify Positive: "GET Asset .small_brickwork.jpg" 
+Verify Positive: "GET Asset .append_element.js" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 4.909 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\getsrcs.xml - 30 
+getsrcs 
+Verify Positive: "small_brickwork.jpg" 
+Verify Positive: "append_element.js" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.018 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:31
+Total Run Time: 5.234 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 3
+Test Cases Failed: 0
+Verifications Passed: 17
+Verifications Failed: 0
+

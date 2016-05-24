@@ -1,0 +1,21 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\errormessage.xml - 10 
+Get Home page 
+Verify Positive: "WebInject Test Tool" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED : Perhaps somebody deployed the old version of the page again
+Response Time = 1.203 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:16
+Total Run Time: 1.307 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 0
+Test Cases Failed: 1
+Verifications Passed: 5
+Verifications Failed: 1
+

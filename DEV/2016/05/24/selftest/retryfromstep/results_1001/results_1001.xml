@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\retryfromstep.xml">
+
+        <testcase id="10">
+            <description1>retryfromstep</description1>
+            <verifyresponsetime>29</verifyresponsetime>
+            <verifypositive>
+                <assert>Test Cases Failed: 3</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive2>
+                <assert>70-2</assert>
+                <success>true</success>
+            </verifypositive2>
+            <verifypositive4>
+                <assert>jumpbacks variable will update between jumpbacks:2</assert>
+                <success>true</success>
+            </verifypositive4>
+            <verifypositive5>
+                <assert>jumpbacks variable will update between jumpbacks:10</assert>
+                <success>true</success>
+            </verifypositive5>
+            <verifypositive6>
+                <assert>mynum variable is  seven</assert>
+                <success>true</success>
+            </verifypositive6>
+            <verifypositive7>
+                <assert>mynum variable at this point is  four</assert>
+                <success>true</success>
+            </verifypositive7>
+            <verifypositive9>
+                <assert>retryfromstep.xml - 110-10</assert>
+                <success>true</success>
+            </verifypositive9>
+            <verifynegative1>
+                <assert>20-1</assert>
+            <success>true</success>
+            </verifynegative1>
+            <verifynegative2>
+                <assert>30-1</assert>
+            <success>true</success>
+            </verifynegative2>
+            <verifynegative3>
+                <assert>70-3</assert>
+            <success>true</success>
+            </verifynegative3>
+            <verifynegative9>
+                <assert>retryfromstep.xml - 110-11</assert>
+            <success>true</success>
+            </verifynegative9>
+            <assertcount-success>true</assertcount-success>
+            <verifyresponsetime-success>true</verifyresponsetime-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>4.268</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>retryfromstep1</description1>
+            <verifypositive>
+                <assert>Test Cases Failed: 1</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>retryfromstep1.xml - 20.3</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifypositive2>
+                <assert>retryfromstep1.xml - 20-1.3</assert>
+                <success>true</success>
+            </verifypositive2>
+            <verifypositive3>
+                <assert>retryfromstep1.xml - 20-2.2</assert>
+                <success>true</success>
+            </verifypositive3>
+            <verifynegative1>
+                <assert>retryfromstep1.xml - 20.4</assert>
+            <success>true</success>
+            </verifynegative1>
+            <verifynegative2>
+                <assert>retryfromstep1.xml - 20-1.4</assert>
+            <success>true</success>
+            </verifynegative2>
+            <verifynegative3>
+                <assert>retryfromstep1.xml - 20-2.3</assert>
+            <success>true</success>
+            </verifynegative3>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>1.841</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 21:00:44</start-time>
+        <start-seconds>75644</start-seconds>
+        <start-date-time>2016-05-24T21:00:44</start-date-time>
+        <total-run-time>6.141</total-run-time>
+        <test-cases-run>2</test-cases-run>
+        <test-cases-passed>2</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>28</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>3.054</average-response-time>
+        <max-response-time>4.268</max-response-time>
+        <min-response-time>1.841</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>retryfromstep</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_34862</batch>
+    </wif>
+
+
+</results>

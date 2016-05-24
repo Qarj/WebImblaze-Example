@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\assertionskips.xml">
+
+        <testcase id="10">
+            <description1>assertionskips</description1>
+            <verifypositive>
+                <assert>Test Cases Failed: 5</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>Skipped Assertion Count 0 - Expected count of 4</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifypositive2>
+                <assert>Skipped Assertion Count 1ONE1 - Expected count of 4</assert>
+                <success>true</success>
+            </verifypositive2>
+            <verifypositive3>
+                <assert>Skipped Assertion Count 5 - Expected count of 4</assert>
+                <success>true</success>
+            </verifypositive3>
+            <verifypositive4>
+                <assert>Skipped Assertion Count ASSERTCOUNT - Expected count of 4</assert>
+                <success>true</success>
+            </verifypositive4>
+            <verifypositive5>
+                <assert>Skipped Assertion Count ONE - Expected count of 4</assert>
+                <success>true</success>
+            </verifypositive5>
+            <verifypositive6>
+                <assert>Test Cases Passed: 3</assert>
+                <success>true</success>
+            </verifypositive6>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>4.102</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 21:00:30</start-time>
+        <start-seconds>75630</start-seconds>
+        <start-date-time>2016-05-24T21:00:30</start-date-time>
+        <total-run-time>4.119</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>11</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>4.102</average-response-time>
+        <max-response-time>4.102</max-response-time>
+        <min-response-time>4.102</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>assertionskips</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_34862</batch>
+    </wif>
+
+
+</results>

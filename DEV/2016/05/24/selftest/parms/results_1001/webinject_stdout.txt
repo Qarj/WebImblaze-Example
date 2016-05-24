@@ -1,0 +1,27 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\parms.xml - 10 
+parms 
+Verify Positive: "Test Cases Failed: 0" 
+Verify Positive: "name.tartiflette..name" 
+Verify Positive: "cuisine.French..cuisine" 
+Verify Positive: "preptime.75..preptime" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 3.252 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:43
+Total Run Time: 3.299 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 9
+Verifications Failed: 0
+

@@ -1,0 +1,59 @@
+
+WebInject Framework Config:
+$VAR1 = bless( {
+                 'main' => {
+                             'use_browsermob_proxy' => 'false',
+                             'environment' => 'DEV',
+                             'target' => 'webinject_examples',
+                             'batch' => 'yellow_team',
+                             'is_automation_controller' => 'false'
+                           },
+                 'path' => {
+                             'selenium_location_full' => 'C:\\selenium-server\\selenium-server-standalone-2.53.0.jar',
+                             'web_server_location_full' => 'C:\\inetpub\\wwwroot',
+                             'browsermob_proxy_location_full' => 'C:\\browsermob\\bin\\browsermob-proxy.bat',
+                             'webinject_location' => '../WebInject',
+                             'testfile_full' => '../WebInject/examples/simple.xml',
+                             'web_server_address' => 'qarj.github.io/WebInject-Example'
+                           }
+               }, 'Config::Tiny' );
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999.xml_webinject_examples_post_34456
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999.xml_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999_summary.record_webinject_examples_post_34456
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999_summary.record_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_post_34456
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+
+
+Launching webinject.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/examples/post/results_1001/webinject_stdout.txt
+    webinject.pl C:\git\WebInject\examples\post.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/examples/post/results_1001/ --config C:\git\WebInjectFramework\temp\webinject_examples_post_34456\webinject_examples.xml --output C:\git\WebInjectFramework\temp\webinject_examples_post_34456\
+
+webinject.pl execution all done.
+copy temp/webinject_examples_post_34456/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/examples/post/results_1001/
+copy temp/webinject_examples_post_34456/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/examples/post/results_1001/chromedriver.txt
+copy temp/webinject_examples_post_34456/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/examples/post/results_1001/http.txt
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999.xml_webinject_examples_post_34456
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999.xml_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999_summary.record_webinject_examples_post_34456
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999_summary.record_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_post_34456
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+
+copy content/root/favicon.ico, C:\inetpub\wwwroot
+copy content/Batch.css, C:\inetpub\wwwroot/content/
+copy content/Results.css, C:\inetpub\wwwroot/content/
+copy content/Summary.css, C:\inetpub\wwwroot/content/
+copy content/Batch.xsl, C:\inetpub\wwwroot/content/
+copy content/Results.xsl, C:\inetpub\wwwroot/content/
+copy content/Summary.xsl, C:\inetpub\wwwroot/content/
+copy scripts/jquery-2.2.3.min.js, C:\inetpub\wwwroot/scripts/

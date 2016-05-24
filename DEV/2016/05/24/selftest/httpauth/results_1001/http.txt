@@ -1,0 +1,32 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - httpauth
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\httpauthsub -c selftest\substeps\httpauthconfig.xml selftest\substeps\httpauth.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\httpauth.xml - 10 
+Step 10 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.048 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:34
+Total Run Time: 0.057 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 2
+Verifications Failed: 0
+
+
+
+

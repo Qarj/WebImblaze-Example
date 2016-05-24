@@ -1,0 +1,21 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\httpauth.xml - 10 
+httpauth 
+Verify Positive: "Test Cases Failed: 0" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 2.376 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:32
+Total Run Time: 2.396 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 5
+Verifications Failed: 0
+

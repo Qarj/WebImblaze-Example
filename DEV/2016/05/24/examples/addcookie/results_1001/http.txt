@@ -1,0 +1,116 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - Get Mobile Home page
+GET http://rimattest.azurewebsites.net
+User-Agent: WebInject
+Cookie: MobileWebsite=1
+
+
+200 OK
+Base for relative URLs: http://rimattest.azurewebsites.net
+Expires: Tue May 24 21:59:18 2016
+
+Cache-Control: private
+Date: Tue, 24 May 2016 20:00:38 GMT
+Server: Microsoft-IIS/8.0
+Content-Length: 3099
+Content-Type: text/html; charset=utf-8
+Client-Date: Tue, 24 May 2016 19:59:18 GMT
+Client-Peer: 191.233.82.44:80
+Client-Response-Num: 1
+Client-Warning: Redirect loop detected (max_redirect = 0)
+Link: </Content/css?v=MDbdFKJHBa_ctS5x4He1bMV0_RjRq8jpcIAvPpKiN6U1>; rel="stylesheet"
+Set-Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba;Path=/;Domain=rimattest.azurewebsites.net
+Title: Home Page - My ASP.NET Application
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Meta-Charset: utf-8
+X-Meta-Robots: noindex,nofollow
+X-Meta-Viewport: width=device-width, initial-scale=1.0
+X-Powered-By: ASP.NET
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Home Page - My ASP.NET Application</title>
+    <link href="/Content/css?v=MDbdFKJHBa_ctS5x4He1bMV0_RjRq8jpcIAvPpKiN6U1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">RimAttest</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                    <li><a href="/Home/Pictures">Pictures</a></li>
+                    <li><a href="/Home/JavaScript">JavaScript</a></li>
+                    <li><a href="/Home/Special">Special</a></li>
+                </ul>
+                    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/Account/Register" id="registerLink">Register</a></li>
+        <li><a href="/Account/Login" id="loginLink">Log in</a></li>
+    </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        
+
+
+<div class="jumbotron">
+    <h1>RimAttest</h1>
+    <p class="lead">RimAttest is a web site for automated testing examples.</p>
+    <p><a href="https://github.com/Qarj/RimAttest" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            WebInject is a powerful free automated test tool.
+        </p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Example 1</h2>
+        <p>Lorum ipsum.</p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Example 2</h2>
+        <p>Lorum ipsum.</p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+    </div>
+</div>
+        <hr />
+        <footer>
+            <p>&copy; 2016 - RimAttest</p>
+        </footer>
+    </div>
+
+    <script src="/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"></script>
+
+    <script src="/bundles/bootstrap?v=2Fz3B0iizV2NnnamQFrx-NbYJNTFeBJ2GM05SilbtQU1"></script>
+
+    
+</body>
+</html>

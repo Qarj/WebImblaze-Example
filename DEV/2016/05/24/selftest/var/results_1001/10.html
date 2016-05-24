@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <wi_body style="padding:25px 0 0 35px; background: #ecf0f1; display:block; margin:0; border:0; font-size: 100%; vertical-align: baseline; font:80% Verdana, sans-serif;">
+        <head>
+            <style>
+                wi_h1, wi_h2, wi_h3, wi_div { display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline; }
+                wi_h2 a:link, .wi_headers:link { color:SlateGray; }
+                wi_h2 a, .wi_headers { text-decoration:none; font-weight:bolder; }
+                wi_h2 a:hover, .wi_headers:hover { color:SlateGray; text-decoration: underline; }
+                wi_h2 a:visited, .wi_headers:visited { color:SlateGray; }
+                .wi_heading { padding:1em 1em 0 1em; border:1px solid #ddd; background:DarkSlateGray; margin:0 2em 2em 0; font-weight:normal;  color:#D1E6E7; line-height:1.6em;}
+                .wi_heading wi_h1 {  font-size:2.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h2 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h3 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em; line-height:1.5em;}
+                .wi_alignleft {float: left;}
+                .wi_alignright {float: right;}
+            </style>
+            <script language="javascript">
+                function wi_toggle(wi_toggle_ele) {
+                   var ele = document.getElementById(wi_toggle_ele);
+                   if(ele.style.display == "block") {
+                           ele.style.display = "none";
+                   }
+                   else {
+                       ele.style.display = "block";
+                   }
+                } 
+            </script>
+        </head>
+        <wi_div class="wi_heading">
+            <wi_h1 class="wi_alignleft">Step 10</wi_h1>
+            <wi_h3 class="wi_alignright">
+              var
+            </wi_h3>
+            <wi_div style="clear: both;"></wi_div>
+            <br />
+            <wi_h2>
+                <a href="../../../All_Batches/Summary.xml"> Summary </a> -&gt; <a href="../../../All_Batches/Selftest_34862.xml"> Batch Summary </a> -&gt; <a href="results_1001.xml"> Run Results </a> -&gt; Step
+            </wi_h2>
+        </wi_div>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_request');">Request Headers</a>
+
+<xmp id="wi_toggle_request" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+GET CMD
+
+
+</xmp>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_response');">Response Headers</a>
+
+<xmp id="wi_toggle_response" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+
+100 OK
+
+
+</xmp>
+<br /><br />
+    </wi_body>
+    <body style="display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline;">
+
+<xmp>
+<command>webinject.pl -o selftest\output\varsub selftest\substeps\var.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Retry 3 times
+Test:  selftest\substeps\var.xml - 10 
+Info - testemail: testemail_1_0_0_20160524_210056@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10.1 
+Info - testemail: testemail_1_0_1_20160524_210056@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10.2 
+Info - testemail: testemail_1_0_2_20160524_210056@example.com 
+Verify Positive: "_2_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 20 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 30 
+Info - testemail: testemail_1_0_0_20160524_210056@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  5 tries left
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 20-1 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 30-1 
+Info - testemail: testemail_1_1_0_20160524_210056@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  4 tries left
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 20-2 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 30-2 
+Info - testemail: testemail_1_2_0_20160524_210056@example.com 
+Verify Positive: "_2_0_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\var.xml - 10010 
+Info - testemail: testemail_2_0_0_20160524_210056@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10010.1 
+Info - testemail: testemail_2_0_1_20160524_210056@example.com 
+Verify Positive: "_2_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10010.2 
+Info - testemail: testemail_2_0_2_20160524_210056@example.com 
+Verify Positive: "_2_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.003 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10020 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10030 
+Info - testemail: testemail_2_0_0_20160524_210056@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  5 tries left
+Response Time = 0.003 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10020-1 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10030-1 
+Info - testemail: testemail_2_1_0_20160524_210056@example.com 
+Verify Positive: "_2_0_20160524" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING FROM STEP 20 ...  4 tries left
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10020-2 
+Further Processing 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\var.xml - 10030-2 
+Info - testemail: testemail_2_2_0_20160524_210056@example.com 
+Verify Positive: "_2_0_20160524" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:56
+Total Run Time: 0.12 seconds
+
+Test Cases Run: 10
+Test Cases Passed: 10
+Test Cases Failed: 0
+Verifications Passed: 24
+Verifications Failed: 0
+
+
+
+
+
+</xmp>
+
+    </body>
+</html>

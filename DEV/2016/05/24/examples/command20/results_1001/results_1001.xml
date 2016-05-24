@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\examples\command20.xml">
+
+        <testcase id="10">
+            <description1>Get the directory listing of the current folder</description1>
+            <verifypositive>
+                <assert>webinject.pl</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>output of command 1</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifypositive5>
+                <assert>list of files</assert>
+                <success>true</success>
+            </verifypositive5>
+            <verifypositiveFIND>
+                <assert>Searches for a text</assert>
+                <success>true</success>
+            </verifypositiveFIND>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.156</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 20:59:14</start-time>
+        <start-seconds>75554</start-seconds>
+        <start-date-time>2016-05-24T20:59:14</start-date-time>
+        <total-run-time>0.169</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>8</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>0.156</average-response-time>
+        <max-response-time>0.156</max-response-time>
+        <min-response-time>0.156</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>command20</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Examples_91999</batch>
+    </wif>
+
+
+</results>

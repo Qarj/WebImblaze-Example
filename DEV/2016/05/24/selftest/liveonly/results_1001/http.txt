@@ -1,0 +1,72 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - liveonly - with liveonly config
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -c selftest\substeps\liveonlyconfig.xml -o selftest\output\liveonlysub selftest\substeps\liveonly.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\liveonly.xml - 10 
+Can be executed in any environment 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.069 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\liveonly.xml - 20 
+Can be executed in the live environment only 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.024 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:41
+Total Run Time: 0.107 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 4
+Verifications Failed: 0
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - liveonly - with testonly config
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -c selftest\substeps\testonlyconfig.xml -o selftest\output\liveonlysub selftest\substeps\liveonly.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\liveonly.xml - 10 
+Can be executed in any environment 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.024 sec 
+------------------------------------------------------- 
+Skipping Test Case 20... (LIVEONLY)
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:44
+Total Run Time: 0.036 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 2
+Verifications Failed: 0
+
+
+
+

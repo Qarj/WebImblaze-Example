@@ -1,0 +1,39 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\repeat.xml - 10 
+repeat 
+Verify Positive: "Test Cases Failed: 0" 
+Verify Positive: "Test Cases Passed: 10" 
+Verify Positive: "loop number 1" 
+Verify Positive: "loop number 2" 
+Verify Positive: "loop number 3" 
+Verify Positive: "loop number 4" 
+Verify Positive: "loop number 5" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Count Assertion of 4 
+Passed Count Assertion of 4 
+Passed Count Assertion of 4 
+Passed Count Assertion of 4 
+Passed Count Assertion of 4 
+Passed Count Assertion of 4 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 3.638 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:41
+Total Run Time: 3.67 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 17
+Verifications Failed: 0
+

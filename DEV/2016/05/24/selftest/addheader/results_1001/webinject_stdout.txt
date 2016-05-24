@@ -1,0 +1,21 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\addheader.xml - 10 
+addheader 
+Verify Positive: "Test Cases Failed: 0" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 4.983 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:29
+Total Run Time: 5.024 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 5
+Verifications Failed: 0
+

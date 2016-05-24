@@ -1,0 +1,33 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\assertionskips.xml - 10 
+assertionskips 
+Verify Positive: "Test Cases Failed: 5" 
+Verify Positive: "Skipped Assertion Count 0 - Expected count of 4" 
+Verify Positive: "Skipped Assertion Count 1ONE1 - Expected count of 4" 
+Verify Positive: "Skipped Assertion Count 5 - Expected count of 4" 
+Verify Positive: "Skipped Assertion Count ASSERTCOUNT - Expected count of 4" 
+Verify Positive: "Skipped Assertion Count ONE - Expected count of 4" 
+Verify Positive: "Test Cases Passed: 3" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 4.102 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:30
+Total Run Time: 4.119 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 11
+Verifications Failed: 0
+

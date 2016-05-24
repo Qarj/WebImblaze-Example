@@ -1,0 +1,185 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - retry
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\retrysub -c selftest\substeps\retryconfig.xml selftest\substeps\retry.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Retry 5 times
+Test:  selftest\substeps\retry.xml - 10 
+Should not retry since the assertions pass 
+Verify Negative: "two" 
+Verify Positive: "one" 
+Passed Positive Verification 
+Passed Negative Verification 
+Passed Count Assertion of 3 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.012 sec 
+------------------------------------------------------- 
+Retry 5 times
+Test:  selftest\substeps\retry.xml - 20 
+Should not retry since a verifynegative fails - fast fail 
+Verify Negative: "critical error" 
+Verify Positive: "one" 
+Passed Positive Verification 
+Failed Negative Verification 
+==> Won't retry - a verifynegative failed 
+Passed Count Assertion of 3 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.023 sec 
+------------------------------------------------------- 
+Retry 5 times
+Test:  selftest\substeps\retry.xml - 30 
+Should not sleep since retry is not triggered 
+Verify Positive: "one" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.201 sec 
+------------------------------------------------------- 
+Retry 6 times
+Test:  selftest\substeps\retry.xml - 40 
+Will pass on attempt two 
+Verify Positive: "attempt 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 6 to go 
+Response Time = 0.205 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 40.1 
+Will pass on attempt two 
+Verify Positive: "attempt 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 5 to go 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 40.2 
+Will pass on attempt two 
+Verify Positive: "attempt 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 50 
+Info - mynum variable is  seven  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.122 sec 
+------------------------------------------------------- 
+Retry 5 times
+Test:  selftest\substeps\retry.xml - 60 
+Should retry 5 times due to verifypostive failure 
+retry variable will update between retries:0, but mynum variable  seven  will not 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 5 to go 
+Response Time = 0.039 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 60.1 
+Should retry 5 times due to verifypostive failure 
+retry variable will update between retries:1, but mynum variable  seven  will not 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 4 to go 
+Response Time = 0.162 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 60.2 
+Should retry 5 times due to verifypostive failure 
+retry variable will update between retries:2, but mynum variable  seven  will not 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.115 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 60.3 
+Should retry 5 times due to verifypostive failure 
+retry variable will update between retries:3, but mynum variable  seven  will not 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.087 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 60.4 
+Should retry 5 times due to verifypostive failure 
+retry variable will update between retries:4, but mynum variable  seven  will not 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.05 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 60.5 
+Should retry 5 times due to verifypostive failure 
+retry variable will update between retries:5, but mynum variable  seven  will not 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.063 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 70 
+Info - mynum variable now updated to  four  
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.009 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\retry.xml - 80 
+Should retry 3 times due to verifypostive failure and globalretry limit of 10 retries 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.018 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 80.1 
+Should retry 3 times due to verifypostive failure and globalretry limit of 10 retries 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.122 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 80.2 
+Should retry 3 times due to verifypostive failure and globalretry limit of 10 retries 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 1 to go 
+Response Time = 0.023 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retry.xml - 80.3 
+Should retry 3 times due to verifypostive failure and globalretry limit of 10 retries 
+Verify Positive: "two" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:46
+Total Run Time: 1.326 seconds
+
+Test Cases Run: 8
+Test Cases Passed: 5
+Test Cases Failed: 3
+Verifications Passed: 23
+Verifications Failed: 3
+
+
+
+

@@ -1,0 +1,78 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - retryresponsecode
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\retryresponsecodesub selftest\substeps\retryresponsecode.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Retry 2 times
+Test:  selftest\substeps\retryresponsecode.xml - 10 
+Should not retry due to 404 not matching 500 
+Verify Positive: "This text will not be found" 
+Will retry if we get response code: "500" 
+Failed Positive Verification 
+Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found) 
+==> Won't retry - received HTTP error code
+TEST CASE FAILED
+Response Time = 0.79 sec 
+------------------------------------------------------- 
+Retry 2 times
+Test:  selftest\substeps\retryresponsecode.xml - 20 
+Should retry due to 404 matching 404 
+Verify Positive: "This text will not be found" 
+Will retry if we get response code: "404" 
+Failed Positive Verification 
+Found Retry HTTP Response Code 
+Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found) 
+RETRYING... 2 to go 
+Response Time = 0.191 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryresponsecode.xml - 20.1 
+Should retry due to 404 matching 404 
+Verify Positive: "This text will not be found" 
+Will retry if we get response code: "404" 
+Failed Positive Verification 
+Found Retry HTTP Response Code 
+Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found) 
+RETRYING... 1 to go 
+Response Time = 0.24 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\retryresponsecode.xml - 20.2 
+Should retry due to 404 matching 404 
+Verify Positive: "This text will not be found" 
+Will retry if we get response code: "404" 
+Failed Positive Verification 
+Found Retry HTTP Response Code 
+Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found) 
+TEST CASE FAILED
+Response Time = 0.962 sec 
+------------------------------------------------------- 
+Retry 2 times
+Test:  selftest\substeps\retryresponsecode.xml - 30 
+Should not retry due to 404 
+Verify Positive: "This text will not be found" 
+Failed Positive Verification 
+Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found) 
+==> Won't retry - received HTTP error code
+TEST CASE FAILED
+Response Time = 0.033 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:47
+Total Run Time: 2.302 seconds
+
+Test Cases Run: 3
+Test Cases Passed: 0
+Test Cases Failed: 3
+Verifications Passed: 4
+Verifications Failed: 5
+
+
+
+

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+    <wi_body style="padding:25px 0 0 35px; background: #ecf0f1; display:block; margin:0; border:0; font-size: 100%; vertical-align: baseline; font:80% Verdana, sans-serif;">
+        <head>
+            <style>
+                wi_h1, wi_h2, wi_h3, wi_div { display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline; }
+                wi_h2 a:link, .wi_headers:link { color:SlateGray; }
+                wi_h2 a, .wi_headers { text-decoration:none; font-weight:bolder; }
+                wi_h2 a:hover, .wi_headers:hover { color:SlateGray; text-decoration: underline; }
+                wi_h2 a:visited, .wi_headers:visited { color:SlateGray; }
+                .wi_heading { padding:1em 1em 0 1em; border:1px solid #ddd; background:DarkSlateGray; margin:0 2em 2em 0; font-weight:normal;  color:#D1E6E7; line-height:1.6em;}
+                .wi_heading wi_h1 {  font-size:2.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h2 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em;  }
+                .wi_heading wi_h3 {  font-size:1.5em; font-family: Verdana, sans-serif; margin-bottom:0.3em; line-height:1.5em;}
+                .wi_alignleft {float: left;}
+                .wi_alignright {float: right;}
+            </style>
+            <script language="javascript">
+                function wi_toggle(wi_toggle_ele) {
+                   var ele = document.getElementById(wi_toggle_ele);
+                   if(ele.style.display == "block") {
+                           ele.style.display = "none";
+                   }
+                   else {
+                       ele.style.display = "block";
+                   }
+                } 
+            </script>
+        </head>
+        <wi_div class="wi_heading">
+            <wi_h1 class="wi_alignleft">Step 20</wi_h1>
+            <wi_h3 class="wi_alignright">
+              Get SSL Loging Page
+            </wi_h3>
+            <wi_div style="clear: both;"></wi_div>
+            <br />
+            <wi_h2>
+                <a href="../../../All_Batches/Summary.xml"> Summary </a> -&gt; <a href="../../../All_Batches/selenium_team.xml"> Batch Summary </a> -&gt; <a href="results_1002.xml"> Run Results </a> -&gt; Step
+                &nbsp; &nbsp; [<a href="10.html"> prev </a>]
+            </wi_h2>
+        </wi_div>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_request');">Request Headers</a>
+
+<xmp id="wi_toggle_request" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+GET WebDriver
+
+
+</xmp>
+        <a class="wi_headers" href="javascript:wi_toggle('wi_toggle_response');">Response Headers</a>
+
+<xmp id="wi_toggle_response" style="display: none; font-size:1.5em; white-space: pre-wrap;">
+
+100 OK
+
+
+</xmp>
+<br /><br />
+    </wi_body>
+    <body style="display:block; margin:0; padding:0; border:0; font-size: 100%; font: inherit; vertical-align: baseline;">
+<br /><img style="position: relative; left: 50%; transform: translateX(-50%);" alt="screenshot of test step 20" src="20.png"><br />
+<xmp>
+<command>$selresp = $driver->get('https://www.totaljobs.com/Authenticated/Login.aspx');</command>
+selresp:1
+
+
+
+
+
+<get_page_source1><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" class="mti-inactive"><head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>totaljobs.com - Take control of your job search</title>
+	<meta name="description" content="Take full control of your job hunt with a free totaljobs.com jobseeker account. Complete your profile, upload your CV to let headhunters and employers know you're out there and have the very latest jobs you're interested in emailed straight to you." />
+	<meta name="robots" content="noindex, follow" />
+	<link rel="canonical" href="https://www.totaljobs.com/Authenticated/Login.aspx" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script type="text/javascript" src="https://cdn.krxd.net/userdata/get?pub=72b7dcee-3abc-4f14-ae24-fca46ae02758&amp;technographics=1&amp;callback=Krux.ns._default.kxjsonp_userdata"></script><script type="text/javascript" src="https://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck"></script><script type="text/javascript" src="https://beacon.krxd.net/cookie2json?callback=Krux.ns._default.kxjsonp_3pevents"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.3c4dd25bb095119373fe8eff1364e661"></script><script type="text/javascript" async="" src="https://cdn.krxd.net/controltag?confid=IxtF8Pjp"></script><script class="kxct" data-id="IxtF8Pjp" data-timing="async" data-version="1.9" type="text/javascript">
+	//Krux - Main tag
+	window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+	(function(){
+		var k=document.createElement('script');k.type='text/javascript';k.async=true;
+		var m,src=(m=location.href.match(/\bkxsrc=([^&amp;]+)/))&amp;&amp;decodeURIComponent(m[1]);
+		k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=IxtF8Pjp";
+		var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+	}());
+</script>
+<style type="text/css" id="mti_stylesheet_d49eaf91-9692-420c-bdcc-0f1f077283f8">.mti_hide_element{visibility:hidden;}</style><style type="text/css" id="mti_fontface_d49eaf91-9692-420c-bdcc-0f1f077283f8">@font-face{
+font-family:"Arial W01 Rounded";
+font-style:normal;
+font-weight:400;
+src:url("https://fast.fonts.net/dv2/14/565f92fc-ce51-41eb-b3da-150821fdcbe9.woff2?d44f19a684109620e484167ba490e818b90b6a2579783735b9cd68e3b6fef441b17dbe6b679cc5b44b3e39945046229ee7fb4ab2fbc0c9c7aa4ac67043953c3b11fd020813eedc8021d0f0cb8b6e5015da2f07ae85ea1a3e63b74709744bba85e5c9e85726f26476d0788007ecf39f403d1ef4b8d374d18a15e0c2359fe762118ab0291056380335852736154630ba458e4f4caf075994674d22b12de54753ed8d89e15c9f33dd29cb95fe85c76661c785d05725586e42bdf9b16ab2dea3a06fec65f3e1d63504135bc46c47a8f028b26851d2ad1eb0a8fbdf8bd4c175c54a&amp;projectId=d49eaf91-9692-420c-bdcc-0f1f077283f8") format('woff2');}
+@font-face{
+font-family:"Arial W01 Rounded";
+font-style:normal;
+font-weight:700;
+src:url("https://fast.fonts.net/dv2/14/7cd5de2f-8fb1-427c-9f45-6149d4edf425.woff2?d44f19a684109620e484167ba490e818b90b6a2579783735b9cd68e3b6fef441b17dbe6b679cc5b44b3e39945046229ee7fb4ab2fbc0c9c7aa4ac67043953c3b11fd020813eedc8021d0f0cb8b6e5015da2f07ae85ea1a3e63b74709744bba85e5c9e85726f26476d0788007ecf39f403d1ef4b8d374d18a15e0c2359fe762118ab0291056380335852736154630ba458e4f4caf075994674d22b12de54753ed8d89e15c9f33dd29cb95fe85c76661c785d05725586e42bdf9b16ab2dea3a06fec65f3e1d63504135bc46c47a8f028b26851d2ad1eb0a8fbdf8bd4c175c54a&amp;projectId=d49eaf91-9692-420c-bdcc-0f1f077283f8") format('woff2');}
+@font-face{
+font-family:"Arial W01 Rounded";
+font-style:normal;
+font-weight:200;
+src:url("https://fast.fonts.net/dv2/14/b5eed192-75b7-4c2d-b1f2-cedcdd33bf77.woff2?d44f19a684109620e484167ba490e818b90b6a2579783735b9cd68e3b6fef441b17dbe6b679cc5b44b3e39945046229ee7fb4ab2fbc0c9c7aa4ac67043953c3b11fd020813eedc8021d0f0cb8b6e5015da2f07ae85ea1a3e63b74709744bba85e5c9e85726f26476d0788007ecf39f403d1ef4b8d374d18a15e0c2359fe762118ab0291056380335852736154630ba458e4f4caf075994674d22b12de54753ed8d89e15c9f33dd29cb95fe85c76661c785d05725586e42bdf9b16ab2dea3a06fec65f3e1d63504135bc46c47a8f028b26851d2ad1eb0a8fbdf8bd4c175c54a&amp;projectId=d49eaf91-9692-420c-bdcc-0f1f077283f8") format('woff2');}
+</style><script type="text/javascript">
+	window.Krux || ((Krux = function () {
+		Krux.q.push(arguments);
+	}).q = []); 
+	(function () {
+		function retrieve(n) {
+			var m, k = 'kx' + n;
+			if (window.localStorage) {
+				return window.localStorage[k] || "";
+			} else if (navigator.cookieEnabled) {
+				m = document.cookie.match(k + '=([^;]*)');
+				return (m &amp;&amp; unescape(m[1])) || "";
+			} else {
+				return '';
+			}
+		}
+		Krux.user = retrieve('user');
+		Krux.segments = retrieve('segs') &amp;&amp; retrieve('segs').split(',') || [];
+	})();
+</script><link id="MonoTypeFontApiFontTracker" type="text/css" rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=js&amp;projectid=d49eaf91-9692-420c-bdcc-0f1f077283f8" /></head>
+<body>
+	<form name="frmMain" method="post" action="Login.aspx" id="frmMain">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="VE6sg1B/cgTaCKCFHd3McQjg9mTteM9CDxUVtOJJGy1KMI8ZY+PnLfOgwZk04VQBqtM9P6uv86wQf98/+QJlT/NibeWiWZrCY5J/FTYYdIRXIbAMS3/pDU7Xc+z3OLQRyBGTiImv9VzuvQlbB19lHgC5RPMYoFni8BHZrgfyUlrYdsoIJiQiQqULXvVDcnjWuBbIG+R7VbdL7jXycM1JxUBfCAaeRjsHBGBUZ2/wHKLcrhVYwxT8t25nbJ+fsvimCkUe7TbAhBHLVtoFwD6pFzQQTGQsq+hE+33T3ydpPKoX5SReJ3ugcEsblOO0Jp47mhx0/HvBi5XaAxJRiSJ17c/1r6c5VsbV8UpHhdAFRl+qWh8LdlEJoH1HVy2g+PJnpOMzqx4MOuyChvQewQYBQfNe3oiuPUfPGBj8zphWgRAPrEU3nbC56tlJgyMyL9yLBxgwYQ==" />
+</div>
+
+<script type="text/javascript" src="/js/pjb_ui/Common.js"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E0048532" />
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+</div>
+
+		<link rel="stylesheet" type="text/css" href="/sharedcontent/bootstrap/less/totaljobs-output.min.css?v=1.0.5956.30059" />
+
+		
+
+<link href="/sharedcontent/css/totaljobs/headerfooter.min.css?v=1.0.5956.30059" type="text/css" rel="stylesheet" />
+<link href="/sharedcontent/css/totaljobs/assets.min.css?v=1.0.5956.30059" type="text/css" rel="stylesheet" />
+
+<link rel="stylesheet" href="/savedjobs/css/totaljobs/toast.min.css?v=1.0.5988.20031" />
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="/sharedcontent/bundles/IE8.js?v=1.0.5956.30059"></script>
+	<link href="/sharedcontent/css/totaljobs/ie8.min.css?v=1.0.5956.30059" type="text/css" rel="stylesheet"/>
+<![endif]-->
+		<script type="text/javascript">
+var TotalJobsGroup = TotalJobsGroup || {};
+TotalJobsGroup.Config = TotalJobsGroup.Config || {};
+TotalJobsGroup.Config.Global = {"AccountDetailsWebServiceUrl":"/account/AccountDetails/GetAccountDetails","LocationWebServiceUrl":"/WebServices/LookupService/LookupService.asmx/GetAutoSuggestLocations","LocationMaxResults":10,"LocationMaxResultsMobile":5,"LocationDelayMilliseconds":50,"KeywordsAutoSuggestUrl":"/jsr/api/autosuggest/keyword","KeywordsAutoSuggestMaxResults":15,"KeywordsAutoSuggestMaxResultsMobile":5,"KeywordsAutoSuggestDelayMilliseconds":50,"PushNotificationSenderId":"974720584953","MobileScreenWidth":768};
+TotalJobsGroup.Config.Site = {"Site":4,"CookieComplianceMessage":"By using totaljobs you agree to our use of cookies to enhance your experience"};
+</script>
+<script type="text/javascript" src="/sharedcontent/bundles/jquery.js?v=1.0.5956.30059"></script>
+<script type="text/javascript" src="/sharedcontent/bundles/bootstrap.js?v=1.0.5956.30059"></script>
+<script type="text/javascript" src="/savedjobs/Scripts/savedjobs.min.js?v=1.0.5988.20031"></script>
+
+
+<script type="text/javascript" src="/sharedcontent/bundles/headerfooter.js?v=1.0.5956.30059"></script>
+<script type="text/javascript" src="//fast.fonts.net/jsapi/d49eaf91-9692-420c-bdcc-0f1f077283f8.js" async="async"></script>
+
+		<link href="/css2/totaljobs/totaljobs.min.css?v=1.0.5982.29357" type="text/css" rel="stylesheet" />
+		<div id="recruiter-extend"></div>
+<header class="master-row header-row">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="logo">
+                    <a title="Totaljobs.com" href="/"></a>
+                </div>
+            </div>
+            <div class="col-xs-8" id="top-recruiter-links">
+    <div class="nav-recruiter-links text-right">
+        <div>
+            <span class="label employers-label">Are you recruiting?</span>
+            <a class="helper-link" id="helper-button" href="#recruiter-extend">How we can help</a>
+        </div>
+        <div><a href="http://recruiters.totaljobs.com/?INHSE=JSHP_RecCTA_Advertise"><span class="recruiter-button">Advertise now</span></a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</header>
+
+<div class="master-row navigation">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="reset-to-row">
+                        <div class="navbar-header anonymous" id="navbar-header">
+    <button id="navbar-personalisation-toggle" type="button" data-target="#navbar-personalisation-links" data-toggle="collapse" data-tracking-toggle-open-event-description="Header_loggedin_open" data-tracking-toggle-close-event-description="Header_loggedin_closed" data-tracking-event-variables="{&quot;eVar23&quot;:&quot;$current_page&quot;}" class="navbar-toggle navbar-always-on collapsed pull-right navbar-item signedin-icon auth toggle-tracking">
+        <span class="navbar-item-text"> </span>
+    </button>
+
+    <!--Mobile sign in toggle -->
+    <button id="navbar-signin-toggle" type="button" data-target="#navbar-signin-links" data-toggle="collapse" class="navbar-toggle navbar-always-on collapsed pull-right navbar-item signin-icon">
+        <span class="navbar-item-text">
+            Sign in
+        </span>
+    </button>
+
+    
+    <a id="navbar-register" href="/account/register" class="navbar-toggle collapsed pull-right navbar-item navbar-item-anchor register-navbar hidden-xs hidden-sm unauth">
+        <span class="navbar-item-text-no-icon register-text">Register CV</span>
+    </a>
+    <span id="navbar-register-separator" class="navbar-toggle navbar-always-on collapsed pull-right navbar-item navbar-item-anchor hidden-xs hidden-sm navbar-separator"></span>
+    <!--Desktop link to sign in-->
+    <a id="navbar-signin" href="/Authenticated/Login.aspx?ReturnUrl=/" class="navbar-toggle navbar-always-on collapsed pull-right navbar-item navbar-item-anchor signin-icon hidden-xs hidden-sm unauth signin-link">
+        <span class="navbar-item-text">
+            Sign in
+        </span>
+    </a>
+
+    <a id="navbar-savedjobs" href="/savedjobs/" class="navbar-always-on collapsed pull-right navbar-item navbar-item-anchor navbar-saved-jobs-empty-icon">
+        <span class="saved-jobs-pill jb-status badge jb-status-empty">0</span> 
+        <span class="navbar-item-text hidden-xs hidden-sm">
+            Saved Jobs
+        </span>
+        <span class="navbar-item-text visible-xs visible-sm">
+            Saved
+        </span>
+    </a>
+
+    <button id="navbar-site-toggle" type="button" data-target="#navbar-site-links" data-toggle="collapse" data-tracking-toggle-open-event-description="Header_menu_open" data-tracking-toggle-close-event-description="Header_menu_closed" data-tracking-event-variables="{&quot;eVar23&quot;:&quot;$current_page&quot;}" class="navbar-toggle navbar-always-on collapsed toggle-tracking ">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+    </button>
+
+        <button id="navbar-search-toggle" type="button" data-target="#navbar-search-bar" data-toggle="collapse" class="navbar-toggle navbar-always-on collapsed pull-right navbar-item visible-xs  search-icon navbar-search-bar">
+            <span class="navbar-item-text"> Search</span>
+        </button>
+    <div id="navbar-desktop-search-bar" class="navbar-site-search-bar navbar-search-container">
+        <div class="search-icon">
+        </div>
+        <div class="">
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="search" id="header-desktop-search-keywords" name="Keywords" placeholder="Job title, skill or company" class="form-control search-keywords ui-autocomplete-input" autocomplete="off" />
+        </div>
+        <div>
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="search" id="header-desktop-search-location-text" name="LTxt" placeholder="Town, city or postcode" class="form-control search-location-text ui-autocomplete-input" autocomplete="off" />
+        </div>
+        <div>
+            <select name="Radius" class="form-control search-radius" id="header-desktop-search-radius">
+                <option value="0">0 miles</option>
+                <option value="5">5 miles</option>
+                <option value="10" selected="selected">10 miles</option>
+                <option value="20">20 miles</option>
+                <option value="30">30 miles</option>
+            </select>
+        </div>
+        <div>
+            <input class="btn btn-primary search-submit-button" type="button" value="Search" id="search-submit-button-desktop" />
+        </div>
+    </div>
+
+
+    <a class="navbar-brand" href="/">
+        <div class="mobile-logo"></div>
+    </a>
+</div>
+                        <div class="collapse navbar-collapse always-collapse tj-collapse-menu personalisation-collapse-menu" id="navbar-personalisation-links">
+    <ul class="nav navbar-nav">
+        <li><a href="/Authenticated/Default.aspx">My account</a></li>
+        <li><a href="/Authenticated/profile.aspx">My profile</a></li>
+        <li><a href="/Authenticated/MyApplications.aspx">My applications</a></li>
+        <li><a href="/Authenticated/profile.aspx#cv">My CV</a></li>
+        <li><a href="/savedjobs">My saved jobs</a><span class="jb-status badge saved-jobs-menu-pill jb-status-empty">0</span></li>
+        <li><a href="/Authenticated/Default.aspx#MyJBE">My job alerts</a></li>
+        <li class="signout"><a id="sign-out-link" href="/Login/Signout.aspx?ReturnUrl=/" class="signout-link">Sign out</a></li>
+    </ul>
+</div>
+                        
+<div class="collapse navbar-collapse always-collapse tj-collapse-menu" id="navbar-signin-links">
+    <ul class="nav navbar-nav">
+        <li><a href="/Authenticated/Login.aspx?ReturnUrl=/" class="signin-link">Sign in</a></li>
+        <li><a href="/account/register">Register</a></li>
+        <li class="recruiter-nav"><a href="https://recruiter.totaljobs.com/login/?INHSE=JSHP_RecCTA_Signin">Recruiter sign in</a></li>
+    </ul>
+</div>
+
+                        
+<div class="collapse navbar-collapse always-collapse tj-collapse-menu sitelinks-collapse-menu" id="navbar-site-links">
+    <ul class="nav navbar-nav">
+        <li class="recruiter-nav"><a href="http://recruiters.totaljobs.com/?INHSE=Header_Menu_RecCTA_Advertise">Are you hiring?</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/browse-jobs">Jobs</a></li>
+        <li><a href="/CompanySearch/CompanySearch.aspx">Companies hiring</a></li>
+        <li><a href="/careers-advice">Career tools</a></li>
+        <li><a href="http://learningzone.totaljobs.com">Courses</a></li>
+        <li><a href="/insidejob/">Blog</a></li>
+    </ul>
+</div>
+                            <div class="container collapse navbar-collapse always-collapse tj-collapse-menu navbar-site-search-bar navbar-search-container" id="navbar-search-bar">
+        <ul class="nav navbar-nav">
+            <li class="col-xs-12">
+                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="Keywords" placeholder="Job title, skill or company" class="form-control search-keywords ui-autocomplete-input" spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off" />
+                <div class="clear-keywords">
+                    <span></span>
+                </div>
+            </li>
+            <li class="col-xs-12">
+                <div class="search-location col-xs-8">
+                    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="LTxt" placeholder="Town, city or postcode" class="form-control search-location-text ui-autocomplete-input" spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off" />
+                    <div class="clear-location">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="search-range col-xs-4">
+                    <select name="Radius" class="form-control search-radius">
+                        <option value="0">0 miles</option>
+                        <option value="5">5 miles</option>
+                        <option value="10" selected="selected">10 miles</option>
+                        <option value="20">20 miles</option>
+                        <option value="30">30 miles</option>
+                    </select>
+                </div>
+            </li>
+            <li class="col-xs-12">
+                <div class="nav-search-container">
+                    <input class="btn btn-primary search-submit-button" type="button" value="Search" />
+                </div>
+            </li>
+        </ul>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="pull-left brand-font">Sign in</h1>
+					<a id="lnkRecruiterLogin" title="Recruiter login" class="pull-right btn btn-default btn-right btn-recruiters" role="button" href="https://recruiter.totaljobs.com/home">Recruiter login</a>
+				</div>
+			</div>
+			<div class="row">
+				<div onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnLogin')">
+	
+					<div class="col-xs-12 col-sm-6">
+						<div class="reset-to-row main-form account-page signin-box">
+							<h2 class="brand-font">Existing user</h2>
+
+							<div class="row">
+								<div class="col-xs-offset-1 col-xs-10">
+									
+									
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group clearfix">
+									<div class="col-xs-offset-1 col-xs-10">
+										<label for="txtEmail">Email:</label>
+										<input name="txtEmail" type="text" id="txtEmail" class="form-control input-lg" />
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group clearfix">
+									<div class="col-xs-offset-1 col-xs-10">
+										<label for="txtPassword">Password:</label>
+										<input name="txtPassword" type="password" id="txtPassword" class="form-control input-lg" autocomplete="off" />
+										<small class="pull-right">
+											<a id="lnkForgottenPassword" href="/Account/ForgottenPassword?ReturnUrl=%2fAuthenticated%2fLogin.aspx">Forgotten password?</a></small>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group clearfix">
+									<div class="col-xs-offset-1 col-xs-10">
+										<label>
+											<input id="chkRememberMe" type="checkbox" name="chkRememberMe" checked="checked" />
+											Keep me signed in
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group clearfix">
+									<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+										<input type="submit" name="btnLogin" value="Sign in" id="btnLogin" class="btn btn-exlg btn-primary btn-block" />
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group clearfix">
+									<div class="col-xs-offset-1 col-xs-10">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="reset-to-row main-form account-page signin-box register-box">
+						<h2 class="brand-font">New to totaljobs?</h2>
+
+						<div class="row">
+							<div class="form-group clearfix">
+								<div class="col-xs-12">
+									<ul class="register-list">
+										<li>Be alerted to the latest jobs</li>
+										<li>Apply for jobs with a single click</li>
+										<li>Showcase your CV to thousands of employers</li>
+										<li>Keep a record of all your applications</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group clearfix">
+								<div class="col-xs-offset-1 col-xs-10 col-sm-5">
+									<a href="/account/register" title="Register" class="btn btn-exlg btn-primary btn-block">Register</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+	<div class="container">
+		
+		<div class="recruiter-mobile hidden-sm hidden-md hidden-lg">
+			<div class="row recruiter">
+				<div class="col-xs-12">
+					<div class="arrow">
+						<a href="http://recruiters.totaljobs.com/login/">
+							Recruiter sign in
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row recruiter">
+				<div class="col-xs-12">
+					<div class="arrow">
+						<a href="http://recruiters.totaljobs.com/">
+							Advertise a job
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="row">
+
+			
+			<div class="col-xs-12 col-sm-3 menu">
+				<a class="header hidden-sm hidden-md hidden-lg" data-toggle="collapse" href="#brandFooterLinkList" aria-expanded="true" aria-controls="brandFooterLinkList">
+					<span class="nav-arrow"></span>
+					<span class="title">Totaljobs</span>
+				</a>
+				<span class="header hidden-xs">Totaljobs</span>
+				<ul id="brandFooterLinkList" class="collapse in">
+					<li>
+						<a href="/about-us">About us</a>
+					</li>
+					<li>
+						<a href="/sitemap">Site map</a>
+					</li>
+					<li>
+						<a href="/privacy-policy">Privacy policy</a>
+					</li>
+					<li>
+						<a href="/terms-and-conditions">Terms and Conditions</a>
+					</li>
+					<li>
+						<a href="/cookies">Cookies</a>
+					</li>
+					<li>
+						<a href="https://www.totaljobsgroup.com/">Work for us</a>
+					</li>
+				</ul>
+			</div>
+
+			
+			<div class="col-xs-12 col-sm-3 menu">
+				<a class="header hidden-sm hidden-md hidden-lg collapsed" data-toggle="collapse" href="#jobseekerList" aria-expanded="true" aria-controls="jobseekerList">
+					<span class="nav-arrow"></span>
+					<span class="title">Jobseeker</span>
+				</a>
+				<span class="header hidden-xs">Jobseeker</span>
+				<ul id="jobseekerList" class="collapse">
+					<li>
+						<a href="/Authenticated/Login.aspx?ReturnUrl=/" class="signin-link">Jobseeker login</a>
+					</li>
+					<li>
+						<a href="/contact-us">Contact us - jobseekers</a>
+					</li>
+					<li>
+						<a href="/salary-checker/salary-calculator">Salary Checker</a>
+					</li>
+					<li>
+						<a href="/help-and-support">Help</a>
+					</li>
+				</ul>
+			</div>
+
+			
+			<div class="col-xs-12 col-sm-3 menu">
+				<a class="header hidden-sm hidden-md hidden-lg collapsed" data-toggle="collapse" href="#recruiterList" aria-expanded="true" aria-controls="recruiterList">
+					<span class="nav-arrow"></span>
+					<span class="title">Recruiter</span>
+				</a>
+				<span class="header hidden-xs">Recruiter</span>
+				<ul id="recruiterList" class="collapse">
+					<li>
+						<a href="http://recruiters.totaljobs.com/">Advertise a job</a>
+					</li>
+					<li>
+						<a href="https://recruiter.totaljobs.com/login/">Existing customer login</a>
+					</li>
+					<li>
+						<a href="http://recruiters.totaljobs.com/help+support/page/contact-support/">Contact us - recruiters</a>
+					</li>
+					<li>
+						<a href="http://blog.totaljobs.com/">Jobs confidential blog</a>
+					</li>
+					<li>
+						<a href="http://recadvice.totaljobs.com/">Recruiter advice</a>
+					</li>
+					<li>
+						<a href="http://recruiters.totaljobs.com/page/network">Recruit internationally</a>
+					</li>
+				</ul>
+			</div>
+
+			
+			<div class="col-xs-12 col-sm-3 mobile menu">
+				<a class="header hidden-sm hidden-md hidden-lg collapsed" data-toggle="collapse" href="#mobileList" aria-expanded="true" aria-controls="mobileList">
+					<span class="nav-arrow"></span>
+					<span class="title">Mobile app</span>
+				</a>
+				<span class="header hidden-xs">Mobile app</span>
+				<ul id="mobileList" class="collapse">
+					<li>
+						<a target="_blank" href="https://itunes.apple.com/gb/app/totaljobs-job-search/id924927935"><span class="app-store-icon apple" title="Download the iPhone app on iTunes" alt="Download the iPhone app on iTunes"></span></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://play.google.com/store/apps/details?id=com.stepstone.totaljobs&amp;hl=en_GB"><span class="app-store-icon android" title="Download the Android app on Google Play" alt="Download the Android app on Google Play"></span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div class="col-xs-12 social-links text-center">
+				<a target="_blank" href="https://twitter.com/totaljobsUK" class="twitter icon" title="twitter"></a>
+				<a target="_blank" href="https://www.facebook.com/Totaljobs" class="facebook icon" title="facebook"></a>
+				<a target="_blank" href="https://plus.google.com/+totaljobs/posts" class="googleplus icon" title="google plus"></a>
+				<a target="_blank" href="https://www.youtube.com/user/Totaljobs" class="youtube icon" title="youtube.com"></a>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 content">
+					<a target="_blank" title="Totaljobs Group" href="http://www.totaljobsgroup.com" class="tjglogo">
+						
+					</a>
+					<span>
+						 Copyright and database rights Totaljobs Group Ltd 2016
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="recruiter-row hidden hidden-xs" id="header-recruiter">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 image-container text-center">
+                <img src="/sharedcontent/img/totaljobs/recruiter-header-icon.png" class="desktop-mobile-icon" />
+            </div>
+            <div class="col-xs-8">
+                <button type="button" class="closeHeader pull-right" aria-label="Close" data-toggle="collapse" id="recruiter-extend-button"></button>
+                <h2 class="brand-font heading">Fast, simple, effective recruitment</h2>
+                <p>Whether you want to advertise a single job quickly and easily or search among more than 8.5 million candidates on our CV database, totaljobs can help you.</p>
+
+                <p>Qualified, experienced jobseekers use totaljobs to search for jobs. Our world class search technology and tools enables them to find the most relevant job. Your job!</p>
+                <a href="http://recruiters.totaljobs.com/?INHSE=JSHP_RecCTA_FindOutMore" class="find-out-more"><span class="btn btn-primary btn-exlg brand-font">Find out more</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+	
+<script type="text/javascript">
+//&lt;![CDATA[
+var theForm = document.forms['frmMain'];
+if (!theForm) {
+    theForm = document.frmMain;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]&gt;
+</script>
+
+
+<script src="/WebResource.axd?d=p6WjyLzOChUGPr6oePA6dSBQOjL9my0J2irtq-GtyCTW0gCa5Z6K-NvIowd5mzY1lBixvdj4tf1IkTOO0&amp;t=635588624026805809" type="text/javascript"></script>
+
+<script type="text/javascript" src="/js/pjb_ui/jquery/plugins/jquery-migrate-1.2.1.js"></script><script type="text/javascript" src="/js/pjb_ui/JobSeekers/Controls/AjaxIPPopup.js"></script><script type="text/javascript" src="/js/pjb_ui/JobSeekers/Controls/JsLocationCookie.js"></script><script type="text/javascript">
+function pageInit() {
+	
+}
+pageInit();
+if (typeof(Sys) === 'undefined') {
+    window.onload = pageLoad;
+}
+	$(document).ajaxIpPopup({ipAddress: '188.220.215.156'});
+	jQuery(document).jobseekerLocationCookie({ipAddress: '188.220.215.156'});
+function pageLoad() {
+	
+}
+
+</script></form>
+
+<!-- AGNOSTIC ANALYTICS JSON -->
+<script language="JavaScript" type="text/javascript">
+var analytics = {"Campaign":"","PageName":"/Authenticated/Login.aspx","SiteCatEvents":null,"IsErrorPage":null,"ABTestingCampaign":null,"ABTestingVersion":null,"LoggedInState":"Anonymous","SiteSection":"JobSeeker-My-Account","SV":null,"MemberId":null}
+</script>
+<!-- END AGNOSTIC ANALYTICS JSON -->
+<!-- SITECATALYST CODE -->
+<script type="text/javascript">var s_account='stepstone-tjg-tj-uk';</script>
+<script type="text/javascript" src="/CDNCached/SiteCatalyst-1.1.19.min.js"></script>
+<script type="text/javascript">
+s.pageName = analytics.PageName;
+s.channel = analytics.SiteSection;
+s.prop1 = s.channel;
+s.eVar5 = s.channel;
+s.pageType = analytics.IsErrorPage;
+s.events = analytics.SiteCatEvents;
+s.eVar12 = analytics.ResultsCount;
+s.eVar23 = analytics.PageName;
+s.eVar28 = analytics.CompanyId;
+s.prop4 = s.eVar28;
+s.eVar52 = analytics.ABTestingCampaign + analytics.ABTestingVersion ? analytics.ABTestingCampaign + '_' + analytics.ABTestingVersion : null;
+s.prop52 = s.eVar52;
+s.campaign = analLib.getCampaignCode(analytics.Campaign, document.referrer, document.URL);
+s.eVar53 = s.campaign;
+s.eVar58 = s.campaign;
+s.eVar61 = s.campaign;
+s.eVar62 = s.campaign;
+s.prop8 = analytics.CloudProviderName;
+s.prop55 = analytics.OCAOptin;
+s.prop9 = s.campaign;
+s.eVar55 = analLib.extractDomainFromUrl(document.referrer);
+s.eVar56 = analLib.getSearchTermFromReferer(document.referrer);
+s.eVar60 = s.eVar56;
+s.eVar10 = analytics.SearchTerm;
+s.prop10 = s.eVar10;
+s.eVar17 = analytics.SearchLocation;
+s.prop12 = s.eVar17;
+s.eVar14 = analytics.SearchCriteria;
+s.prop16 = s.eVar14;
+s.eVar68 = analytics.UrlFileName;
+s.prop32 = s.eVar68;
+s.eVar3 = analLib.getInternalCampaignCodeFromURL('INHSE', document.URL);
+s.eVar4 = s.eVar3;
+s.eVar66 = analLib.getInternalCampaignCodeFromURL('RHP', document.URL);
+s.eVar67 = analLib.getInternalCampaignCodeFromURL('EL', document.URL);
+s.eVar1 = analytics.LoggedInState;
+s.eVar30 = analytics.MemberId;
+s.list2 = analytics.Disciplines;
+s.list3 = analytics.SubDisciplines ;
+s.eVar40 = analytics.NormalisedJobTitle;
+s.eVar54 = analytics.SearchType;
+s.prop63 = analytics.SearchType;
+s.eVar8 = (analytics.RecommendedJobDetails) ? analytics.MemberId +'|' +analytics.RecommendedJobDetails : '';;
+s.prop72 = analytics.ApplyFormState;
+s.eVar35 = (analytics.AppJobData &amp;&amp; analytics.AppJobData.length &gt; 0) ? analytics.AppJobData[0].CompanyType : null;
+s.eVar36 = analytics.TemplateType;
+s.eVar39 = analytics.DynamicCreativeViewCounts;
+analLib.fireMultiApplication(analytics, s);
+analLib.prepareMobileTrackingCode(s);
+</script>
+<script type="text/javascript">
+var s_code=s.t();if (s_code)document.write(s_code);if(navigator.appVersion.indexOf('MSIE')&gt;=0)document.write(unescape('%3C')+'\!-'+'-')
+</script>
+<noscript>
+&lt;img src="//stepstone.112.2o7.net/b/ss/stepstone-tjg-tj-uk/1/H.25.2--NS/0?pageName=/Authenticated/Login.aspx&amp;[AQB]&amp;cdp=4&amp;[AQE]" height="1" width="1" border="0" alt="" /&gt;
+</noscript>
+<!-- END SITECATALYST CODE -->
+
+
+<div class="kxhead" data-id="IxtF8Pjp" style="display:none !important;"><span class="kxtag kxinvisible" data-id="17614" data-alias="All Pages - Site Catalyst Events"><script>
+// Using Globals analytics.SiteCatEvents to produce page attribute analytics.SiteCatalystEvents
+Krux('scrape', { "page_attr_analytics.SiteCatalystEvents": {js_global: "analytics.SiteCatEvents"}});
+
+if (window.analytics &amp;&amp; window.analytics.ApplicationEvents &amp;&amp; window.analytics.ApplicationEvents.indexOf('event43') &gt; -1) {
+  Krux('set', 'page_attr_analytics.SiteCatalystEvents', 'application');
+}
+</script></span><span class="kxtag kxinvisible" data-id="17625" data-alias="All Pages - Job Types"><script>
+// Using Globals analytics.JobTypes to produce page attribute analytics.JobTypes
+Krux('scrape', { "page_attr_analytics.JobTypes": {js_global: "analytics.JobTypes"}});
+</script></span><span class="kxtag kxinvisible" data-id="17653" data-alias="All Pages - Campaign Code Attribute"><script type="text/javascript">
+Krux('scrape', { "page_attr_analytics.Campaign": {js_global: "analytics.Campaign"}});
+</script></span><span class="kxtag kxinvisible" data-id="17658" data-alias="Details - Job Details Attributes"><script>
+if (window.analytics &amp;&amp; window.analytics.JobId) {
+  Krux('set', 'page_attr_analytics.Details_Disciplines', analytics.Disciplines);
+  Krux('set', 'page_attr_analytics.Details_SubDisciplines', analytics.SubDisciplines);
+  Krux('set', 'page_attr_analytics.Details_NormalisedJobTitle', analytics.NormalisedJobTitle);
+}
+</script></span><span class="kxtag kxinvisible" data-id="17641" data-alias="All Pages - Google AdWords RSLA - TJ"><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js">
+</script></span><span class="kxtag kxinvisible" data-id="17805" data-alias="Google User Match"></span><span class="kxtag kxinvisible" data-id="17809" data-alias="All Pages - Bing - Totaljobs"></span><span class="kxtag kxinvisible" data-id="18852" data-alias="Results and Details - Adwords Bing JBE Inline - TJ"></span><span class="kxtag kxinvisible" data-id="17607" data-alias="Technographic Data provider tag"></span><span class="kxtag kxinvisible" data-id="17608" data-alias="Krux Geographic Data provider tag"></span><span class="kxtag kxinvisible" data-id="17610" data-alias="All Pages - Industry Sector - Totaljobs"></span><span class="kxtag kxinvisible" data-id="17611" data-alias="Data Transfer Code v1"></span><span class="kxtag kxinvisible" data-id="17613" data-alias="Acxiom S2S provider tag"></span><span class="kxtag kxinvisible" data-id="17618" data-alias="All Pages - Rocket Fuel User Match"></span><span class="kxtag kxinvisible" data-id="19940" data-alias="All Pages - Registered On Site"></span><span class="kxtag kxinvisible" data-id="17801" data-alias="All Pages - Google DBM"></span></div><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-2" tabindex="0" style="display: none;"></ul><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-3" tabindex="0" style="display: none;"></ul><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-4" tabindex="0" style="display: none;"></ul><div id="saved-job-toast" style="display:none">  <div id="saved-job-toast-title">Saved job(s)</div>  <div id="saved-job-toast-link">      <a href="/savedjobs/">View saved jobs</a>  </div>  <div id="saved-job-toast-text">To view your saved jobs on any device, <a href="/Authenticated/Login.aspx">login</a> or <a href="/Authenticated/UnAuth/NewUser.aspx">register</a>.</div></div></body></html></get_page_source1>
+
+
+
+
+<get_body_text1>  Are you recruiting?
+How we can help
+Advertise now
+Register CV
+Sign in
+Saved Jobs
+Toggle navigation
+                0 miles
+                5 miles
+                10 miles
+                20 miles
+                30 miles
+             Sign in
+Recruiter login
+Existing user
+Email:
+Password:
+Forgotten password?
+Keep me signed in
+New to totaljobs?
+Be alerted to the latest jobs
+Apply for jobs with a single click
+Showcase your CV to thousands of employers
+Keep a record of all your applications
+Register
+Totaljobs
+About us
+Site map
+Privacy policy
+Terms and Conditions
+Cookies
+Work for us
+Jobseeker
+Jobseeker login
+Contact us - jobseekers
+Salary Checker
+Help
+Recruiter
+Advertise a job
+Existing customer login
+Contact us - recruiters
+Jobs confidential blog
+Recruiter advice
+Recruit internationally
+Mobile app
+           Copyright and database rights Totaljobs Group Ltd 2016</get_body_text1>
+
+
+</xmp>
+
+    </body>
+</html>

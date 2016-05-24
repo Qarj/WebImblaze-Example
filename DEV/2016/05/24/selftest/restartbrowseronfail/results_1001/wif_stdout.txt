@@ -1,0 +1,95 @@
+
+WebInject Framework Config:
+$VAR1 = bless( {
+                 'path' => {
+                             'browsermob_proxy_location_full' => 'C:\\browsermob\\bin\\browsermob-proxy.bat',
+                             'web_server_address' => 'qarj.github.io/WebInject-Example',
+                             'selenium_location_full' => 'C:\\selenium-server\\selenium-server-standalone-2.53.0.jar',
+                             'webinject_location' => '../WebInject',
+                             'web_server_location_full' => 'C:\\inetpub\\wwwroot',
+                             'testfile_full' => '../WebInject/examples/simple.xml'
+                           },
+                 'main' => {
+                             'batch' => 'yellow_team',
+                             'environment' => 'DEV',
+                             'target' => 'webinject_examples',
+                             'use_browsermob_proxy' => 'false',
+                             'is_automation_controller' => 'false'
+                           }
+               }, 'Config::Tiny' );
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webinject_examples_restartbrowseronfail_58688
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862.xml_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowseronfail_58688
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowseronfail_58688
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+
+
+Launching webinject.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowseronfail/results_1001/webinject_stdout.txt
+    webinject.pl C:\git\WebInject\selftest\restartbrowseronfail.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowseronfail/results_1001/ --config C:\git\WebInjectFramework\temp\webinject_examples_restartbrowseronfail_58688\webinject_examples.xml --output C:\git\WebInjectFramework\temp\webinject_examples_restartbrowseronfail_58688\
+
+webinject.pl execution all done.
+copy temp/webinject_examples_restartbrowseronfail_58688/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowseronfail/results_1001/
+copy temp/webinject_examples_restartbrowseronfail_58688/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowseronfail/results_1001/chromedriver.txt
+copy temp/webinject_examples_restartbrowseronfail_58688/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowseronfail/results_1001/http.txt
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webinject_examples_restartbrowseronfail_58688
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862.xml_Unlocked
+
+WARN: Cannot lock file
+    Failed try 1 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowseronfail_58688
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+WARN: Cannot lock file
+    Failed try 2 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowseronfail_58688
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+WARN: Cannot lock file
+    Failed try 3 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowseronfail_58688
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_retryresponsecode_87392
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_section_90526
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_substitutions_34412
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifypositive_85835
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+WARN: Cannot lock file
+    Failed try 4 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowseronfail_58688
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_name_data_28750
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_retryresponsecode_87392
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_section_90526
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_substitutions_34412
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifypositive_85835
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowseronfail_58688
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
+
+    move
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowseronfail_58688
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
+
+copy content/root/favicon.ico, C:\inetpub\wwwroot
+copy content/Batch.css, C:\inetpub\wwwroot/content/
+copy content/Results.css, C:\inetpub\wwwroot/content/
+copy content/Summary.css, C:\inetpub\wwwroot/content/
+copy content/Batch.xsl, C:\inetpub\wwwroot/content/
+copy content/Results.xsl, C:\inetpub\wwwroot/content/
+copy content/Summary.xsl, C:\inetpub\wwwroot/content/
+copy scripts/jquery-2.2.3.min.js, C:\inetpub\wwwroot/scripts/

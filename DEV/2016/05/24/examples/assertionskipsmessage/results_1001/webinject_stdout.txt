@@ -1,0 +1,25 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\assertionskipsmessage.xml - 10 
+Get Home page 
+Verify Positive: "automated testing examples" 
+Verify Positive: "WebInject" 
+Verify Positive: "h2.Getting started..h2" 
+Skipped Positive Verification 0 - Windows 10 related bug 
+Passed Positive Verification 
+Skipped Positive Verification HTML - Windows 10 related bug 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 4.175 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:13
+Total Run Time: 4.273 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 6
+Verifications Failed: 0
+

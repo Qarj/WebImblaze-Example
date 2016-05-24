@@ -1,0 +1,25 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\verifyresponsetime.xml - 10 
+verifyresponsetime 
+Verify Positive: "Test Cases Failed: 1" 
+Verify Positive: "Passed Response Time Verification" 
+Verify Positive: "Failed Response Time Verification - should be at most 1" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 3.889 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:50
+Total Run Time: 3.899 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 7
+Verifications Failed: 0
+

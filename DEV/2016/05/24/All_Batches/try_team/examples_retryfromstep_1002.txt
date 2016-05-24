@@ -1,0 +1,23 @@
+   <run id="try_team">
+      <batch_name>try_team</batch_name>
+      <environment>DEV</environment>
+      <test_parent_folder>examples</test_parent_folder>
+      <test_name>retryfromstep</test_name>
+      <total_run_time>0.834</total_run_time>
+      <test_steps_failed>1</test_steps_failed>
+      <test_steps_run>8</test_steps_run>
+      <assertion_skips>0</assertion_skips>
+      <sanity_check_passed>true</sanity_check_passed>
+      <max_response_time>0.1</max_response_time>
+      <target>webinject_examples</target>
+      <yyyy>2016</yyyy>
+      <mm>05</mm>
+      <dd>24</dd>
+      <run_number>1002</run_number>
+      <start_time>Tue 24 May 2016, 21:04:27</start_time>
+      <start_date_time>2016-05-24T21:04:27</start_date_time>
+      <end_time>2016-05-24T21:04:28</end_time>
+      <start_seconds>75867</start_seconds>
+      <end_seconds>75868</end_seconds>
+      <status>NORMAL</status>
+   </run>

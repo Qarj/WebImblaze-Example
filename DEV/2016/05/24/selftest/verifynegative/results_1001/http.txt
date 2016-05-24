@@ -1,0 +1,75 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - verifynegative
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\verifynegativesub selftest\substeps\verifynegative.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\verifynegative.xml - 10 
+Should pass negative verification 
+Verify Negative: "Some text to verify" 
+Verify Negative: "Some .... to verify" 
+Verify Negative: "Some \w{4,4} to verify" 
+Verify Negative: "verofy" 
+Verify Negative: "Many texts" 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifynegative.xml - 20 
+Should fail negative verification 
+Verify Negative: "Some texts to verify" 
+Verify Negative: "Some ..... to verify" 
+Verify Negative: "Some \w{2,5} to verify" 
+Verify Negative: "verify" 
+Verify Negative: "Some texts" 
+Failed Negative Verification 
+Failed Negative Verification 
+Failed Negative Verification 
+Failed Negative Verification 
+Failed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifynegative.xml - 30 
+Should fail negative verification and output a custom failure message 
+Verify Negative: "Some text to verify" 
+Failed Negative Verification 
+Should not find text but did 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifynegative.xml - 40 
+Assertion should be ignored 
+Verify Negative: "Some text to verify" 
+Skipped Negative Verification 0 - Production Bug 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.005 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:51
+Total Run Time: 0.042 seconds
+
+Test Cases Run: 4
+Test Cases Passed: 2
+Test Cases Failed: 2
+Verifications Passed: 13
+Verifications Failed: 6
+
+
+
+

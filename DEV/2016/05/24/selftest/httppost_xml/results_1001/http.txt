@@ -1,0 +1,83 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - httppost_xml - parameter
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\httppost_xmlsub selftest\substeps\httppost_xml.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\httppost_xml.xml - 10 
+Post the file 
+Verify Positive: "Confirmation" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.854 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:38
+Total Run Time: 0.907 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 4
+Verifications Failed: 0
+
+
+
+<command1>type selftest\output\httppost_xmlsubhttp.log</command1>
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - Post the file
+POST http://rimattest.azurewebsites.net/BulkUpload/XML
+User-Agent: WebInject
+Content-Type: text/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+ <search>
+ 	<seq>1</seq>
+ 	<name>Irish Stew</name>
+ 	<cuisine>Irish</cuisine>
+ 	<preptime>140</preptime>
+ </search>
+ <search>
+ 	<seq>2</seq>
+ 	<name>Beef Caserole</name>
+ 	<cuisine>British</cuisine>
+ 	<preptime>95</preptime>
+ </search>
+Request Content Length: 275 bytes
+
+302 Found
+Base for relative URLs: http://rimattest.azurewebsites.net/BulkUpload/XML
+Expires: Tue May 24 22:00:39 2016
+
+Cache-Control: private
+Date: Tue, 24 May 2016 20:01:59 GMT
+Location: /BulkUpload/Confirmation
+Server: Microsoft-IIS/8.0
+Content-Length: 141
+Content-Type: text/html; charset=utf-8
+Client-Date: Tue, 24 May 2016 20:00:39 GMT
+Client-Peer: 191.233.82.44:80
+Client-Response-Num: 1
+Client-Warning: Redirect loop detected (max_redirect = 0)
+Set-Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba;Path=/;Domain=rimattest.azurewebsites.net
+Title: Object moved
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/BulkUpload/Confirmation">here</a>.</h2>
+</body></html>
+
+
+
+

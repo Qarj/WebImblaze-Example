@@ -1,0 +1,29 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\checknegative.xml - 10 
+Get Home page 
+Verify Negative: "WebInject" 
+Failed Negative Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 4.023 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\checknegative.xml - 20 
+Get Home page again 
+Verify Positive: "WebInject" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.136 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:14
+Total Run Time: 4.274 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 1
+Test Cases Failed: 1
+Verifications Passed: 10
+Verifications Failed: 1
+

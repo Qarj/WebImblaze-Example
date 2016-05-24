@@ -1,0 +1,152 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - section - filename prefix included as part of output path
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\sectionsub selftest\substeps\section.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\section.xml - 10 
+Register a new self service account 
+no operation 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.117 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:49
+Total Run Time: 0.127 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 2
+Verifications Failed: 0
+
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 20 - view xml results.xml file
+GET CMD
+
+
+100 OK
+
+
+<command1>type selftest\output\sectionsubresults.xml</command1>
+<results>
+
+    <testcases file="selftest\substeps\section.xml">
+
+        <testcase id="10">
+            <section>Register a new self service account</section>
+            <description1>no operation</description1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.117</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 21:00:49</start-time>
+        <start-seconds>75649</start-seconds>
+        <start-date-time>2016-05-24T21:00:49</start-date-time>
+        <total-run-time>0.127</total-run-time>
+        <test-cases-run>1</test-cases-run>
+        <test-cases-passed>1</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>2</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>0.117</average-response-time>
+        <max-response-time>0.117</max-response-time>
+        <min-response-time>0.117</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>section</test-file-name>
+    </test-summary>
+
+</results>
+
+
+
+
+************************* LOG SEPARATOR *************************
+Test Step: 30 - view html results.html file
+GET CMD
+
+
+100 OK
+
+
+<command1>type selftest\output\sectionsubresults.html</command1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WebInject Test Results</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <style type="text/css">
+        body {
+            background-color: #F5F5F5;
+            color: #000000;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+        .pass {
+            color: green;
+        }
+        .fail {
+            color: red;
+        }
+        .skip {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<hr />
+-------------------------------------------------------<br />
+
+<b>Test:  selftest\substeps\section.xml - 10 </b><br />
+Register a new self service account <br />
+no operation <br />
+<br />
+<span class="pass">Passed HTTP Response Code Verification</span><br />
+<b><span class="pass">TEST CASE PASSED</span></b><br />
+Response Time = 0.117 sec <br />
+<br />
+------------------------------------------------------- <br />
+
+<br /><hr /><br />
+<b>
+Start Time: Tue 24 May 2016, 21:00:49 <br />
+Total Run Time: 0.127 seconds <br />
+<br />
+Test Cases Run: 1 <br />
+Test Cases Passed: 1 <br />
+Test Cases Failed: 0 <br />
+Verifications Passed: 2 <br />
+Verifications Failed: 0 <br />
+<br />
+Average Response Time: 0.117 seconds <br />
+Max Response Time: 0.117 seconds <br />
+Min Response Time: 0.117 seconds <br />
+</b>
+<br />
+
+</body>
+</html>
+
+
+

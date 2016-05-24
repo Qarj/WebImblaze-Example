@@ -1,0 +1,33 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\random.xml - 10 
+random 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 3.175 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\selftest\random.xml - 20 
+view http.log 
+Verify Positive: "numeric \[[0-9]{10,10}\]" 
+Verify Positive: "alpha \[[A-Z]{10,10}\]" 
+Verify Positive: "alphanumeric \[[A-Z0-9]{10,10}\]" 
+Verify Positive: "[A-Z0-9]{10,10} default to alphanumeric" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:41
+Total Run Time: 3.205 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 12
+Verifications Failed: 0
+

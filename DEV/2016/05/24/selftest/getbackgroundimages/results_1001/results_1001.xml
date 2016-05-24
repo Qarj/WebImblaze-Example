@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
+<results>
+
+    <testcases file="C:\git\WebInject\selftest\getbackgroundimages.xml">
+
+        <testcase id="10">
+            <description1>getbackgroundimages</description1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.027</responsetime>
+        </testcase>
+
+        <testcase id="20">
+            <description1>getbackgroundimages</description1>
+            <verifypositive>
+                <assert>Test Cases Failed: 0</assert>
+                <success>true</success>
+            </verifypositive>
+            <verifypositive1>
+                <assert>GET Asset .germination.jpg</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>6.34</responsetime>
+        </testcase>
+
+        <testcase id="30">
+            <description1>getbackgroundimages</description1>
+            <verifypositive1>
+                <assert>germination.jpg</assert>
+                <success>true</success>
+            </verifypositive1>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.014</responsetime>
+        </testcase>
+
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue 24 May 2016, 21:00:30</start-time>
+        <start-seconds>75630</start-seconds>
+        <start-date-time>2016-05-24T21:00:30</start-date-time>
+        <total-run-time>6.429</total-run-time>
+        <test-cases-run>3</test-cases-run>
+        <test-cases-passed>3</test-cases-passed>
+        <test-cases-failed>0</test-cases-failed>
+        <verifications-passed>15</verifications-passed>
+        <verifications-failed>0</verifications-failed>
+        <assertion-skips>0</assertion-skips>
+        <average-response-time>2.127</average-response-time>
+        <max-response-time>6.34</max-response-time>
+        <min-response-time>0.014</min-response-time>
+        <sanity-check-passed>true</sanity-check-passed>
+        <test-file-name>getbackgroundimages</test-file-name>
+    </test-summary>
+
+    <wif>
+        <environment>DEV</environment>
+        <yyyy>2016</yyyy>
+        <mm>05</mm>
+        <dd>24</dd>
+        <batch>Selftest_34862</batch>
+    </wif>
+
+
+</results>

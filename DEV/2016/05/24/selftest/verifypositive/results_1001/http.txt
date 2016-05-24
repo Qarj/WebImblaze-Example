@@ -1,0 +1,75 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - verifypositive
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\verifypositivesub selftest\substeps\verifypositive.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\verifypositive.xml - 10 
+Should pass positive verification 
+Verify Positive: "Some text to verify" 
+Verify Positive: "Some .... to verify" 
+Verify Positive: "Some \w{4,4} to verify" 
+Verify Positive: "verify" 
+Verify Positive: "Some text" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifypositive.xml - 20 
+Should fail positive verification 
+Verify Positive: "My text to verify" 
+Verify Positive: "Some ... to verify" 
+Verify Positive: "Some \w{1,3} to verify" 
+Verify Positive: "verofy" 
+Verify Positive: "Some tixt" 
+Failed Positive Verification 
+Failed Positive Verification 
+Failed Positive Verification 
+Failed Positive Verification 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifypositive.xml - 30 
+Should fail positive verification and output a custom failure message 
+Verify Positive: "text not found" 
+Failed Positive Verification 
+Should find text but did not 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.004 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\verifypositive.xml - 40 
+Assertion should be ignored 
+Verify Positive: "text not found" 
+Skipped Positive Verification 0 - Production Bug 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:55
+Total Run Time: 0.035 seconds
+
+Test Cases Run: 4
+Test Cases Passed: 2
+Test Cases Failed: 2
+Verifications Passed: 13
+Verifications Failed: 6
+
+
+
+

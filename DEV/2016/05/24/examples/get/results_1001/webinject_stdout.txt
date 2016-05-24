@@ -1,0 +1,31 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\get.xml - 10 
+Get Totaljobs Home Page 
+Description 2 is used to display additional information about the test step at hand 
+Verify Positive: "recommended" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.939 sec 
+------------------------------------------------------- 
+Test:  C:\git\WebInject\examples\get.xml - 20 
+Get Totaljobs Account Register Page 
+Runs over https 
+Verify Positive: "mandatory" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.606 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:18
+Total Run Time: 2.69 seconds
+
+Test Cases Run: 2
+Test Cases Passed: 2
+Test Cases Failed: 0
+Verifications Passed: 10
+Verifications Failed: 0
+

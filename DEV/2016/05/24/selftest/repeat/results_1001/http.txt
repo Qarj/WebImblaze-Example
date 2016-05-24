@@ -1,0 +1,181 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - repeat
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\repeatsub selftest\substeps\repeat.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\repeat.xml - 10 
+Step 10, loop number 1 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.083 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\repeat.xml - 20 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.03 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 20.1 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.064 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 20.2 
+Step 20 
+Verify Positive: "try number 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.028 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 10010 
+Step 10, loop number 2 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\repeat.xml - 10020 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.074 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 10020.1 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 10020.2 
+Step 20 
+Verify Positive: "try number 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.009 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 20010 
+Step 10, loop number 3 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.024 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\repeat.xml - 20020 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 20020.1 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.066 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 20020.2 
+Step 20 
+Verify Positive: "try number 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.092 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 30010 
+Step 10, loop number 4 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.008 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\repeat.xml - 30020 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.016 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 30020.1 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.061 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 30020.2 
+Step 20 
+Verify Positive: "try number 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.006 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 40010 
+Step 10, loop number 5 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.088 sec 
+------------------------------------------------------- 
+Retry 3 times
+Test:  selftest\substeps\repeat.xml - 40020 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 3 to go 
+Response Time = 0.007 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 40020.1 
+Step 20 
+Verify Positive: "try number 2" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+RETRYING... 2 to go 
+Response Time = 0.077 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\repeat.xml - 40020.2 
+Step 20 
+Verify Positive: "try number 2" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.019 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:43
+Total Run Time: 0.875 seconds
+
+Test Cases Run: 10
+Test Cases Passed: 10
+Test Cases Failed: 0
+Verifications Passed: 25
+Verifications Failed: 0
+
+
+
+

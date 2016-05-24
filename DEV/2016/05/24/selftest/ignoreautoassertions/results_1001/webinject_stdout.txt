@@ -1,0 +1,26 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\selftest\ignoreautoassertions.xml - 10 
+ignoreautoassertions 
+Verify Positive: "Test Cases Failed: 1" 
+Verify Positive: "Should never see one two three four" 
+Verify Positive: "Should always see one fish two fish" 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Positive Verification 
+Passed Count Assertion of 2 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 2.758 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:37
+Total Run Time: 2.771 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 8
+Verifications Failed: 0
+

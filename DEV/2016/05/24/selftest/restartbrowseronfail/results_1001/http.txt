@@ -1,0 +1,77 @@
+
+************************* LOG SEPARATOR *************************
+Test Step: 10 - restartbrowseronfail
+GET CMD
+
+
+100 OK
+
+
+<command>webinject.pl -o selftest\output\restartbrowseronfailsub selftest\substeps\restartbrowseronfail.xml</command>
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  selftest\substeps\restartbrowseronfail.xml - 10 
+Get login page sets __RequestVerificationToken cookie 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.962 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\restartbrowseronfail.xml - 20 
+Get login page again does not set the same cookie again - it is already set 
+Step will fail 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.237 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\restartbrowseronfail.xml - 30 
+Browser is restarted due to an error 
+Verify Positive: "Some text that is not there" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.041 sec 
+------------------------------------------------------- 
+RESTARTING SESSION DUE TO FAIL ... 
+Test:  selftest\substeps\restartbrowseronfail.xml - 40 
+Get login page sets __RequestVerificationToken cookie since all cookies are gone 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 1.354 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\restartbrowseronfail.xml - 50 
+Browser is not restarted since the test step passes 
+Verify Positive: "Some text that is there" 
+Passed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.013 sec 
+------------------------------------------------------- 
+Test:  selftest\substeps\restartbrowseronfail.xml - 60 
+Get login page already has __RequestVerificationToken cookie 
+Step will fail 
+Verify Positive: "Set-Cookie: __RequestVerificationToken" 
+Failed Positive Verification 
+Passed HTTP Response Code Verification 
+TEST CASE FAILED
+Response Time = 0.21 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 21:00:45
+Total Run Time: 2.952 seconds
+
+Test Cases Run: 6
+Test Cases Passed: 3
+Test Cases Failed: 3
+Verifications Passed: 17
+Verifications Failed: 3
+
+
+
+
