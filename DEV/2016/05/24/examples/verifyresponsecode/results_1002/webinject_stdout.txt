@@ -1,0 +1,20 @@
+
+Starting WebInject Engine...
+
+-------------------------------------------------------
+Test:  C:\git\WebInject\examples\verifyresponsecode.xml - 10 
+Get a page that does not exist 
+Verify Response Code: "404" 
+Passed HTTP Response Code Verification 
+TEST CASE PASSED 
+Response Time = 0.145 sec 
+------------------------------------------------------- 
+Start Time: Tue 24 May 2016, 20:59:24
+Total Run Time: 0.177 seconds
+
+Test Cases Run: 1
+Test Cases Passed: 1
+Test Cases Failed: 0
+Verifications Passed: 5
+Verifications Failed: 0
+
