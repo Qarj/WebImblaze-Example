@@ -1,9 +1,9 @@
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:00:30  - 21:00:57 [44 items] Selftest_34862: ALL 63 steps OK, 0.5 mins (Concurrency 5.9) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/Selftest_34862.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/Selftest_34862.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:00</pubDate>
       </item>

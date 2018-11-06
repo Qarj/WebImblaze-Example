@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="http://qarj.github.io/WebImblaze-Example/content/Summary.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://qarj.github.io/WebImblaze-Example/content/Summary.xsl"?>
 <summary version="2.0">
     <channel>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:05:28  - 21:05:28 [1 item] log_team: ALL 1 steps OK, 0.0 mins  *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/log_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/log_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:05</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>SANITY CHECK FAILED 24/05 21:05:08  - 21:05:09 [1 item] problems_team: 1 SANITY FAILURE(s), 1/1 FAILED, 0.0 mins  *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/problems_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/problems_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:05</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>FAIL 24/05 21:04:11  - 21:04:28 [2 items] try_team: 2/10 FAILED, 0.3 mins (Concurrency 0.5) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/try_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/try_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:04</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:03:29  - 21:03:38 [1 item] selenium_team: ALL 2 steps OK, 0.1 mins (Concurrency 0.9) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/selenium_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/selenium_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:03</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:02:55  - 21:03:07 [3 items] red_team: ALL 3 steps OK, 0.2 mins (Concurrency 0.1) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/red_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/red_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:03</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:02:33  - 21:02:43 [2 items] yellow_team: ALL 4 steps OK, 0.2 mins (Concurrency 0.4) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/yellow_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/yellow_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:02</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:00:30  - 21:00:57 [44 items] Selftest_34862: ALL 63 steps OK, 0.5 mins (Concurrency 5.9) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/Selftest_34862.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/Selftest_34862.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:00</pubDate>
       </item>
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>CORRUPT 24/05 20:59:14  - 20:59:31 [33 items] Examples_91999: [examples/corrupt results.xml] WebImblaze abnormal end - run manually to diagnose</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/Examples_91999.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/Examples_91999.xml</link>
          <description></description>
          <pubDate>24/05/2016 20:59</pubDate>
       </item>

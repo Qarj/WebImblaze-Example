@@ -1,9 +1,9 @@
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>PASS 24/05 21:02:55  - 21:03:07 [3 items] red_team: ALL 3 steps OK, 0.2 mins (Concurrency 0.1) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/red_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/red_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:03</pubDate>
       </item>

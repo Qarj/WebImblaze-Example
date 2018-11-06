@@ -1,9 +1,9 @@
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
       <description>WebImblaze Framework Batch Summary</description>
       <item>
          <title>FAIL 24/05 21:04:11  - 21:04:28 [2 items] try_team: 2/10 FAILED, 0.3 mins (Concurrency 0.5) *webimblaze_examples*</title>
-      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/try_team.xml</link>
+      <link>https://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/try_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:04</pubDate>
       </item>

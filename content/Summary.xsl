@@ -59,11 +59,11 @@
       <h1>
         WebImblaze Results
         (
-        <A href="http://qarj.github.io/WebImblaze-Example/DEV/Summary.xml"> DEV </A>
+        <A href="https://qarj.github.io/WebImblaze-Example/DEV/Summary.xml"> DEV </A>
         /
-        <A href="http://qarj.github.io/WebImblaze-Example/PAT/Summary.txt"> PAT </A>
+        <A href="https://qarj.github.io/WebImblaze-Example/PAT/Summary.txt"> PAT </A>
         /
-        <A href="http://qarj.github.io/WebImblaze-Example/PROD/Summary.txt"> PROD </A>
+        <A href="https://qarj.github.io/WebImblaze-Example/PROD/Summary.txt"> PROD </A>
         )
       </h1>
       <br />
