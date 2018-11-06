@@ -1,5 +1,5 @@
-# WebInject-Example
-Example test results output of WebInject and WebInject Framework
+# WebImblaze-Example
+Example test results output of WebImblaze and WebImblaze-Framework
 
-The example can be found here: http://qarj.github.io/WebInject-Example/
+The example can be found here: https://qarj.github.io/WebImblaze-Example/
 
