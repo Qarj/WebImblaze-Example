@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\selftest\section.xml">
+    <testcases file="C:\git\WebImblaze\selftest\section.xml">
 
         <testcase id="10">
             <description1>section - filename prefix included as part of output path</description1>

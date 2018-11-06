@@ -2,7 +2,7 @@
 ************************* LOG SEPARATOR *************************
 Test Step: 10 - Get Totaljobs Home Page [Description 2 is used to display additional information about the test step at hand]
 GET http://www.totaljobs.com
-User-Agent: WebInject
+User-Agent: WebImblaze
 
 
 200 OK
@@ -1921,7 +1921,7 @@ analLib.fireMultiApplication(analytics, s);
 ************************* LOG SEPARATOR *************************
 Test Step: 20 - Get Totaljobs Account Register Page [Runs over https]
 GET https://www.totaljobs.com/account/register
-User-Agent: WebInject
+User-Agent: WebImblaze
 
 
 200 OK

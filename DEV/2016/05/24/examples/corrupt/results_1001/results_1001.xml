@@ -2,10 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\corrupt.xml">
+    <testcases file="C:\git\WebImblaze\examples\corrupt.xml">
 
         <testcase id="10">
-            <description1>Creates a corrupt results.xml by forcing WebInject.pl to crash during execution</description1>
+            <description1>Creates a corrupt results.xml by forcing WebImblaze.pl to crash during execution</description1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
             <verifyresponsecode-message>Passed HTTP Response Code Verification</verifyresponsecode-message>
             <success>true</success>

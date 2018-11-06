@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\useragent.xml - 10 
+Test:  C:\git\WebImblaze\selftest\useragent.xml - 10 
 useragent - parameter 
 Passed Count Assertion of 1 
 Passed Count Assertion of 2 
@@ -11,7 +11,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 2.01 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\useragent.xml - 20 
+Test:  C:\git\WebImblaze\selftest\useragent.xml - 20 
 useragent - from config file 
 Passed Count Assertion of 0 
 Passed Count Assertion of 1 

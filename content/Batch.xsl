@@ -46,7 +46,7 @@
             <xsl:for-each select="batch/run">
                 <tr>
                 <xsl:variable name="href">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/results_<xsl:value-of select="run_number"/></xsl:variable>
-                <xsl:variable name="pending_href">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/webinject_stdout</xsl:variable>
+                <xsl:variable name="pending_href">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/webimblaze_stdout</xsl:variable>
                     <xsl:choose>
                         <xsl:when test="end_time='PENDING'">
                             <td> <a class="pend" href="{$pending_href}.txt"> <xsl:value-of select="run_number"/></a> </td>
@@ -60,7 +60,7 @@
                     <td><a href="{$wif_stdout}"> <xsl:value-of select="test_name"/> </a></td>
                     <td> <xsl:value-of select="target"/> </td>
                     <td> <xsl:value-of select="translate(start_date_time,'T',' ')"/> </td>
-                    <xsl:variable name="wi_stdout">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/webinject_stdout.txt</xsl:variable>
+                    <xsl:variable name="wi_stdout">../<xsl:value-of select="test_parent_folder"/>/<xsl:value-of select="test_name"/>/results_<xsl:value-of select="run_number"/>/webimblaze_stdout.txt</xsl:variable>
                     <xsl:choose>
                         <xsl:when test="end_time='PENDING'">
                             <td class="pend"> <xsl:text> PENDING </xsl:text> </td>

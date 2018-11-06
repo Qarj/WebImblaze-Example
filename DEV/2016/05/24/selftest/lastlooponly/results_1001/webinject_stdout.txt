@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\lastlooponly.xml - 10 
+Test:  C:\git\WebImblaze\selftest\lastlooponly.xml - 10 
 lastlooponly 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "Test Cases Run: 6" 

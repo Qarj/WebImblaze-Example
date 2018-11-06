@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\repeat.xml - 10 
+Test:  C:\git\WebImblaze\selftest\repeat.xml - 10 
 repeat 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "Test Cases Passed: 10" 

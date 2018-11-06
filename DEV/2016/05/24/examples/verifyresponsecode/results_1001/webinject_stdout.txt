@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\verifyresponsecode.xml - 10 
+Test:  C:\git\WebImblaze\examples\verifyresponsecode.xml - 10 
 Get a page that does not exist 
 Verify Response Code: "404" 
 Passed HTTP Response Code Verification 

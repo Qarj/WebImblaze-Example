@@ -2,7 +2,7 @@
 ************************* LOG SEPARATOR *************************
 Test Step: 10 - Get Home page
 GET http://rimattest.azurewebsites.net
-User-Agent: WebInject
+User-Agent: WebImblaze
 
 
 200 OK
@@ -85,19 +85,19 @@ X-Powered-By: ASP.NET
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
-            WebInject is a powerful free automated test tool.
+            WebImblaze is a powerful free automated test tool.
         </p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 1</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 2</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
 </div>
         <hr />
@@ -117,7 +117,7 @@ X-Powered-By: ASP.NET
 ************************* LOG SEPARATOR *************************
 Test Step: 20 - Get Home page
 GET http://rimattest.azurewebsites.net
-User-Agent: WebInject
+User-Agent: WebImblaze
 Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba
 Cookie2: $Version="1"
 
@@ -201,19 +201,19 @@ X-Powered-By: ASP.NET
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
-            WebInject is a powerful free automated test tool.
+            WebImblaze is a powerful free automated test tool.
         </p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 1</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 2</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
 </div>
         <hr />
@@ -233,7 +233,7 @@ X-Powered-By: ASP.NET
 ************************* LOG SEPARATOR *************************
 Test Step: 30 - Get Home page
 GET http://rimattest.azurewebsites.net
-User-Agent: WebInject
+User-Agent: WebImblaze
 Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba
 Cookie2: $Version="1"
 
@@ -317,19 +317,19 @@ X-Powered-By: ASP.NET
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
-            WebInject is a powerful free automated test tool.
+            WebImblaze is a powerful free automated test tool.
         </p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 1</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 2</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
 </div>
         <hr />

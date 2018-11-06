@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\addheadersub selftest\substeps\addheader.xml</command>
+<command>wi.pl -o selftest\output\addheadersub selftest\substeps\addheader.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\addheader.xml - 10 

@@ -1,77 +1,77 @@
 
-WebInject Framework Config:
+WebImblaze Framework Config:
 $VAR1 = bless( {
                  'path' => {
-                             'web_server_address' => 'qarj.github.io/WebInject-Example',
+                             'web_server_address' => 'qarj.github.io/WebImblaze-Example',
                              'selenium_location_full' => 'C:\\selenium-server\\selenium-server-standalone-2.53.0.jar',
-                             'webinject_location' => '../WebInject',
+                             'webimblaze_location' => '../WebImblaze',
                              'browsermob_proxy_location_full' => 'C:\\browsermob\\bin\\browsermob-proxy.bat',
                              'web_server_location_full' => 'C:\\inetpub\\wwwroot',
-                             'testfile_full' => '../WebInject/examples/simple.xml'
+                             'testfile_full' => '../WebImblaze/examples/simple.xml'
                            },
                  'main' => {
                              'environment' => 'DEV',
                              'use_browsermob_proxy' => 'false',
-                             'target' => 'webinject_examples',
+                             'target' => 'webimblaze_examples',
                              'is_automation_controller' => 'false',
                              'batch' => 'yellow_team'
                            }
                }, 'Config::Tiny' );
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webinject_examples_restartbrowser_23269
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webimblaze_examples_restartbrowser_23269
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862.xml_Unlocked
 
 WARN: Cannot lock file
     Failed try 1 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_parseresponse_10850
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_parseresponse_10850
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 WARN: Cannot lock file
     Failed try 2 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_ignoreautoassertions_00593
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_ignoreautoassertions_00593
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowser_23269
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_restartbrowser_23269
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_restartbrowser_23269
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 
 
-Launching webinject.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/webinject_stdout.txt
-    webinject.pl C:\git\WebInject\selftest\restartbrowser.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/ --config C:\git\WebInjectFramework\temp\webinject_examples_restartbrowser_23269\webinject_examples.xml --output C:\git\WebInjectFramework\temp\webinject_examples_restartbrowser_23269\
+Launching wi.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/webimblaze_stdout.txt
+    wi.pl C:\git\WebImblaze\selftest\restartbrowser.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/ --config C:\git\WebImblaze-Framework\temp\webimblaze_examples_restartbrowser_23269\webimblaze_examples.xml --output C:\git\WebImblaze-Framework\temp\webimblaze_examples_restartbrowser_23269\
 
-webinject.pl execution all done.
-copy temp/webinject_examples_restartbrowser_23269/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/
-copy temp/webinject_examples_restartbrowser_23269/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/chromedriver.txt
-copy temp/webinject_examples_restartbrowser_23269/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/http.txt
+wi.pl execution all done.
+copy temp/webimblaze_examples_restartbrowser_23269/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/
+copy temp/webimblaze_examples_restartbrowser_23269/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/chromedriver.txt
+copy temp/webimblaze_examples_restartbrowser_23269/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/restartbrowser/results_1001/http.txt
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webinject_examples_restartbrowser_23269
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webimblaze_examples_restartbrowser_23269
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862.xml_Unlocked
 
 WARN: Cannot lock file
     Failed try 1 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_verifyresponsecode_55374
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_verifyresponsecode_55374
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
 WARN: Cannot lock file
     Failed try 2 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_verifyresponsecode_55374
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_verifyresponsecode_55374
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
 WARN: Cannot lock file
     Failed try 3 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_verifyresponsecode_55374
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_verifyresponsecode_55374
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_restartbrowser_23269
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_restartbrowser_23269
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_restartbrowser_23269
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 
 copy content/root/favicon.ico, C:\inetpub\wwwroot

@@ -12,7 +12,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>2.5</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -35,7 +35,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>4.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -58,7 +58,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>4.0</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -81,7 +81,7 @@
       <assertion_skips>2</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>4.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -104,7 +104,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>4.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -127,7 +127,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>4.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -150,7 +150,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>4.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -173,7 +173,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>2.5</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -196,7 +196,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.0</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -219,7 +219,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -242,7 +242,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.0</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -265,7 +265,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.0</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -288,7 +288,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>1.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -311,7 +311,7 @@
       <assertion_skips>2</assertion_skips>
       <sanity_check_passed>false</sanity_check_passed>
       <max_response_time>0.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -334,7 +334,7 @@
       <assertion_skips></assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.0</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -345,7 +345,7 @@
       <start_seconds>75554</start_seconds>
       <end_seconds>75557</end_seconds>
       <status>CORRUPT</status>
-      <status_message>[examples/corrupt results.xml] WebInject abnormal end - run manually to diagnose</status_message>
+      <status_message>[examples/corrupt results.xml] WebImblaze abnormal end - run manually to diagnose</status_message>
    </run>
    <run id="Examples_91999">
       <batch_name>Examples_91999</batch_name>
@@ -358,7 +358,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>1.1</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -381,7 +381,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>1.8</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -404,7 +404,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>1.6</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -427,7 +427,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.4</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -450,7 +450,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.6</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -473,7 +473,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.3</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -496,7 +496,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.7</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -519,7 +519,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.8</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -542,7 +542,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.3</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -565,7 +565,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>false</sanity_check_passed>
       <max_response_time>0.5</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -588,7 +588,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.1</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -611,7 +611,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.5</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -634,7 +634,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>2.8</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -657,7 +657,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>1.9</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -680,7 +680,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.1</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -703,7 +703,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.1</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -726,7 +726,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.2</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>
@@ -749,7 +749,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>0.1</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>

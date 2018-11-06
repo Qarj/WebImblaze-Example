@@ -1,10 +1,10 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\command20.xml - 10 
+Test:  C:\git\WebImblaze\examples\command20.xml - 10 
 Get the directory listing of the current folder 
-Verify Positive: "webinject.pl" 
+Verify Positive: "wi.pl" 
 Verify Positive: "output of command 1" 
 Verify Positive: "list of files" 
 Verify Positive: "Searches for a text" 

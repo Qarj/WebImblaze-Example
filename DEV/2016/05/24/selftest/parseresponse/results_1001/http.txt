@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\parseresponsesub selftest\substeps\parseresponse.xml</command>
+<command>wi.pl -o selftest\output\parseresponsesub selftest\substeps\parseresponse.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\parseresponse.xml - 10 

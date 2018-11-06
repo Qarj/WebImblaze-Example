@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\decodequotedprintablesub selftest\substeps\decodequotedprintable.xml</command>
+<command>wi.pl -o selftest\output\decodequotedprintablesub selftest\substeps\decodequotedprintable.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\decodequotedprintable.xml - 10 
@@ -30,7 +30,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.01 sec 
 ------------------------------------------------------- 
-Use of uninitialized value $parsedresult{"parseresponseSCALE30"} in substitution iterator at C:\git\WebInject\webinject.pl line 2754.
+Use of uninitialized value $parsedresult{"parseresponseSCALE30"} in substitution iterator at C:\git\WebImblaze\wi.pl line 2754.
 Test:  selftest\substeps\decodequotedprintable.xml - 40 
 Info - found:  in response step 30 
 Passed HTTP Response Code Verification 

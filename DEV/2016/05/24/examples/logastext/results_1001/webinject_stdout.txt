@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\logastext.xml - 10 
+Test:  C:\git\WebImblaze\examples\logastext.xml - 10 
 Get Home page 
 Verify Positive: "automated testing examples" 
 Passed Positive Verification 

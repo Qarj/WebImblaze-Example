@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\assertionskips.xml - 10 
+Test:  C:\git\WebImblaze\selftest\assertionskips.xml - 10 
 assertionskips 
 Verify Positive: "Test Cases Failed: 5" 
 Verify Positive: "Skipped Assertion Count 0 - Expected count of 4" 

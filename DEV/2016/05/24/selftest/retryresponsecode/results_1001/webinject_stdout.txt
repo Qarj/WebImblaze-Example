@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\retryresponsecode.xml - 10 
+Test:  C:\git\WebImblaze\selftest\retryresponsecode.xml - 10 
 retryresponsecode 
 Verify Positive: "Test Cases Failed: 3" 
 Verify Positive: "RETRYING... 2 to go" 

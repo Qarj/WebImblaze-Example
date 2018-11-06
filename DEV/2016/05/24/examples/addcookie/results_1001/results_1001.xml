@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\addcookie.xml">
+    <testcases file="C:\git\WebImblaze\examples\addcookie.xml">
 
         <testcase id="10">
             <description1>Get Mobile Home page</description1>
@@ -11,7 +11,7 @@
                 <success>true</success>
             </smartassertion1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>

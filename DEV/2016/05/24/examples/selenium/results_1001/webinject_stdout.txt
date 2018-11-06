@@ -1,12 +1,12 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 
 Connecting to Selenium Remote Control server on port 11322 
 CHROME HANDLE THIS SESSION
 265876
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\selenium.xml - 10 
+Test:  C:\git\WebImblaze\examples\selenium.xml - 10 
 Selenium Smoke Test 
 Get Totaljobs Home Page 
 Verify Positive: "Location" 
@@ -86,7 +86,7 @@ Response Time = 1.537 sec
 Verification Time = 0.067 sec 
 Screenshot Time = 0.463 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\selenium.xml - 20 
+Test:  C:\git\WebImblaze\examples\selenium.xml - 20 
 Get SSL Loging Page 
 Verify Positive: "password" 
 SELRESP:1

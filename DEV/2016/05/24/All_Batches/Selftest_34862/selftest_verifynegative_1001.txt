@@ -9,7 +9,7 @@
       <assertion_skips>0</assertion_skips>
       <sanity_check_passed>true</sanity_check_passed>
       <max_response_time>2.0</max_response_time>
-      <target>webinject_examples</target>
+      <target>webimblaze_examples</target>
       <yyyy>2016</yyyy>
       <mm>05</mm>
       <dd>24</dd>

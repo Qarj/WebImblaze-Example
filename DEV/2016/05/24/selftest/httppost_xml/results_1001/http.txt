@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\httppost_xmlsub selftest\substeps\httppost_xml.xml</command>
+<command>wi.pl -o selftest\output\httppost_xmlsub selftest\substeps\httppost_xml.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\httppost_xml.xml - 10 
@@ -36,7 +36,7 @@ Verifications Failed: 0
 ************************* LOG SEPARATOR *************************
 Test Step: 10 - Post the file
 POST http://rimattest.azurewebsites.net/BulkUpload/XML
-User-Agent: WebInject
+User-Agent: WebImblaze
 Content-Type: text/xml
 
 <?xml version="1.0" encoding="UTF-8"?>

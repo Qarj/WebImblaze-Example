@@ -1,19 +1,19 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\restartbrowser.xml - 10 
+Test:  C:\git\WebImblaze\examples\restartbrowser.xml - 10 
 Get Home page 
-Verify Positive: "WebInject" 
+Verify Positive: "WebImblaze" 
 Passed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.675 sec 
 ------------------------------------------------------- 
 RESTARTING BROWSER ... 
-Test:  C:\git\WebInject\examples\restartbrowser.xml - 20 
+Test:  C:\git\WebImblaze\examples\restartbrowser.xml - 20 
 Get Home page 
-Verify Positive: "WebInject" 
+Verify Positive: "WebImblaze" 
 Passed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\retry.xml">
+    <testcases file="C:\git\WebImblaze\examples\retry.xml">
 
         <testcase id="10">
             <description1>Get Home page</description1>
@@ -12,7 +12,7 @@
                 <success>true</success>
             </smartassertion1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -26,7 +26,7 @@
             <description1>Get Home page</description1>
             <description2>Will fail and sleep 2 seconds after each fail except the final fail</description2>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -40,7 +40,7 @@
             <description1>Get Home page</description1>
             <description2>Will fail and sleep 2 seconds after each fail except the final fail</description2>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -54,7 +54,7 @@
             <description1>Get Home page</description1>
             <description2>Will fail and sleep 2 seconds after each fail except the final fail</description2>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -68,7 +68,7 @@
             <description1>Get Home page</description1>
             <description2>Test will pass on first attempt, sleep of 2 seconds will be ignored</description2>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>

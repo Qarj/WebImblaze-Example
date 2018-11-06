@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\formatjson.xml">
+    <testcases file="C:\git\WebImblaze\examples\formatjson.xml">
 
         <testcase id="10">
             <description1>Echo some json</description1>

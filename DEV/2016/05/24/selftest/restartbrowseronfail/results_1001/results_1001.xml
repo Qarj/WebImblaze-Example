@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\selftest\restartbrowseronfail.xml">
+    <testcases file="C:\git\WebImblaze\selftest\restartbrowseronfail.xml">
 
         <testcase id="10">
             <description1>restartbrowseronfail</description1>

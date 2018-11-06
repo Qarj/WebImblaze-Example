@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\formatxml.xml">
+    <testcases file="C:\git\WebImblaze\examples\formatxml.xml">
 
         <testcase id="10">
             <description1>Echo some xml</description1>

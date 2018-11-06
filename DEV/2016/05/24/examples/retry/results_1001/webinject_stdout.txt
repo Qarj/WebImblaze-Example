@@ -1,49 +1,49 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Retry 3 times
-Test:  C:\git\WebInject\examples\retry.xml - 10 
+Test:  C:\git\WebImblaze\examples\retry.xml - 10 
 Get Home page 
 Will fail and sleep 2 seconds after each fail except the final fail 
-Verify Positive: "WebInject Test Tool" 
+Verify Positive: "WebImblaze Test Tool" 
 Failed Positive Verification 
 Passed HTTP Response Code Verification 
 RETRYING... 3 to go 
 Response Time = 0.288 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\retry.xml - 10.1 
+Test:  C:\git\WebImblaze\examples\retry.xml - 10.1 
 Get Home page 
 Will fail and sleep 2 seconds after each fail except the final fail 
-Verify Positive: "WebInject Test Tool" 
+Verify Positive: "WebImblaze Test Tool" 
 Failed Positive Verification 
 Passed HTTP Response Code Verification 
 RETRYING... 2 to go 
 Response Time = 0.035 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\retry.xml - 10.2 
+Test:  C:\git\WebImblaze\examples\retry.xml - 10.2 
 Get Home page 
 Will fail and sleep 2 seconds after each fail except the final fail 
-Verify Positive: "WebInject Test Tool" 
+Verify Positive: "WebImblaze Test Tool" 
 Failed Positive Verification 
 Passed HTTP Response Code Verification 
 RETRYING... 1 to go 
 Response Time = 0.039 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\retry.xml - 10.3 
+Test:  C:\git\WebImblaze\examples\retry.xml - 10.3 
 Get Home page 
 Will fail and sleep 2 seconds after each fail except the final fail 
-Verify Positive: "WebInject Test Tool" 
+Verify Positive: "WebImblaze Test Tool" 
 Failed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE FAILED
 Response Time = 0.059 sec 
 ------------------------------------------------------- 
 Retry 3 times
-Test:  C:\git\WebInject\examples\retry.xml - 20 
+Test:  C:\git\WebImblaze\examples\retry.xml - 20 
 Get Home page 
 Test will pass on first attempt, sleep of 2 seconds will be ignored 
-Verify Positive: "WebInject" 
+Verify Positive: "WebImblaze" 
 Passed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 

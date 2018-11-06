@@ -1,14 +1,14 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\gethrefs.xml - 10 
+Test:  C:\git\WebImblaze\selftest\gethrefs.xml - 10 
 gethrefs 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.227 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\gethrefs.xml - 20 
+Test:  C:\git\WebImblaze\selftest\gethrefs.xml - 20 
 gethrefs 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "GET Asset .special.css" 
@@ -18,7 +18,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 3.477 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\gethrefs.xml - 30 
+Test:  C:\git\WebImblaze\selftest\gethrefs.xml - 30 
 gethrefs 
 Verify Positive: "special.css" 
 Passed Positive Verification 

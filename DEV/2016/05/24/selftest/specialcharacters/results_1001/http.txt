@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\specialcharacterssub selftest\substeps\specialcharacters.xml</command>
+<command>wi.pl -o selftest\output\specialcharacterssub selftest\substeps\specialcharacters.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\specialcharacters.xml - 10 

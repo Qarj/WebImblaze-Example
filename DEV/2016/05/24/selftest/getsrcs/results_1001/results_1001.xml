@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\selftest\getsrcs.xml">
+    <testcases file="C:\git\WebImblaze\selftest\getsrcs.xml">
 
         <testcase id="10">
             <description1>getsrcs</description1>

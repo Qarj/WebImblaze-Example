@@ -5,9 +5,9 @@
   <head>
     <title>Overall Summary</title>
     <style type="text/css">
-    @import url(/WebInject-Example/content/Summary.css);
+    @import url(/WebImblaze-Example/content/Summary.css);
     </style>
-	<script type="text/javascript" src="/WebInject-Example/scripts/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="/WebImblaze-Example/scripts/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript">
 <![CDATA[
     $(document).ready(function() {
@@ -57,13 +57,13 @@
   <body>
     <div id="heading">
       <h1>
-        WebInject Results
+        WebImblaze Results
         (
-        <A href="http://qarj.github.io/WebInject-Example/DEV/Summary.xml"> DEV </A>
+        <A href="http://qarj.github.io/WebImblaze-Example/DEV/Summary.xml"> DEV </A>
         /
-        <A href="http://qarj.github.io/WebInject-Example/PAT/Summary.txt"> PAT </A>
+        <A href="http://qarj.github.io/WebImblaze-Example/PAT/Summary.txt"> PAT </A>
         /
-        <A href="http://qarj.github.io/WebInject-Example/PROD/Summary.txt"> PROD </A>
+        <A href="http://qarj.github.io/WebImblaze-Example/PROD/Summary.txt"> PROD </A>
         )
       </h1>
       <br />

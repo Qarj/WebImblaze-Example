@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\parms.xml - 10 
+Test:  C:\git\WebImblaze\selftest\parms.xml - 10 
 parms 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "name.tartiflette..name" 

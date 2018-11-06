@@ -1,10 +1,10 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\errormessage.xml - 10 
+Test:  C:\git\WebImblaze\examples\errormessage.xml - 10 
 Get Home page 
-Verify Positive: "WebInject Test Tool" 
+Verify Positive: "WebImblaze Test Tool" 
 Failed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE FAILED : Perhaps somebody deployed the old version of the page again

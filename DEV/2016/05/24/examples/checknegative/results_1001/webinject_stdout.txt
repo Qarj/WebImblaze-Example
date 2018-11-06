@@ -1,18 +1,18 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\checknegative.xml - 10 
+Test:  C:\git\WebImblaze\examples\checknegative.xml - 10 
 Get Home page 
-Verify Negative: "WebInject" 
+Verify Negative: "WebImblaze" 
 Failed Negative Verification 
 Passed HTTP Response Code Verification 
 TEST CASE FAILED
 Response Time = 4.023 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\checknegative.xml - 20 
+Test:  C:\git\WebImblaze\examples\checknegative.xml - 20 
 Get Home page again 
-Verify Positive: "WebInject" 
+Verify Positive: "WebImblaze" 
 Passed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 

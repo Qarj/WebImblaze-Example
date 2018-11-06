@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\verifynegative.xml">
+    <testcases file="C:\git\WebImblaze\examples\verifynegative.xml">
 
         <testcase id="10">
             <description1>Get Home page</description1>

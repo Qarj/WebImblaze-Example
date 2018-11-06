@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\ignoreautoassertionssub -c selftest\substeps\ignoreautoassertionsconfig.xml selftest\substeps\ignoreautoassertions.xml</command>
+<command>wi.pl -o selftest\output\ignoreautoassertionssub -c selftest\substeps\ignoreautoassertionsconfig.xml selftest\substeps\ignoreautoassertions.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\ignoreautoassertions.xml - 10 

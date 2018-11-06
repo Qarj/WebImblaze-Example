@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\commandonerror.xml - 10 
+Test:  C:\git\WebImblaze\examples\commandonerror.xml - 10 
 Get Home page 
 Verify Positive: "text that will not be found" 
 Failed Positive Verification 

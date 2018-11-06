@@ -1,6 +1,6 @@
 
 ************************* LOG SEPARATOR *************************
-Test Step: 10 - Creates a corrupt results.xml by forcing WebInject.pl to crash during execution
+Test Step: 10 - Creates a corrupt results.xml by forcing WebImblaze.pl to crash during execution
 GET CMD
 
 

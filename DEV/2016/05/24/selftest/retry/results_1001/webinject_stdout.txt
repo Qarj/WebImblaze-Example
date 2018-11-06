@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\retry.xml - 10 
+Test:  C:\git\WebImblaze\selftest\retry.xml - 10 
 retry 
 Verify Negative: "retry.xml - 40.3" 
 Verify Positive: "Test Cases Failed: 3" 

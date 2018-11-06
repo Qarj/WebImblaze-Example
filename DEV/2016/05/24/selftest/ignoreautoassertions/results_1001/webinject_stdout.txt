@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\ignoreautoassertions.xml - 10 
+Test:  C:\git\WebImblaze\selftest\ignoreautoassertions.xml - 10 
 ignoreautoassertions 
 Verify Positive: "Test Cases Failed: 1" 
 Verify Positive: "Should never see one two three four" 

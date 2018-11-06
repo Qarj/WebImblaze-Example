@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\command.xml">
+    <testcases file="C:\git\WebImblaze\examples\command.xml">
 
         <testcase id="10">
             <description1>Get the directory listing of the current folder</description1>
             <verifypositive>
-                <assert>webinject.pl</assert>
+                <assert>wi.pl</assert>
                 <success>true</success>
             </verifypositive>
             <verifyresponsecode-success>true</verifyresponsecode-success>

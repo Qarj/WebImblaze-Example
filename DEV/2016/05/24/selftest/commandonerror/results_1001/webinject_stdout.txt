@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\commandonerror.xml - 10 
+Test:  C:\git\WebImblaze\selftest\commandonerror.xml - 10 
 commandonerror 
 Verify Negative: "commandonerror in step 20 was run" 
 Verify Positive: "commandonerror in step 10 was run" 

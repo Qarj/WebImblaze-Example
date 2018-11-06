@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\httpauthsub -c selftest\substeps\httpauthconfig.xml selftest\substeps\httpauth.xml</command>
+<command>wi.pl -o selftest\output\httpauthsub -c selftest\substeps\httpauthconfig.xml selftest\substeps\httpauth.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\httpauth.xml - 10 

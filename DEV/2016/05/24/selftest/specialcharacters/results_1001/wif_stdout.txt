@@ -1,77 +1,77 @@
 
-WebInject Framework Config:
+WebImblaze Framework Config:
 $VAR1 = bless( {
                  'path' => {
                              'web_server_location_full' => 'C:\\inetpub\\wwwroot',
                              'browsermob_proxy_location_full' => 'C:\\browsermob\\bin\\browsermob-proxy.bat',
-                             'web_server_address' => 'qarj.github.io/WebInject-Example',
-                             'webinject_location' => '../WebInject',
-                             'testfile_full' => '../WebInject/examples/simple.xml',
+                             'web_server_address' => 'qarj.github.io/WebImblaze-Example',
+                             'webimblaze_location' => '../WebImblaze',
+                             'testfile_full' => '../WebImblaze/examples/simple.xml',
                              'selenium_location_full' => 'C:\\selenium-server\\selenium-server-standalone-2.53.0.jar'
                            },
                  'main' => {
                              'is_automation_controller' => 'false',
                              'use_browsermob_proxy' => 'false',
-                             'target' => 'webinject_examples',
+                             'target' => 'webimblaze_examples',
                              'environment' => 'DEV',
                              'batch' => 'yellow_team'
                            }
                }, 'Config::Tiny' );
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webinject_examples_specialcharacters_58310
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webimblaze_examples_specialcharacters_58310
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862.xml_Unlocked
 
 WARN: Cannot lock file
     Failed try 1 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_specialcharacters_58310
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_specialcharacters_58310
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_verifyresponsecode_55374
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 WARN: Cannot lock file
     Failed try 2 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_specialcharacters_58310
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_specialcharacters_58310
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_verifyresponsecode_55374
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 WARN: Cannot lock file
     Failed try 3 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_specialcharacters_58310
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_logresponseasfile_14499
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_name_data_28750
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_restartbrowser_23269
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_retryresponsecode_87392
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_section_90526
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_substitutions_34412
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifypositive_85835
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_verifyresponsecode_55374
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_specialcharacters_58310
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_logresponseasfile_14499
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_name_data_28750
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_restartbrowser_23269
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_retryresponsecode_87392
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_section_90526
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_substitutions_34412
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_verifypositive_85835
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_verifyresponsecode_55374
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_specialcharacters_58310
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_specialcharacters_58310
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_specialcharacters_58310
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_specialcharacters_58310
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 
 
-Launching webinject.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/webinject_stdout.txt
-    webinject.pl C:\git\WebInject\selftest\specialcharacters.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/ --config C:\git\WebInjectFramework\temp\webinject_examples_specialcharacters_58310\webinject_examples.xml --output C:\git\WebInjectFramework\temp\webinject_examples_specialcharacters_58310\
+Launching wi.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/webimblaze_stdout.txt
+    wi.pl C:\git\WebImblaze\selftest\specialcharacters.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/ --config C:\git\WebImblaze-Framework\temp\webimblaze_examples_specialcharacters_58310\webimblaze_examples.xml --output C:\git\WebImblaze-Framework\temp\webimblaze_examples_specialcharacters_58310\
 
-webinject.pl execution all done.
-copy temp/webinject_examples_specialcharacters_58310/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/
-copy temp/webinject_examples_specialcharacters_58310/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/chromedriver.txt
-copy temp/webinject_examples_specialcharacters_58310/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/http.txt
+wi.pl execution all done.
+copy temp/webimblaze_examples_specialcharacters_58310/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/
+copy temp/webimblaze_examples_specialcharacters_58310/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/chromedriver.txt
+copy temp/webimblaze_examples_specialcharacters_58310/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/selftest/specialcharacters/results_1001/http.txt
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webinject_examples_specialcharacters_58310
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862.xml_webimblaze_examples_specialcharacters_58310
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862.xml_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webinject_examples_specialcharacters_58310
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Selftest_34862_summary.record_webimblaze_examples_specialcharacters_58310
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Selftest_34862_summary.record_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_specialcharacters_58310
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_specialcharacters_58310
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 
 copy content/root/favicon.ico, C:\inetpub\wwwroot

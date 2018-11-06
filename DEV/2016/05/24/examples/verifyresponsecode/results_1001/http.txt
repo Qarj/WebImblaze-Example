@@ -2,7 +2,7 @@
 ************************* LOG SEPARATOR *************************
 Test Step: 10 - Get a page that does not exist
 GET http://rimattest.azurewebsites.net/pagedoesnotexist
-User-Agent: WebInject
+User-Agent: WebImblaze
 
 
 404 Not Found

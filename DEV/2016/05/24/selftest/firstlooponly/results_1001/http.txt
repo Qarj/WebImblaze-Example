@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\firstlooponlysub selftest\substeps\firstlooponly.xml</command>
+<command>wi.pl -o selftest\output\firstlooponlysub selftest\substeps\firstlooponly.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\firstlooponly.xml - 10 

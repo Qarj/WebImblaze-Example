@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\ignorehttpresponsecode.xml">
+    <testcases file="C:\git\WebImblaze\examples\ignorehttpresponsecode.xml">
 
         <testcase id="10">
             <description1>Get Non existant page</description1>

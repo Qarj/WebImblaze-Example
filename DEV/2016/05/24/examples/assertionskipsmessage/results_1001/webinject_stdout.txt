@@ -1,11 +1,11 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\assertionskipsmessage.xml - 10 
+Test:  C:\git\WebImblaze\examples\assertionskipsmessage.xml - 10 
 Get Home page 
 Verify Positive: "automated testing examples" 
-Verify Positive: "WebInject" 
+Verify Positive: "WebImblaze" 
 Verify Positive: "h2.Getting started..h2" 
 Skipped Positive Verification 0 - Windows 10 related bug 
 Passed Positive Verification 

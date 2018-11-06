@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\selftest\httppost_form-data.xml">
+    <testcases file="C:\git\WebImblaze\selftest\httppost_form-data.xml">
 
         <testcase id="10">
             <description1>httppost_form-data - parameter</description1>

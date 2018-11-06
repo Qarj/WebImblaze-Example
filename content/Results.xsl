@@ -56,7 +56,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/">
         <div id="filter">
             <A class="btn" href="http.txt" target="_blank">Full HTTP Log</A>
             <A class="btn" href="Results.html" target="_blank">HTML Results</A>
-            <A class="btn" href="webinject_stdout.txt" target="_blank">webinject.pl STDOUT</A>
+            <A class="btn" href="webimblaze_stdout.txt" target="_blank">wi.pl STDOUT</A>
             <A class="btn" href="wif_stdout.txt" target="_blank">wif.pl STDOUT</A>
             <xsl:choose>
               <xsl:when test="sum(//verificationtime)>0">

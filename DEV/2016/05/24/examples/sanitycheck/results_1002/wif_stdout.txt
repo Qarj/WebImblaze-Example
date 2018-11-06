@@ -1,57 +1,57 @@
 
-WebInject Framework Config:
+WebImblaze Framework Config:
 $VAR1 = bless( {
                  'path' => {
-                             'web_server_address' => 'qarj.github.io/WebInject-Example',
-                             'testfile_full' => '../WebInject/examples/simple.xml',
+                             'web_server_address' => 'qarj.github.io/WebImblaze-Example',
+                             'testfile_full' => '../WebImblaze/examples/simple.xml',
                              'web_server_location_full' => 'C:\\inetpub\\wwwroot',
-                             'webinject_location' => '../WebInject',
+                             'webimblaze_location' => '../WebImblaze',
                              'selenium_location_full' => 'C:\\selenium-server\\selenium-server-standalone-2.53.0.jar',
                              'browsermob_proxy_location_full' => 'C:\\browsermob\\bin\\browsermob-proxy.bat'
                            },
                  'main' => {
                              'is_automation_controller' => 'false',
                              'use_browsermob_proxy' => 'false',
-                             'target' => 'webinject_examples',
+                             'target' => 'webimblaze_examples',
                              'batch' => 'yellow_team',
                              'environment' => 'DEV'
                            }
                }, 'Config::Tiny' );
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999.xml_webinject_examples_sanitycheck_70270
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999.xml_webimblaze_examples_sanitycheck_70270
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999.xml_Unlocked
 
 WARN: Cannot lock file
     Failed try 1 to lock C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml
-    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_sanitycheck_70270
-    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_checkresponsecode_50468
+    Want lock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_sanitycheck_70270
+    found lock:C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_checkresponsecode_50468
     no unlock :C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999_summary.record_webinject_examples_sanitycheck_70270
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999_summary.record_webimblaze_examples_sanitycheck_70270
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999_summary.record_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_sanitycheck_70270
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_sanitycheck_70270
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 
 
-Launching webinject.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/webinject_stdout.txt
-    webinject.pl C:\git\WebInject\examples\sanitycheck.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/ --config C:\git\WebInjectFramework\temp\webinject_examples_sanitycheck_70270\webinject_examples.xml --output C:\git\WebInjectFramework\temp\webinject_examples_sanitycheck_70270\
+Launching wi.pl, STDOUT redirected to C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/webimblaze_stdout.txt
+    wi.pl C:\git\WebImblaze\examples\sanitycheck.xml --publish-to C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/ --config C:\git\WebImblaze-Framework\temp\webimblaze_examples_sanitycheck_70270\webimblaze_examples.xml --output C:\git\WebImblaze-Framework\temp\webimblaze_examples_sanitycheck_70270\
 
-webinject.pl execution all done.
-copy temp/webinject_examples_sanitycheck_70270/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/
-copy temp/webinject_examples_sanitycheck_70270/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/chromedriver.txt
-copy temp/webinject_examples_sanitycheck_70270/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/http.txt
+wi.pl execution all done.
+copy temp/webimblaze_examples_sanitycheck_70270/results.html, C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/
+copy temp/webimblaze_examples_sanitycheck_70270/chromedriver.log, C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/chromedriver.txt
+copy temp/webimblaze_examples_sanitycheck_70270/http.log, C:\inetpub\wwwroot/DEV/2016/05/24/examples/sanitycheck/results_1001/http.txt
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999.xml_webinject_examples_sanitycheck_70270
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999.xml_webimblaze_examples_sanitycheck_70270
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999.xml_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999_summary.record_webinject_examples_sanitycheck_70270
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Examples_91999_summary.record_webimblaze_examples_sanitycheck_70270
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Examples_91999_summary.record_Unlocked
 
     move
-        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webinject_examples_sanitycheck_70270
+        C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Locked_Summary.xml_webimblaze_examples_sanitycheck_70270
         C:\inetpub\wwwroot/DEV/2016/05/24/All_Batches/Summary.xml_Unlocked
 
 copy content/root/favicon.ico, C:\inetpub\wwwroot

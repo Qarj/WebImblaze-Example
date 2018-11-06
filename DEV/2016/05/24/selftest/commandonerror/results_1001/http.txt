@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\commandonerrorsub selftest\substeps\commandonerror.xml</command>
+<command>wi.pl -o selftest\output\commandonerrorsub selftest\substeps\commandonerror.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\commandonerror.xml - 10 

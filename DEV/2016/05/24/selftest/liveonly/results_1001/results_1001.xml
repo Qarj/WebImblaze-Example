@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\selftest\liveonly.xml">
+    <testcases file="C:\git\WebImblaze\selftest\liveonly.xml">
 
         <testcase id="10">
             <description1>liveonly - with liveonly config</description1>

@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\verifyresponsetimesub selftest\substeps\verifyresponsetime.xml</command>
+<command>wi.pl -o selftest\output\verifyresponsetimesub selftest\substeps\verifyresponsetime.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\verifyresponsetime.xml - 10 

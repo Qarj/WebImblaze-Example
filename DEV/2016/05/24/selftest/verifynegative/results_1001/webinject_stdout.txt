@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\verifynegative.xml - 10 
+Test:  C:\git\WebImblaze\selftest\verifynegative.xml - 10 
 verifynegative 
 Verify Positive: "Should not find text but did" 
 Verify Positive: "Skipped Negative Verification 0 - Production Bug" 

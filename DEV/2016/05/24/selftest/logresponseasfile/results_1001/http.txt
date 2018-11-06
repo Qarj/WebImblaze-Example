@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\logresponseasfilesub selftest\substeps\logresponseasfile.xml</command>
+<command>wi.pl -o selftest\output\logresponseasfilesub selftest\substeps\logresponseasfile.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\logresponseasfile.xml - 10 
@@ -97,19 +97,19 @@ GET CMD
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
-            WebInject is a powerful free automated test tool.
+            WebImblaze is a powerful free automated test tool.
         </p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 1</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 2</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
 </div>
         <hr />
@@ -140,9 +140,9 @@ GET CMD
 <command>if not exist selftest\output\temp mkdir selftest\output\temp</command>
 
 
-<command1>webinject.pl -o selftest\output\temp\ selftest\substeps\logresponseasfile.xml</command1>
+<command1>wi.pl -o selftest\output\temp\ selftest\substeps\logresponseasfile.xml</command1>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\logresponseasfile.xml - 10 
@@ -231,19 +231,19 @@ GET CMD
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
-            WebInject is a powerful free automated test tool.
+            WebImblaze is a powerful free automated test tool.
         </p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 1</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Example 2</h2>
         <p>Lorum ipsum.</p>
-        <p><a class="btn btn-default" href="https://github.com/Qarj/WebInject">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://github.com/Qarj/WebImblaze">Learn more &raquo;</a></p>
     </div>
 </div>
         <hr />

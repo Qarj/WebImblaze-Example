@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\retrysub -c selftest\substeps\retryconfig.xml selftest\substeps\retry.xml</command>
+<command>wi.pl -o selftest\output\retrysub -c selftest\substeps\retryconfig.xml selftest\substeps\retry.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Retry 5 times

@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -c selftest\substeps\testonlyconfig.xml -o selftest\output\testonlysub selftest\substeps\testonly.xml</command>
+<command>wi.pl -c selftest\substeps\testonlyconfig.xml -o selftest\output\testonlysub selftest\substeps\testonly.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\testonly.xml - 10 
@@ -45,9 +45,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -c selftest\substeps\liveonlyconfig.xml -o selftest\output\testonlysub selftest\substeps\testonly.xml</command>
+<command>wi.pl -c selftest\substeps\liveonlyconfig.xml -o selftest\output\testonlysub selftest\substeps\testonly.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\testonly.xml - 10 

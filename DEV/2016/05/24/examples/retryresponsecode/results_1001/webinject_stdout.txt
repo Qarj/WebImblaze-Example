@@ -1,9 +1,9 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Retry 3 times
-Test:  C:\git\WebInject\examples\retryresponsecode.xml - 10 
+Test:  C:\git\WebImblaze\examples\retryresponsecode.xml - 10 
 Get a page that does not exist 
 Verify Positive: "text that will not be found" 
 Will retry if we get response code: "404" 
@@ -13,7 +13,7 @@ Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found)
 RETRYING... 3 to go 
 Response Time = 0.141 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\retryresponsecode.xml - 10.1 
+Test:  C:\git\WebImblaze\examples\retryresponsecode.xml - 10.1 
 Get a page that does not exist 
 Verify Positive: "text that will not be found" 
 Will retry if we get response code: "404" 
@@ -23,7 +23,7 @@ Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found)
 RETRYING... 2 to go 
 Response Time = 0.034 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\retryresponsecode.xml - 10.2 
+Test:  C:\git\WebImblaze\examples\retryresponsecode.xml - 10.2 
 Get a page that does not exist 
 Verify Positive: "text that will not be found" 
 Will retry if we get response code: "404" 
@@ -33,7 +33,7 @@ Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found)
 RETRYING... 1 to go 
 Response Time = 0.034 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\retryresponsecode.xml - 10.3 
+Test:  C:\git\WebImblaze\examples\retryresponsecode.xml - 10.3 
 Get a page that does not exist 
 Verify Positive: "text that will not be found" 
 Will retry if we get response code: "404" 

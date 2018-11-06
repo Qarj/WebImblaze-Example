@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\name_datasub selftest\substeps\name_data.xml</command>
+<command>wi.pl -o selftest\output\name_datasub selftest\substeps\name_data.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\name_data.xml - 10 

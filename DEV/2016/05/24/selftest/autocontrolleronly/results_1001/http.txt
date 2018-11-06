@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl --autocontroller -o selftest\output\autocontrolleronlysub selftest\substeps\autocontrolleronly.xml</command>
+<command>wi.pl --autocontroller -o selftest\output\autocontrolleronlysub selftest\substeps\autocontrolleronly.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\autocontrolleronly.xml - 10 
@@ -45,9 +45,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\autocontrolleronlysub selftest\substeps\autocontrolleronly.xml</command>
+<command>wi.pl -o selftest\output\autocontrolleronlysub selftest\substeps\autocontrolleronly.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\autocontrolleronly.xml - 10 

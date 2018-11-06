@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\ignorehttpresponsecode.xml - 10 
+Test:  C:\git\WebImblaze\selftest\ignorehttpresponsecode.xml - 10 
 ignorehttpresponsecode 
 Verify Positive: "Test Cases Failed: 1" 
 Verify Positive: "Failed HTTP Response Code Verification" 

@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\retryfromstepsub -c selftest\substeps\retryfromstepconfig.xml selftest\substeps\retryfromstep.xml</command>
+<command>wi.pl -o selftest\output\retryfromstepsub -c selftest\substeps\retryfromstepconfig.xml selftest\substeps\retryfromstep.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\retryfromstep.xml - 10 
@@ -266,9 +266,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\retryfromstep1sub -c selftest\substeps\retryfromstepconfig.xml selftest\substeps\retryfromstep1.xml</command>
+<command>wi.pl -o selftest\output\retryfromstep1sub -c selftest\substeps\retryfromstepconfig.xml selftest\substeps\retryfromstep1.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\retryfromstep1.xml - 10 

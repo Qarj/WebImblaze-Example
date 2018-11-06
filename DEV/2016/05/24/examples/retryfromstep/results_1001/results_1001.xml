@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\retryfromstep.xml">
+    <testcases file="C:\git\WebImblaze\examples\retryfromstep.xml">
 
         <testcase id="10">
             <description1>Get Home page - jumpbacks so far: 0</description1>
@@ -11,7 +11,7 @@
                 <success>true</success>
             </smartassertion1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -24,7 +24,7 @@
         <testcase id="20">
             <description1>Get Home page</description1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -37,7 +37,7 @@
         <testcase id="10-1">
             <description1>Get Home page - jumpbacks so far: 1</description1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -50,7 +50,7 @@
         <testcase id="20-1">
             <description1>Get Home page</description1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -63,7 +63,7 @@
         <testcase id="10-2">
             <description1>Get Home page - jumpbacks so far: 2</description1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -76,7 +76,7 @@
         <testcase id="20-2">
             <description1>Get Home page</description1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -89,7 +89,7 @@
         <testcase id="10-3">
             <description1>Get Home page - jumpbacks so far: 3</description1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -102,7 +102,7 @@
         <testcase id="20-3">
             <description1>Get Home page</description1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -115,7 +115,7 @@
         <testcase id="10-4">
             <description1>Get Home page - jumpbacks so far: 4</description1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -128,7 +128,7 @@
         <testcase id="20-4">
             <description1>Get Home page</description1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -141,7 +141,7 @@
         <testcase id="10-5">
             <description1>Get Home page - jumpbacks so far: 5</description1>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>
@@ -154,7 +154,7 @@
         <testcase id="20-5">
             <description1>Get Home page</description1>
             <verifypositive1>
-                <assert>WebInject Test Tool</assert>
+                <assert>WebImblaze Test Tool</assert>
                 <success>false</success>
             </verifypositive1>
             <verifyresponsecode-success>true</verifyresponsecode-success>

@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\autocontrolleronly.xml - 10 
+Test:  C:\git\WebImblaze\selftest\autocontrolleronly.xml - 10 
 autocontrolleronly - specifying that this is the automation controller 
 Verify Positive: "Test Cases Run: 2" 
 Passed Positive Verification 
@@ -10,7 +10,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 2.389 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\autocontrolleronly.xml - 20 
+Test:  C:\git\WebImblaze\selftest\autocontrolleronly.xml - 20 
 autocontrolleronly - without specifying that this is the automation controller 
 Verify Positive: "Test Cases Run: 1" 
 Verify Positive: "Skipping Test Case 20" 

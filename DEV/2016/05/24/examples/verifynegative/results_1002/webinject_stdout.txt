@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\verifynegative.xml - 10 
+Test:  C:\git\WebImblaze\examples\verifynegative.xml - 10 
 Get Home page 
 Verify Negative: "Server too busy" 
 Verify Negative: "Search Recipes" 

@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\parseresponse.xml - 10 
+Test:  C:\git\WebImblaze\selftest\parseresponse.xml - 10 
 parseresponse 
 Verify Positive: "Test Cases Failed: 0" 
 Passed Positive Verification 

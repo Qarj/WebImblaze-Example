@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\lastlooponlysub selftest\substeps\lastlooponly.xml</command>
+<command>wi.pl -o selftest\output\lastlooponlysub selftest\substeps\lastlooponly.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Skipping Test Case 10... (LASTLOOPONLY)

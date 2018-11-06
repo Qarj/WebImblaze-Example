@@ -1,22 +1,22 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\assertcount.xml - 10 
+Test:  C:\git\WebImblaze\examples\assertcount.xml - 10 
 Get Home page 
 Passed Count Assertion of 3 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 4.217 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\assertcount.xml - 20 
+Test:  C:\git\WebImblaze\examples\assertcount.xml - 20 
 Get Home page 
 Failed Count Assertion of 2, got 3 
 Passed HTTP Response Code Verification 
 TEST CASE FAILED
 Response Time = 0.25 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\assertcount.xml - 30 
+Test:  C:\git\WebImblaze\examples\assertcount.xml - 30 
 Get Home page 
 Failed Count Assertion of 2, got 3 
 The word example should appear 3 times in the html source 

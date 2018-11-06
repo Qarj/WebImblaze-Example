@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\httppost_form-datasub selftest\substeps\httppost_form-data.xml</command>
+<command>wi.pl -o selftest\output\httppost_form-datasub selftest\substeps\httppost_form-data.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\httppost_form-data.xml - 10 
@@ -45,7 +45,7 @@ Verifications Failed: 0
 ************************* LOG SEPARATOR *************************
 Test Step: 10 - Get the multipart upload page
 GET http://rimattest.azurewebsites.net/BulkUpload/Index
-User-Agent: WebInject
+User-Agent: WebImblaze
 
 
 200 OK
@@ -143,7 +143,7 @@ X-Powered-By: ASP.NET
 ************************* LOG SEPARATOR *************************
 Test Step: 20 - Post the csv file
 POST http://rimattest.azurewebsites.net/BulkUpload/Upload
-User-Agent: WebInject
+User-Agent: WebImblaze
 Content-Length: 209
 Content-Type: multipart/form-data; boundary=xYzZY
 Cookie: ARRAffinity=c43a444a282a6339bd9d8292c9c0bdcd53dae4ccb53e642c5c43003d14c4b7ba

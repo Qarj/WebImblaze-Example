@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\testonly.xml - 10 
+Test:  C:\git\WebImblaze\selftest\testonly.xml - 10 
 testonly - with testonly config 
 Verify Positive: "Test Cases Run: 2" 
 Passed Positive Verification 
@@ -10,7 +10,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 2.016 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\testonly.xml - 20 
+Test:  C:\git\WebImblaze\selftest\testonly.xml - 20 
 testonly - with liveonly config 
 Verify Positive: "Test Cases Run: 1" 
 Verify Positive: "Skipping Test Case 20... \(TESTONLY\)" 

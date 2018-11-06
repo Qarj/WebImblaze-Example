@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\verifypositive.xml">
+    <testcases file="C:\git\WebImblaze\examples\verifypositive.xml">
 
         <testcase id="10">
             <description1>Get Home page</description1>
@@ -15,7 +15,7 @@
                 <success>true</success>
             </verifypositive>
             <verifypositive1>
-                <assert>WebInject</assert>
+                <assert>WebImblaze</assert>
                 <success>true</success>
             </verifypositive1>
             <verifypositiveHTML>

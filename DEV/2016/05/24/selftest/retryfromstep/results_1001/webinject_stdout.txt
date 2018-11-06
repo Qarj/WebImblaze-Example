@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\retryfromstep.xml - 10 
+Test:  C:\git\WebImblaze\selftest\retryfromstep.xml - 10 
 retryfromstep 
 Verify Negative: "20-1" 
 Verify Negative: "30-1" 
@@ -33,7 +33,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 4.268 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\retryfromstep.xml - 20 
+Test:  C:\git\WebImblaze\selftest\retryfromstep.xml - 20 
 retryfromstep1 
 Verify Negative: "retryfromstep1.xml - 20.4" 
 Verify Negative: "retryfromstep1.xml - 20-1.4" 

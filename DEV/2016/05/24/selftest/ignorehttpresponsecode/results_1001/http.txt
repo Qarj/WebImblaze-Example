@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\ignorehttpresponsecodesub selftest\substeps\ignorehttpresponsecode.xml</command>
+<command>wi.pl -o selftest\output\ignorehttpresponsecodesub selftest\substeps\ignorehttpresponsecode.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\ignorehttpresponsecode.xml - 10 

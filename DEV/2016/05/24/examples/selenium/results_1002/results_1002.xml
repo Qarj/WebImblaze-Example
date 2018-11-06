@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\examples\selenium.xml">
+    <testcases file="C:\git\WebImblaze\examples\selenium.xml">
 
         <testcase id="10">
             <section>Selenium Smoke Test</section>

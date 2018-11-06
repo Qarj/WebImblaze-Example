@@ -1,14 +1,14 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\getbackgroundimages.xml - 10 
+Test:  C:\git\WebImblaze\selftest\getbackgroundimages.xml - 10 
 getbackgroundimages 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.027 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\getbackgroundimages.xml - 20 
+Test:  C:\git\WebImblaze\selftest\getbackgroundimages.xml - 20 
 getbackgroundimages 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "GET Asset .germination.jpg" 
@@ -18,7 +18,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 6.34 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\getbackgroundimages.xml - 30 
+Test:  C:\git\WebImblaze\selftest\getbackgroundimages.xml - 30 
 getbackgroundimages 
 Verify Positive: "germination.jpg" 
 Passed Positive Verification 

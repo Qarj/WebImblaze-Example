@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\post.xml - 10 
+Test:  C:\git\WebImblaze\examples\post.xml - 10 
 Get Search Form 
 Verify Positive: "Search Recipes" 
 Passed Positive Verification 
@@ -10,7 +10,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.765 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\post.xml - 20 
+Test:  C:\git\WebImblaze\examples\post.xml - 20 
 Submit Search 
 Verify Positive: "Search Confirmation" 
  POSTURL /Search/SearchRecipes 

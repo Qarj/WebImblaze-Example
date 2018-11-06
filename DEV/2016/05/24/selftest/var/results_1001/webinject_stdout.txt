@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\var.xml - 10 
+Test:  C:\git\WebImblaze\selftest\var.xml - 10 
 var 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "Test Cases Run: 10" 

@@ -1,14 +1,14 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\ignorehttpresponsecode.xml - 10 
+Test:  C:\git\WebImblaze\examples\ignorehttpresponsecode.xml - 10 
 Get Non existant page 
 Failed HTTP Response Code Verification (HTTP/1.1 404 Not Found) 
 TEST CASE FAILED
 Response Time = 1.106 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\ignorehttpresponsecode.xml - 20 
+Test:  C:\git\WebImblaze\examples\ignorehttpresponsecode.xml - 20 
 Get Non existant page 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 

@@ -1,10 +1,10 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\ignoreautoassertions.xml - 10 
+Test:  C:\git\WebImblaze\examples\ignoreautoassertions.xml - 10 
 Get Home page 
-Verify Positive: "WebInject" 
+Verify Positive: "WebImblaze" 
 Passed Positive Verification 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 

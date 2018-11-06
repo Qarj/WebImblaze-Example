@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../../../../../../content/Results.xsl"?>
 <results>
 
-    <testcases file="C:\git\WebInject\selftest\addheader.xml">
+    <testcases file="C:\git\WebImblaze\selftest\addheader.xml">
 
         <testcase id="10">
             <description1>addheader</description1>

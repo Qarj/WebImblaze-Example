@@ -7,9 +7,9 @@ GET CMD
 100 OK
 
 
-<command>webinject.pl -o selftest\output\verifyresponsecodesub selftest\substeps\verifyresponsecode.xml</command>
+<command>wi.pl -o selftest\output\verifyresponsecodesub selftest\substeps\verifyresponsecode.xml</command>
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
 Test:  selftest\substeps\verifyresponsecode.xml - 10 

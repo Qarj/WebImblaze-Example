@@ -1,14 +1,14 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\selftest\getsrcs.xml - 10 
+Test:  C:\git\WebImblaze\selftest\getsrcs.xml - 10 
 getsrcs 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.277 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\getsrcs.xml - 20 
+Test:  C:\git\WebImblaze\selftest\getsrcs.xml - 20 
 getsrcs 
 Verify Positive: "Test Cases Failed: 0" 
 Verify Positive: "GET Asset .small_brickwork.jpg" 
@@ -20,7 +20,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 4.909 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\selftest\getsrcs.xml - 30 
+Test:  C:\git\WebImblaze\selftest\getsrcs.xml - 30 
 getsrcs 
 Verify Positive: "small_brickwork.jpg" 
 Verify Positive: "append_element.js" 

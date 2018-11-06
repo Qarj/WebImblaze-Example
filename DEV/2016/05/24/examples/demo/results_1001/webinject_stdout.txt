@@ -1,8 +1,8 @@
 
-Starting WebInject Engine...
+Starting WebImblaze Engine...
 
 -------------------------------------------------------
-Test:  C:\git\WebInject\examples\demo.xml - 10 
+Test:  C:\git\WebImblaze\examples\demo.xml - 10 
 verifypositve 
 verifypositive - pass 
 Verify Positive: "No Operation" 
@@ -11,7 +11,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.01 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 20 
+Test:  C:\git\WebImblaze\examples\demo.xml - 20 
 verifypositive 
 Verify Positive: "No Operation" 
 Failed Positive Verification 
@@ -19,7 +19,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.026 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 30 
+Test:  C:\git\WebImblaze\examples\demo.xml - 30 
 verifypositive50 
 Verify Positive: "No Operation" 
 Failed Positive Verification 
@@ -27,7 +27,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.006 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 40 
+Test:  C:\git\WebImblaze\examples\demo.xml - 40 
 verifypositiveNOP 
 Verify Positive: "No Operation" 
 Failed Positive Verification 
@@ -35,7 +35,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.018 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 50 
+Test:  C:\git\WebImblaze\examples\demo.xml - 50 
 verifypositiveNOP with fail message 
 Verify Positive: "No Operation" 
 Failed Positive Verification 
@@ -44,7 +44,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.011 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 60 
+Test:  C:\git\WebImblaze\examples\demo.xml - 60 
 verifypositiveNOP with fail message - disabled 
 Verify Positive: "No Operation" 
 Skipped Positive Verification NOP - Disabled due to production issue 
@@ -52,7 +52,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.006 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 110 
+Test:  C:\git\WebImblaze\examples\demo.xml - 110 
 verifynegative 
 verifynegative - pass 
 Verify Negative: "No Operation" 
@@ -61,7 +61,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.17 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 120 
+Test:  C:\git\WebImblaze\examples\demo.xml - 120 
 verifynegative 
 Verify Negative: "No Operation" 
 Failed Negative Verification 
@@ -69,7 +69,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.12 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 130 
+Test:  C:\git\WebImblaze\examples\demo.xml - 130 
 verifynegative50 
 Verify Negative: "No Operation" 
 Failed Negative Verification 
@@ -77,7 +77,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.113 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 140 
+Test:  C:\git\WebImblaze\examples\demo.xml - 140 
 verifynegativeNOP 
 Verify Negative: "No Operation" 
 Failed Negative Verification 
@@ -85,7 +85,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.011 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 150 
+Test:  C:\git\WebImblaze\examples\demo.xml - 150 
 verifynegativeNOP with fail message 
 Verify Negative: "No Operation" 
 Failed Negative Verification 
@@ -94,7 +94,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.009 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 160 
+Test:  C:\git\WebImblaze\examples\demo.xml - 160 
 verifynegativeNOP with fail message - disabled 
 Verify Negative: "No Operation" 
 Skipped Negative Verification NOP - Disabled due to production issue 
@@ -102,7 +102,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.119 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 210 
+Test:  C:\git\WebImblaze\examples\demo.xml - 210 
 autoassertion 
 autoassertion fail 
 Failed Auto Assertion 
@@ -111,7 +111,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.008 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 310 
+Test:  C:\git\WebImblaze\examples\demo.xml - 310 
 smartassertion 
 smartassertion fail 
 Failed Smart Assertion: Must have a Cache-Control of private or no-cache when a cookie is set
@@ -119,7 +119,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.017 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 400 
+Test:  C:\git\WebImblaze\examples\demo.xml - 400 
 retry 
 test both types of retry in this section 
 Passed HTTP Response Code Verification 
@@ -127,7 +127,7 @@ TEST CASE PASSED
 Response Time = 0.045 sec 
 ------------------------------------------------------- 
 Retry 3 times
-Test:  C:\git\WebInject\examples\demo.xml - 410 
+Test:  C:\git\WebImblaze\examples\demo.xml - 410 
 retry fail 
 Verify Positive: "NOP" 
 Failed Positive Verification 
@@ -135,7 +135,7 @@ Passed HTTP Response Code Verification
 RETRYING... 3 to go 
 Response Time = 0.012 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 410.1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 410.1 
 retry fail 
 Verify Positive: "NOP" 
 Failed Positive Verification 
@@ -143,7 +143,7 @@ Passed HTTP Response Code Verification
 RETRYING... 2 to go 
 Response Time = 0.005 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 410.2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 410.2 
 retry fail 
 Verify Positive: "NOP" 
 Failed Positive Verification 
@@ -151,7 +151,7 @@ Passed HTTP Response Code Verification
 RETRYING... 1 to go 
 Response Time = 0.009 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 410.3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 410.3 
 retry fail 
 Verify Positive: "NOP" 
 Failed Positive Verification 
@@ -160,7 +160,7 @@ TEST CASE FAILED
 Response Time = 0.021 sec 
 ------------------------------------------------------- 
 Retry 3 times
-Test:  C:\git\WebInject\examples\demo.xml - 420 
+Test:  C:\git\WebImblaze\examples\demo.xml - 420 
 retry then pass 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -168,7 +168,7 @@ Passed HTTP Response Code Verification
 RETRYING... 3 to go 
 Response Time = 0.022 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 420.1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 420.1 
 retry then pass 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -176,7 +176,7 @@ Passed HTTP Response Code Verification
 RETRYING... 2 to go 
 Response Time = 0.033 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 420.2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 420.2 
 retry then pass 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -184,7 +184,7 @@ Passed HTTP Response Code Verification
 RETRYING... 1 to go 
 Response Time = 0.005 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 420.3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 420.3 
 retry then pass 
 Verify Positive: "Operation 3" 
 Passed Positive Verification 
@@ -193,7 +193,7 @@ TEST CASE PASSED
 Response Time = 0.005 sec 
 ------------------------------------------------------- 
 Retry 3 times
-Test:  C:\git\WebInject\examples\demo.xml - 430 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -201,7 +201,7 @@ Passed HTTP Response Code Verification
 RETRYING... 3 to go 
 Response Time = 0.006 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430.1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430.1 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -209,7 +209,7 @@ Passed HTTP Response Code Verification
 RETRYING... 2 to go 
 Response Time = 0.027 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430.2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430.2 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -217,7 +217,7 @@ Passed HTTP Response Code Verification
 RETRYING... 1 to go 
 Response Time = 0.008 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430.3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430.3 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Passed Positive Verification 
@@ -225,7 +225,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.007 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 440 
+Test:  C:\git\WebImblaze\examples\demo.xml - 440 
 do the thing - retryfromstep then pass 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -234,7 +234,7 @@ RETRYING FROM STEP 430 ...  5 tries left
 Response Time = 0.007 sec 
 ------------------------------------------------------- 
 Retry 3 times
-Test:  C:\git\WebInject\examples\demo.xml - 430-1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-1 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -242,7 +242,7 @@ Passed HTTP Response Code Verification
 RETRYING... 3 to go 
 Response Time = 0.005 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-1.1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-1.1 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -250,7 +250,7 @@ Passed HTTP Response Code Verification
 RETRYING... 2 to go 
 Response Time = 0.064 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-1.2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-1.2 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -258,7 +258,7 @@ Passed HTTP Response Code Verification
 RETRYING... 1 to go 
 Response Time = 0.007 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-1.3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-1.3 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Passed Positive Verification 
@@ -266,7 +266,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.007 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 440-1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 440-1 
 do the thing - retryfromstep then pass 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -275,7 +275,7 @@ RETRYING FROM STEP 430 ...  4 tries left
 Response Time = 0.009 sec 
 ------------------------------------------------------- 
 Retry 3 times
-Test:  C:\git\WebInject\examples\demo.xml - 430-2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-2 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -283,7 +283,7 @@ Passed HTTP Response Code Verification
 RETRYING... 3 to go 
 Response Time = 0.018 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-2.1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-2.1 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -291,7 +291,7 @@ Passed HTTP Response Code Verification
 RETRYING... 2 to go 
 Response Time = 0.01 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-2.2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-2.2 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -299,7 +299,7 @@ Passed HTTP Response Code Verification
 RETRYING... 1 to go 
 Response Time = 0.006 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-2.3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-2.3 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Passed Positive Verification 
@@ -307,7 +307,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.082 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 440-2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 440-2 
 do the thing - retryfromstep then pass 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -316,7 +316,7 @@ RETRYING FROM STEP 430 ...  3 tries left
 Response Time = 0.006 sec 
 ------------------------------------------------------- 
 Retry 2 times
-Test:  C:\git\WebInject\examples\demo.xml - 430-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-3 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -324,7 +324,7 @@ Passed HTTP Response Code Verification
 RETRYING... 2 to go 
 Response Time = 0.011 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-3.1 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-3.1 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -332,7 +332,7 @@ Passed HTTP Response Code Verification
 RETRYING... 1 to go 
 Response Time = 0.084 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 430-3.2 
+Test:  C:\git\WebImblaze\examples\demo.xml - 430-3.2 
 get the system in a certain state 
 Verify Positive: "Operation 3" 
 Failed Positive Verification 
@@ -340,7 +340,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.011 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 440-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 440-3 
 do the thing - retryfromstep then pass 
 Verify Positive: "Operation 3" 
 Passed Positive Verification 
@@ -348,7 +348,7 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.239 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 510-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 510-3 
 description 
 this is description 1 
 this is description 2 
@@ -356,21 +356,21 @@ Passed HTTP Response Code Verification
 TEST CASE PASSED 
 Response Time = 0.086 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 520-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 520-3 
 Info - this test step just shows some info 
 this is description 2 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.144 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 530-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 530-3 
 The info in [square brackets] is important 
 this is description 2 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.042 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 610-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 610-3 
 verifyresponsetime 
 verifyresponsetime fail 
 Verify Response Time: at most "0.0000001" seconds
@@ -379,7 +379,7 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.03 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 710-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 710-3 
 verifyresponsecode 
 verifyresponsecode fail 
 Verify Response Code: "600" 
@@ -387,7 +387,7 @@ Failed HTTP Response Code Verification (received 100, expecting 600)
 TEST CASE FAILED
 Response Time = 0.022 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 810-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 810-3 
 checks 
 checks setup 
 Verify Negative: "NOP" 
@@ -398,37 +398,37 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.012 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 820-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 820-3 
 checkpositive fail 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.026 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 830-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 830-3 
 checkpositive fail again 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.096 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 840-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 840-3 
 checknegative fail 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.006 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 850-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 850-3 
 checknegative fail again 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.015 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 860-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 860-3 
 checkresponsecode fail 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.01 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 910-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 910-3 
 many failures in the one step 
 many things gone wrong :-( 
 Verify Negative: "Austria" 
@@ -454,7 +454,7 @@ Failed HTTP Response Code Verification (received 100, expecting 600)
 TEST CASE FAILED
 Response Time = 0.096 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 1010-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 1010-3 
 commandonerror 
 commandonerror invoke 
 Verify Positive: "I expect many things" 
@@ -463,14 +463,14 @@ Passed HTTP Response Code Verification
 TEST CASE FAILED
 Response Time = 0.051 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 5010-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 5010-3 
 sanitycheck 
 a sanity check will abort execution if there has been any error up until this point 
 Passed HTTP Response Code Verification 
 TEST CASE PASSED 
 Response Time = 0.199 sec 
 ------------------------------------------------------- 
-Test:  C:\git\WebInject\examples\demo.xml - 5020-3 
+Test:  C:\git\WebImblaze\examples\demo.xml - 5020-3 
 sanitycheck fail 
 here endeth the test execution 
 Passed HTTP Response Code Verification 

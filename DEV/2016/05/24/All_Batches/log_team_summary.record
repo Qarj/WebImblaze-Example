@@ -1,9 +1,9 @@
       <title>DEV Summary</title>
-      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
-      <description>WebInject Framework Batch Summary</description>
+      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/23/All_Batches/Summary.xml</link>
+      <description>WebImblaze Framework Batch Summary</description>
       <item>
-         <title>PASS 24/05 21:05:28  - 21:05:28 [1 item] log_team: ALL 1 steps OK, 0.0 mins  *webinject_examples*</title>
-      <link>http://qarj.github.io/WebInject-Example/DEV/2016/05/24/All_Batches/log_team.xml</link>
+         <title>PASS 24/05 21:05:28  - 21:05:28 [1 item] log_team: ALL 1 steps OK, 0.0 mins  *webimblaze_examples*</title>
+      <link>http://qarj.github.io/WebImblaze-Example/DEV/2016/05/24/All_Batches/log_team.xml</link>
          <description></description>
          <pubDate>24/05/2016 21:05</pubDate>
       </item>
